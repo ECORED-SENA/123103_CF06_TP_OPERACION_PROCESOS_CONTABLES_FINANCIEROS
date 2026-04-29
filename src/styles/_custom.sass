@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 45%
+    right: 25%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: float1 3.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 40%
+    right: 80%
 
 @keyframes float1
   0%
@@ -30,3 +30,313 @@
 
 figcaption
   font-weight: normal
+
+/* Colores de fondo*/
+.bg-color  
+  &-1
+    background-image: url(../assets/curso/fondos/fondo1.svg)
+    background-repeat: no-repeat
+    margin-inline: -3.2rem !important
+  &-2
+    background-color: #7FE5CF !important
+  &-3
+    background-color: #B7A8F1 !important
+  &-4
+    background-color: #FD9826 !important
+  &-5
+    background-color: #FFEB00 !important
+  &-6
+    background-color: #E5E2D3 !important
+
+/*Fin de Colores de fondo*/
+
+
+
+/* Código para los subtítulos que tienen imagenes */
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+
+.titulo-con-imagen__fondo
+  background-color: $color-acento-contenido
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -20px
+  width: 50px
+
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 20px
+/* Fin Código para los subtítulos que tienen imagenes */
+
+/*Accordion*/
+.tarjeta.acordeonA
+  background-color: #D5EFEF
+
+.acordion__activo
+  background-color: #FFE9B5 !important
+
+.acordion__accion__btn--a
+  background-color: #FF0011 !important
+
+.acordion_titulo
+  color: #fff !important
+
+.acordeonA
+  position: relative  
+  width: 100%  
+  p
+    padding-left: 4.3rem !important 
+  h4 
+    padding-left: 4.3rem !important 
+  .lista-ul
+    padding-left: 4.3rem
+    li
+      display: flex
+      align-items: flex-start
+      i
+        padding-top: 1px
+
+.acordeon-tipo-2
+  .tarjeta.acordeonA
+    background-color: #D5EFEF
+  .acordion__activo
+    background-color: #FFE9B5 !important
+  .acordion__accion__btn--a
+    background-color: #FF0011 !important
+  .acordion_titulo
+    color: #fff !important
+  .acordeonA
+    p
+      padding-left: 3.8rem !important 
+    h4
+      padding-left: 3.8rem !important 
+    
+/*Fin Accordion*/
+
+/* Código para los carruseles */
+.carousel-bg .fas
+  &.fa-chevron-left, &.fa-chevron-right
+    display: inline-flex
+    align-items: center
+    justify-content: center
+    width: 40px
+    height: 40px
+    background-color: #F11F1F
+    border-radius: 50%
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+    color: #000
+    font-size: 16px
+  @media screen and (max-width: $bp-max-md)
+    background-color: transparent !important
+    box-shadow: none !important
+    font-size: 20px !important
+
+.bordes
+  border: 1px solid #CBD5E0 !important
+/*Fin Código para los carruseles */
+
+/*Slideshows*/
+.bg-fondo
+  &-slider
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
+    background-position: bottom
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #f11f1f !important
+.slyder-a__bullets__item--active 
+  background-color: #f11f1f !important
+  border-color: #f11f1f
+.slyder-a__bullets__item
+  background-color: #f11f1f
+  border: 1px solid #f11f1f
+.bloque-texto-b.color-secundario:before
+  background-color: #CBE7E8
+.tarjeta-numerada.color-primario
+  border-color: #F3F0EA
+  background-color: #F3F0EA
+.tarjeta-numerada.color-primario .tarjeta-numerada__numero
+  background-color: #FD9826
+.tarjeta-numerada__numero
+  top: 35%
+/*Slideshows*/
+
+/* Ajuste para botones de Slider en Móviles */
+@media (max-width: $bp-max-sm)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    width: 35px !important 
+    height: 35px !important
+    background-size: 10px !important 
+    opacity: 1 !important
+  
+  .slyder-a__bullets__item
+    width: 10px !important 
+    height: 10px !important
+    margin: 0 4px !important
+
+  .slyder-a__bullets
+    bottom: 10px !important 
+
+
+
+/*Vinetas con numeros*/
+.lista-ol--cuadro__vineta
+  color: $color-sistema-texto
+  background-color: $color-acento-contenido
+/*Vinetas con numeros*/
+
+.tarjeta
+  backdrop-filter: blur(10px)
+  background-color: rgba(255, 255, 255, 0.548)
+
+.lista-ol--cuadro__vineta span
+  color: $color-sistema-texto
+  font-weight: bold
+
+
+/* Tablas */
+
+.tabla-a
+  overflow-x: auto !important 
+  -webkit-overflow-scrolling: touch
+  
+  table
+    min-width: 600px 
+    table-layout: auto
+    
+    thead
+      border-color: $color-acento-contenido
+      background-color: $color-acento-contenido !important
+      
+    th, td
+      text-align: start
+      padding: 15px 
+      
+    tbody
+      tr:nth-child(odd)
+        background-color: #F6F6F6
+      tr:nth-child(even)
+        background-color: #FFFFFF
+
+.separador__tabla
+  background-color: #F6F6F6
+/* Tablas */
+
+/*Audio*/
+.bg-custom-teal
+  background-color: #4A6A6A !important 
+  position: relative
+  overflow: hidden
+  
+.bg-custom-dark-teal
+  background-color: #264d59 !important
+
+.border-lemon
+  border: 4px solid #d4eb79 !important
+  border-radius: 15px
+
+/*Fin Audio*/
+
+/*Vinetas con numeros*/
+.tabs-c__tab--active
+  font-weight: bold
+
+.tabs-c__content-item
+  background-color: #FFF4E9
+  padding: 2rem
+
+.tabs-c
+  border-bottom: none !important
+
+.tabs-a__tab
+  background-color: #727069
+
+.tabs-a__tab__text
+  color: #fff
+/*Vinetas con numeros*/
+
+
+.linea-tiempo-c__header__btn, .linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, .pasos-b__header__btn--left, .pasos-b__header__btn--right
+  background-color: #F11F1F
+
+
+
+.w-buttons
+  min-width: 160px
+  text-align: center
+  justify-content: center 
+
+@media (max-width: $bp-max-md)
+  .w-buttons
+    width: 100%
+
+
+.card-custom
+  display: flex
+  align-items: center
+  position: relative
+  padding-left: 40px // Espacio para que el ícono sobresalga
+  height: 100%
+
+  &__side-icon
+    position: absolute
+    left: 0
+    top: 50%
+    transform: translateY(-50%)
+    width: 80px
+    height: 75px
+    background-color: #FFD947 // El amarillo de tu diseño
+    // Forma de "hoja": esquina sup-izq, sup-der, inf-der, inf-izq
+    border-radius: 20px 0px 20px 40px 
+    display: flex
+    align-items: center
+    justify-content: center
+    z-index: 2
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1)
+
+    img
+      width: 45px
+      height: auto
+
+  &__content
+    background-color: #FFFFFF
+    width: 100%
+    padding: 20px 20px 20px 55px // Espacio interno para no pisar el ícono
+    border-radius: 20px
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05)
+    min-height: 85px
+    display: flex
+    align-items: center
+    z-index: 1
+
+// Ajuste responsive para que no se vea apretado en tablets
+@media (max-width: 1199px)
+  .card-custom
+    padding-left: 35px
+    &__side-icon
+      width: 70px
+      height: 65px
+      img
+        width: 35px
+    &__content
+      padding-left: 45px
+
+// Accordeon pasos
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: #E5E2D3
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FFE9B5
+    
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFC94A
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #FFC94A
+// Accordeon pasos
