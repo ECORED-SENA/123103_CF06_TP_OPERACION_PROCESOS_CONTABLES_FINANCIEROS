@@ -47,8 +47,32 @@ figcaption
     background-color: #FFEB00 !important
   &-6
     background-color: #E5E2D3 !important
-
+  &-7
+    background-color: #CCF5EC !important
+  &-8
+    background-color: #FFEAD2 !important
+  &-9
+    background-color: #FBAA36 !important
+  &-10
+    background-color: #E2DBF9 !important
+  &-11
+    background-color: #5CABB0 !important
+  &-12
+    background-color: #5A5379 !important
+  &-13
+    background-color: #94a5d5 !important
+  &-14
+    background-color: #EFA5C9 !important
+  &-15
+    background-color: #E5FAF6 !important
+  &-16
+    background-color: #20c1c7 !important
+  &-17
+    background-color: #7BC7FF !important 
+  &-18
+    background-color: #6C6DAD !important 
 /*Fin de Colores de fondo*/
+
 
 
 
@@ -75,51 +99,6 @@ figcaption
   padding-left: 20px
 /* Fin Código para los subtítulos que tienen imagenes */
 
-/*Accordion*/
-.tarjeta.acordeonA
-  background-color: #D5EFEF
-
-.acordion__activo
-  background-color: #FFE9B5 !important
-
-.acordion__accion__btn--a
-  background-color: #FF0011 !important
-
-.acordion_titulo
-  color: #fff !important
-
-.acordeonA
-  position: relative  
-  width: 100%  
-  p
-    padding-left: 4.3rem !important 
-  h4 
-    padding-left: 4.3rem !important 
-  .lista-ul
-    padding-left: 4.3rem
-    li
-      display: flex
-      align-items: flex-start
-      i
-        padding-top: 1px
-
-.acordeon-tipo-2
-  .tarjeta.acordeonA
-    background-color: #D5EFEF
-  .acordion__activo
-    background-color: #FFE9B5 !important
-  .acordion__accion__btn--a
-    background-color: #FF0011 !important
-  .acordion_titulo
-    color: #fff !important
-  .acordeonA
-    p
-      padding-left: 3.8rem !important 
-    h4
-      padding-left: 3.8rem !important 
-    
-/*Fin Accordion*/
-
 /* Código para los carruseles */
 .carousel-bg .fas
   &.fa-chevron-left, &.fa-chevron-right
@@ -128,7 +107,7 @@ figcaption
     justify-content: center
     width: 40px
     height: 40px
-    background-color: #F11F1F
+    background-color: #FFEB00
     border-radius: 50%
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
     color: #000
@@ -148,13 +127,13 @@ figcaption
     background-image: url("../assets/curso/portada/fondo-banner-principal.png") !important
     background-position: bottom
 .slyder-a__btn--sigt, .slyder-a__btn--atrs
-  background-color: #f11f1f !important
+  background-color: #FFEB00 !important
 .slyder-a__bullets__item--active 
-  background-color: #f11f1f !important
-  border-color: #f11f1f
+  background-color: #FFEB00 !important
+  border-color: #FFEB00
 .slyder-a__bullets__item
-  background-color: #f11f1f
-  border: 1px solid #f11f1f
+  background-color: #FFEB00
+  border: 1px solid #FFEB00
 .bloque-texto-b.color-secundario:before
   background-color: #CBE7E8
 .tarjeta-numerada.color-primario
@@ -247,7 +226,7 @@ figcaption
   font-weight: bold
 
 .tabs-c__content-item
-  background-color: #FFF4E9
+  background-color: #e5faf6
   padding: 2rem
 
 .tabs-c
@@ -340,3 +319,44 @@ figcaption
 .linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
   background-color: #FFC94A
 // Accordeon pasos
+
+
+/*Accordion*/
+.tarjeta.acordeonA
+  background-color: #5A5379 !important
+  transition: background-color 0.3s ease-in-out
+  
+  .acordion__header
+    .acordion__titulo
+      h3, h4, span, a, p
+        color: #FFFFFF !important
+
+  &.acordion__activo
+    background-color: #CCF5EC !important
+    .acordion__header
+      .acordion__titulo
+        h3, h4, span, a, p
+          color: #000000 !important
+    
+    .acordion__contenido
+      p, li, span
+        color: #000000 !important
+
+.acordion__accion__btn--a
+  background-color: #FFEB00 !important 
+  i
+    color: #000 !important
+
+.acordeonA
+  position: relative  
+  width: 100%  
+  p, h4
+    padding-left: 4.3rem !important 
+  .lista-ul
+    padding-left: 4.3rem
+    li
+      display: flex
+      align-items: flex-start
+      i
+        padding-top: 1px   
+/*Fin Accordion*/
