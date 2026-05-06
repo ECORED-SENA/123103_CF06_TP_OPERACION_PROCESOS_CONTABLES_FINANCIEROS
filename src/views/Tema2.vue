@@ -84,7 +84,7 @@
         p(data-aos="fade-left") Además, antes de emitir estados financieros, la administración debe cerciorarse de que se cumplen afirmaciones como existencia, integridad, valuación, presentación y revelación. Por ello, si un valor quedó mal registrado, si la cuenta no corresponde a la naturaleza del hecho o si la descripción no permite entender la transacción, se afecta la razonabilidad de la información y procede la revisión del asiento y su corrección. El mismo Decreto 2649 señala que antes de emitir estados financieros deben efectuarse los ajustes necesarios para registrar hechos no reconocidos y corregir asientos elaborados incorrectamente.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
-        p.p-0.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
@@ -116,7 +116,7 @@
     p(data-aos="fade-right") Esto implica que omisiones, duplicados y clasificaciones incorrectas no solo afectan la exactitud del dato, sino que pueden impedir un cierre contable confiable.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
-        p.p-0.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
@@ -189,7 +189,7 @@
     p(data-aos="fade-left") Adicionalmente, la DIAN exige que los cierres se realicen sobre cifras consistentes y razonables, y que cuando se detecten inconsistencias se hagan los ajustes o reprocesos necesarios. Por ello, la identificación técnica del error exige cruzar registro, soporte, comprobante, auxiliares y comportamiento del saldo antes de decidir la corrección.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
-        p.p-0.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
@@ -379,7 +379,7 @@
               i.fas.fa-file-download
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
-        p.p-0.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
@@ -454,7 +454,7 @@
     //- Fin Slideshow
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
-        p.p-0.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
@@ -545,6 +545,277 @@
             h4 Diferencia sin soporte suficiente
             p.mb-0 Ampliar la revisión antes de registrar modificaciones.
     //- Fin Tarjetas
+    p(data-aos="fade-left") Este enfoque fortalece el control del registro, mejora la trazabilidad y permite identificar no solo qué falló, sino por qué falló y en qué punto del proceso se originó la diferencia (Ley 87, 1993).
+    .row.mt-5.justify-content-center(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
+          .col-md-8.p-4.p-lg-5.d-flex.align-items-center
+            div
+              p.mb-3 Al revisar una cuenta por cobrar, el auxiliar presenta un saldo de $12.300.000, mientras que el estado de cuenta del cliente refleja $11.900.000. Después de validar los soportes, se encuentra que existe una nota crédito por $400.000 emitida antes del cierre, pero aún no contabilizada. En este caso, la causa de la diferencia no es un problema del cliente ni una falla del sistema externo, sino una omisión interna en el reconocimiento de la nota crédito. El análisis causal permite sustentar el ajuste y evitar que la diferencia permanezca sin explicación en el siguiente período.
+          .col-md-4.bg-color-16.d-flex.align-items-center.justify-content-center
+            figure.mb-0.p-0
+              img(src='@/assets/curso/tema2/img17.svg')
+    .row.mt-5
+      #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        h2 2.3 Reporte de hallazgos contables
+    p(data-aos="fade-left") El reporte de hallazgos contables es el medio mediante el cual se documentan, organizan y comunican las diferencias, errores, omisiones o inconsistencias detectadas durante la revisión del registro. Su importancia radica en que convierte la observación técnica en evidencia verificable y útil para la corrección, el seguimiento y el mejoramiento de los procedimientos. En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones; además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993).
+    .row.mb-5.justify-content-center.align-items-center      
+      .col-md-4.col-lg-4.d-flex.justify-content-center
+        figure.mb-0p(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img18.png' style="width: 450px").img-fluid
+      .col-md-8.col-lg-8
+        p(data-aos="fade-left") En esa perspectiva, el hallazgo contable no debe entenderse solo como una falla detectada, sino como una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior. La DIAN, en su procedimiento de cierre contable, dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias; por su parte, el procedimiento de registro con incidencia en el cierre señala que, si la información recibida presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Estas reglas muestran que reportar hallazgos no es una formalidad adicional, sino una práctica necesaria para sustentar decisiones y evitar que los errores se mantengan sin tratamiento (DIAN, 2022).
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Matriz de inconsistencias
+    //- Título con imagen
+    .row.mb-5.justify-content-center.align-items-center
+      p La matriz de inconsistencias es un instrumento de organización que permite registrar de manera ordenada cada diferencia detectada, su descripción, la fuente que la origina, el posible efecto sobre la información y la acción que debe emprenderse. Aunque la norma no impone un único formato, sí exige que los soportes, comprobantes y registros puedan verificarse y que la información sea suficientemente trazable. Por ello, la matriz resulta útil para reunir en un solo documento la evidencia mínima del análisis y facilitar la revisión por parte del contador, del responsable del proceso o del control interno (Decreto 2649, 1993).
+      .col-md-8.col-lg-8
+        p(data-aos="fade-left") Desde una perspectiva técnica, la matriz no debe limitarse a describir la anomalía. También conviene que identifique la cuenta afectada, el período, el tercero relacionado, el soporte revisado, la clasificación preliminar del hallazgo y la acción propuesta, por ejemplo: ajuste, reclasificación, solicitud de soporte adicional o seguimiento. Esta forma de documentar es coherente con el procedimiento de cierre contable de la DIAN, que exige analizar la consistencia de las cifras y aprobar las cuentas solo cuando los saldos sean razonables; asimismo, el procedimiento de la CGN para evaluación del control interno contable señala que el objetivo del control interno contable es promover información financiera con características cualitativas adecuadas y gestionar los riesgos del proceso contable, lo cual supone identificar y tratar oportunamente las situaciones que comprometen esa calidad.
+      .col-md-4.col-lg-4.d-flex.justify-content-center
+        figure.mb-0p(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img19.png' style="width: 450px").img-fluid
+    .row.mt-5.justify-content-center(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
+        .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
+          .col-md-8.p-4.p-lg-5.d-flex.align-items-center
+            div
+              p.mb-3 Durante la revisión del cierre mensual se identifican tres situaciones: una comisión bancaria no registrada, una factura contabilizada dos veces y una cuenta por cobrar cuyo saldo no coincide con el estado de cuenta del cliente. En lugar de dejar estas observaciones dispersas en correos o notas de revisión, la matriz de inconsistencias permite consignarlas una por una, indicar el valor comprometido, señalar el soporte revisado y definir si corresponde ajuste, depuración o confirmación con tercero. De ese modo, la revisión gana orden, trazabilidad y posibilidad real de seguimiento (DIAN, 2022).
+              p.mb-3 La siguiente tabla presenta una propuesta básica de campos para organizar una matriz de inconsistencias contables. Su finalidad es facilitar el registro ordenado de los hallazgos y apoyar su análisis posterior con base en evidencia documental.
+          .col-md-4.bg-color-16.d-flex.align-items-center.justify-content-center
+            figure.mb-0.p-0
+              img(src='@/assets/curso/tema2/img20.svg')
+    //- Inicio Tabla
+    .row.justify-content-center.mt-5
+      .col-md-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Tabla 1.
+          span  Estructura sugerida de una matriz de inconsistencias contables
+        .tabla-a
+          table
+            thead
+              tr
+                th(style="width: 20%") Campo
+                th(style="width: 40%") Contenido esperado
+                th(style="width: 40%") Utilidad en el análisis
+            tbody
+              tr
+                td Fecha de identificación
+                td Día en que se detecta la situación.
+                td Permite ubicar el hallazgo en el proceso de revisión.
+              tr
+                td Cuenta o rubro afectado
+                td Cuenta contable relacionada.
+                td Delimita el impacto sobre la información.
+              tr
+                td Descripción de la inconsistencia
+                td Explicación breve del hecho observado.
+                td Resume la situación detectada.
+              tr
+                td Soporte revisado
+                td Factura, comprobante, extracto, auxiliar, nota, entre otros.
+                td Sustenta la verificabilidad del hallazgo.
+              tr
+                td Tipo de hallazgo
+                td Error, omisión, duplicado, clasificación incorrecta, diferencia pendiente.
+                td Facilita su clasificación técnica.
+              tr
+                td Acción propuesta
+                td Ajuste, reclasificación, solicitud de información, seguimiento.
+                td Orienta la respuesta inicial.
+              tr
+                td Responsable
+                td Área o persona encargada de la gestión.
+                td Define trazabilidad y control.
+              tr
+                td Estado
+                td Pendiente, en trámite, corregido, verificado.
+                td Permite seguimiento.
+    //- FinTabla
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Informe de diferencias y ajustes requeridos
+    //- Título con imagen
+    p(data-aos="fade-left") El reporte de hallazgos contables es el medio mediante el cual se documentan, organizan y comunican las diferencias, errores, omisiones o inconsistencias detectadas durante la revisión del registro. Su importancia radica en que convierte la observación técnica en evidencia verificable y útil para la corrección, el seguimiento y el mejoramiento de los procedimientos.
+    .row.justify-content-center.align-items-stretch.mt-5      
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+          p.mb-0 En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones. Además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993). 
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure.mb-0.h-100
+          img(src="@/assets/curso/tema2/img21.png", alt="", style="height:100%; object-fit:cover;").w-100      
+      .col-lg-4(data-aos="fade-left")      
+        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
+          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
+          p.mb-0 En esta perspectiva, el hallazgo contable no se limita a una falla detectada, sino que corresponde a una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior.
+    p.mt-5(data-aos="fade-left") La DIAN dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).
+    .row.mt-5.justify-content-center(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico 1
+        .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
+          .col-md-8.p-4.p-lg-5.d-flex.align-items-center
+            div
+              p.mb-3 La matriz de inconsistencias es un instrumento de organización que permite registrar de manera ordenada cada diferencia detectada, su descripción, la fuente que la origina, el posible efecto sobre la información y la acción que debe emprenderse.
+              p.mb-3 Aunque no existe un formato único, se requiere que los soportes, comprobantes y registros sean verificables y que la información conserve trazabilidad. Por ello, la matriz permite reunir en un solo documento la evidencia del análisis y facilitar su revisión (Decreto 2649, 1993).
+              p.mb-3 Desde una perspectiva técnica, la matriz debe incluir elementos como cuenta afectada, período, tercero relacionado, soporte revisado, clasificación preliminar del hallazgo y acción propuesta, como ajuste, reclasificación, solicitud de soporte adicional o seguimiento.
+          .col-md-4.bg-color-19.d-flex.align-items-center.justify-content-center
+            figure.mb-0.p-0
+              img(src='@/assets/curso/tema2/img22.svg')    
+    .row.mt-5.justify-content-center(data-aos="fade-right")
+      .col-12.col-md-11.col-lg-10
+        p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico 2
+        .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
+          .col-md-12.p-4.p-lg-5.d-flex.align-items-center
+            div
+              p.mb-3 Durante la revisión del cierre mensual se identifican tres situaciones: una comisión bancaria no registrada, una factura contabilizada dos veces y una cuenta por cobrar cuyo saldo no coincide con el estado de cuenta del cliente.
+    p.mt-5(data-aos="fade-left") La matriz de inconsistencias permite consignarlas de manera ordenada, indicar el valor comprometido, señalar el soporte revisado y definir si corresponde ajuste, depuración o confirmación con tercero, fortaleciendo la trazabilidad y el seguimiento (DIAN, 2022). A continuación, se presenta la estructura de una matriz de inconsistencias contables:              
+    //- Carrusel
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3             
+        .carousel-bg
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-12.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-xl-4 col-lg-4")
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_1.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Fecha de identificación
+                    p Día en que se detecta la situación, lo que permite ubicar el hallazgo en el proceso de revisión.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_2.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Cuenta o rubro afectado
+                    p Cuenta contable relacionada, que delimita el impacto sobre la información.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_3.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Descripción de la inconsistencia
+                    p Explicación breve del hecho observado que resume la situación detectada.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_4.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Soporte revisado
+                    p Factura, comprobante, extracto, auxiliar, nota, entre otros, que sustentan la verificabilidad.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_5.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Tipo de hallazgo
+                    p Error, omisión, duplicado, clasificación incorrecta o diferencia pendiente, facilitando su clasificación técnica..
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_6.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Acción propuesta
+                    p Ajuste, reclasificación, solicitud de información o seguimiento, orientando la respuesta inicial.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_7.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Responsable
+                    p Área o persona encargada de la gestión, que define trazabilidad y control.
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                  img(src='@/assets/curso/tema2/tarjeta07_8.png').w-100
+                  .p-4
+                    h4.card-title.text-center.mb-3 Estado
+                    p Pendiente, en trámite, corregido o verificado, permitiendo el seguimiento.
+    //- Fin Carrusel
+    p(data-aos="fade-left") Este enfoque permite documentar los hallazgos de manera ordenada, verificable y útil para el control, el análisis posterior y la mejora del proceso contable.
+    //- Título con imagen
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Comunicación y seguimiento de hallazgos
+    //- Título con imagen
+    .row.mb-5.justify-content-center.align-items-center     
+      .col-md-8.col-lg-8
+        p(data-aos="fade-left") La comunicación de hallazgos contables es necesaria para que la información detectada no se quede en el ámbito individual del revisor, sino que llegue al responsable del registro, al área que aporta el soporte o al nivel de control que deba conocerla. La Ley 87 de 1993 vincula el control interno con la protección de los recursos, la confiabilidad de la información y la adopción de medidas preventivas y correctivas; en esa medida, comunicar hallazgos forma parte del control porque hace posible que la entidad reaccione a tiempo frente a errores, omisiones o deficiencias de procedimiento (Ley 87, 1993). 
+        p(data-aos="fade-left") El seguimiento consiste en verificar si la acción propuesta fue ejecutada, si el ajuste se registró correctamente, si el soporte faltante fue aportado o si la diferencia pendiente ya fue aclarada. El procedimiento de la CGN incorporado por la Resolución 347 de 2025 enfatiza la retroalimentación y el mejoramiento continuo dentro del control interno contable, y plantea que el sistema debe gestionar riesgos y promover información financiera con las características cualitativas definidas por el marco normativo aplicable.
+      .col-md-4.col-lg-4.d-flex.justify-content-center
+        figure.mb-0p(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img23.png' style="width: 450px").img-fluid
+    .row.justify-content-center.align-items-stretch.mt-5      
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+          p.mb-0 De manera complementaria, la DIAN exige que, cuando se detectan inconsistencias, estas se atiendan mediante ajustes, reprocesos o correcciones antes de consolidar el cierre. Por ello, el seguimiento no es una etapa opcional, sino una prolongación del reporte del hallazgo (Contaduría General de la Nación, 2025).
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure.mb-0.h-100
+          img(src="@/assets/curso/tema2/img24.png", alt="", style="height:100%; object-fit:cover;").w-100      
+      .col-lg-4(data-aos="fade-left")      
+        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
+          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
+          p.mb-0 En términos prácticos, comunicar y hacer seguimiento a los hallazgos permite identificar patrones. Si una misma inconsistencia aparece de forma reiterada, como registros tardíos de comisiones bancarias, doble contabilización de facturas o soportes incompletos de egresos, se evidencia una debilidad del procedimiento. En este caso, el hallazgo deja de ser una corrección puntual y se convierte en insumo para la mejora continua del proceso contable.         
+    //- Inicio Accordion    
+    .row.justify-content-center.mt-5(data-aos="fade-right")
+      .col-lg-9
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+          .row(titulo="Comisión bancaria no registrada")
+              p.mb-4  Informar al responsable del registro contable, elaborar el ajuste con soporte bancario y verificar en el siguiente corte que el ajuste fue contabilizado.        
+          .row(titulo="Factura duplicada")
+              p.mb-4 Comunicar al contador o revisor del cierre, depurar el doble registro, dejar trazabilidad y confirmar que el saldo quedó corregido.
+          .row(titulo="Soporte incompleto de un egresos")
+              p.mb-4 Solicitar el documento faltante al área origen, suspender la aprobación hasta completar la evidencia y revisar que el soporte se anexe y el comprobante quede completo.
+          .row(titulo="Diferencia con saldo de proveedors")
+              p.mb-4 Remitir solicitud de confirmación o revisión, verificar estado de cuenta y soportes, y definir si procede ajuste o continuidad del seguimiento.
+    //- Fin Accordion
+    p(data-aos="fade-left") A continuación, se presenta la secuencia del reporte de hallazgos contables:
+    .row.bg-color-1(data-aos="fade-left")
+      .col-12
+        .p-5
+          //- Carrusel
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-12.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-xl-4 col-lg-4")
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Detección de la diferencia
+                        p.card-text.text-center
+                        | Se identifica una diferencia, error, omisión o inconsistencia en los registros.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_2.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Registro en la matriz de inconsistencias
+                        p.card-text.text-center
+                        | Se documenta el hallazgo en la matriz, consignando la información clave.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_3.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Revisión de soportes y análisis técnico
+                        p.card-text.text-center
+                        | Se revisan los soportes relacionados y se analiza técnicamente la diferencia.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_4.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Definición de ajuste, reclasificación o seguimiento
+                        p.card-text.text-center
+                        | Se determina la acción necesaria: ajuste contable, reclasificación o seguimiento.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_5.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Elaboración del informe de diferencias
+                        p.card-text.text-center
+                        | Se consolida la información y se elabora el informe con los hallazgos y conclusiones.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_6.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Comunicación al responsable del proceso
+                        p.card-text.text-center
+                        | Se presenta el informe y las acciones propuestas al responsable correspondiente.
+                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema2/tarjeta08_7.svg', style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center.mb-3 Verificación de la acción ejecutada
+                        p.card-text.text-center
+                        | Se verifica que la acción se haya ejecutado correctamente y que la diferencia haya quedado resuelta.
+          //- Fin Carrusel
+    p(data-aos="fade-left") El estudio de los errores, omisiones e inconsistencias contables permite comprender que la calidad del registro no depende únicamente de que una operación esté digitada o incorporada en el sistema, sino de que pueda verificarse, explicarse y sostenerse con evidencia suficiente.
 </template>
 
 <script>

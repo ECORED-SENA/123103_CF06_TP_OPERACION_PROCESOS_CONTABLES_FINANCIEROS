@@ -602,7 +602,7 @@
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
-                      img(src="@/assets/curso/tema1/slide02_3.png")
+                      img(src="@/assets/curso/tema1/slide02_4.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Partidas conciliatorias
                     p Depósitos en tránsito, cheques pendientes, notas débito o crédito, entre otras diferencias de carácter temporal.
@@ -671,32 +671,32 @@
           .row.justify-content-center.mb-5.align-items-center
             .col-lg-12.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-xl-4 col-lg-4")
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_1.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Extracto bancario
                     p Documento emitido por la entidad financiera con los movimientos y el saldo del período.
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_2.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Reporte auxiliar de movimientos
                     p Relación detallada de los movimientos registrados en la contabilidad (auxiliar de bancos).
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_3.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Conciliación anterior
                     p Documento del período previo que permite dar continuidad a partidas pendientes.
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_4.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Comprobantes y soportes específicos de cada partida
                     p Consignaciones, comprobantes de egreso, notas bancarias, cheques, entre otros, que respaldan cada diferencia.
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_5.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Matriz o formato de conciliación
                     p Documento donde se comparan saldos, se identifican diferencias, se clasifican partidas conciliatorias y se proponen ajustes.
-                .bg-color-18.tarjeta.h-100.shadow-app.bordes.overflow-hidden
+                .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema1/tarjeta06_6.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Informe final, revisión y archivo
