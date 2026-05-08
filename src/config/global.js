@@ -393,8 +393,8 @@ export default {
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: '',
-          cargo: 'Desarrollador fullstack',
+          nombre: 'Henry Alvarez Astudillo',
+          cargo: 'Desarrollador <i>fullstack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
