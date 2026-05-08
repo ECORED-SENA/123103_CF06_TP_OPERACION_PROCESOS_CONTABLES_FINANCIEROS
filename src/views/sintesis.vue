@@ -4,10 +4,10 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5    
     .row.mb-5
       .col-12.ps-3(style="border-left: 10px solid #39A900;") 
-        h3.mb-1 Generación de códigos de <em>software</em> con inteligencia artificial 
+        h3.mb-1 Operación de procesos contables y financieros
         p.mb-0
           | Síntesis:           
-          | Desarrollo e integración de la animación    
+          | Conciliación, control y mejora continua del registro contable
     p.mt-5 A continuación, se presenta a manera de síntesis, un esquema que articula los elementos principales abordados en el desarrollo del componente formativo.
     .row.justify-content-center
       .col-lg-10.mb-5.bgs.p-4.brad

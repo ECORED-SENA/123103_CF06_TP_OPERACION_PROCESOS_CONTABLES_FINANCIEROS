@@ -329,7 +329,7 @@
                   h5.mb-3.fw-bold Saldo en libros saldo en bancos
                   TarjetaAudio.color-primario(
                     texto="" 
-                    :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")        
@@ -639,12 +639,12 @@
             p.mb-0 Los invitamos a conocer este instructivo, que presenta lineamientos prácticos sobre la documentación requerida, los formatos y las actividades necesarias para realizar una conciliación ordenada y verificable.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/Lectura-Plan-de-bioseguridad.docx')" 
+              href="https://www.dian.gov.co/atencionciudadano/LMDP/Administrativo-y-Financiero/Funcion-Pagadora/Instructivos/IN-ADF-0180.pdf" 
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
               )
                 span.fw-bold.me-2 Descargar
-                i.fas.fa-file-download
+                i.fas.fa-file-download    
     //- Título con imagen
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3
@@ -652,10 +652,7 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Soportes documentales
-    //- Título con imagen
-    .row.mt-5
-        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.1 Estructura del proceso de conciliación
+    //- Título con imagen    
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") Los soportes documentales son el fundamento probatorio del reporte de conciliación. El Decreto 2649 de 1993 dispone que los soportes deben adherirse a los comprobantes de contabilidad o conservarse archivados en orden cronológico y de forma que sea posible su verificación; además, señala que los comprobantes deben prepararse con fundamento en esos soportes, numerarse consecutivamente e indicar fecha, origen, descripción, cuantía y cuentas afectadas.
       .col-md-8.col-lg-8

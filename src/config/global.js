@@ -144,11 +144,6 @@ export default {
         titulo: 'Glosario',
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
-      {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
@@ -180,14 +175,178 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Activo',
+      significado:
+        'Bien, derecho o recurso controlado por la organización del que se espera obtener beneficios económicos.',
+    },
+    {
+      termino: 'Ajuste contable',
+      significado:
+        'Registro que se realiza para corregir errores, omisiones, diferencias o reclasificaciones en la información contable.',
+    },
+    {
+      termino: 'Asiento contable',
+      significado:
+        'Registro técnico de una operación económica en las cuentas correspondientes, aplicando el principio de partida doble.',
+    },
+    {
+      termino: 'Auxiliar contable',
+      significado:
+        'Registro detallado que permite identificar los movimientos individuales de una cuenta contable.',
+    },
+    {
+      termino: 'Cheque pendiente',
+      significado:
+        'Título valor ya registrado en libros, pero que aún no ha sido cobrado por el beneficiario ni debitado por el banco.',
+    },
+    {
+      termino: 'Comprobante de contabilidad',
+      significado:
+        'Documento interno en el que se resume una operación económica y que sirve de base para su registro en libros o en el sistema contable.',
+    },
+    {
+      termino: 'Conciliación bancaria',
+      significado:
+        'Proceso de comparación entre los registros contables y el extracto bancario para identificar y explicar diferencias.',
+    },
+    {
+      termino: 'Control documental',
+      significado:
+        'Conjunto de acciones orientadas a organizar, conservar, consultar y verificar los documentos que soportan el proceso contable.',
+    },
+    {
+      termino: 'Control interno',
+      significado:
+        'Sistema de políticas, procedimientos y mecanismos de verificación orientado a proteger recursos y asegurar información confiable.',
+    },
+    {
+      termino: 'Cuenta contable',
+      significado:
+        'Instrumento de clasificación que permite registrar, agrupar y controlar los hechos económicos según su naturaleza.',
+    },
+    {
+      termino: 'Depósito en tránsito',
+      significado:
+        'Consignación registrada en libros que todavía no aparece abonada en el extracto bancario a la fecha de corte.',
+    },
+    {
+      termino: 'Documento fuente',
+      significado:
+        'Soporte original que evidencia la ocurrencia de una operación económica, como facturas, extractos, nóminas o recibos.',
+    },
+    {
+      termino: 'Error contable',
+      significado:
+        'Inexactitud, omisión o registro incorrecto de una operación económica en la contabilidad.',
+    },
+    {
+      termino: 'Política contable',
+      significado:
+        'Criterio o lineamiento adoptado por la entidad para reconocer, medir, presentar y revelar la información financiera.',
+    },
+    {
+      termino: 'Trazabilidad documental',
+      significado:
+        'Posibilidad de seguir el recorrido de una operación o ajuste desde su soporte inicial hasta su registro y archivo final.',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Archivo General de la Nación. (2000, julio 14). Ley 594 de 2000: por medio de la cual se dicta la Ley General de Archivos y se dictan otras disposiciones.',
+      link: 'https://normativa.archivogeneral.gov.co/ley-594-de-2000/',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (1993, noviembre 29). Ley 87 de 1993: por la cual se establecen normas para el ejercicio del control interno en las entidades y organismos del Estado y se dictan otras disposiciones.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=300',
+    },
+    {
+      referencia:
+        'Congreso de la República de Colombia. (2009, julio 13). Ley 1314 de 2009: por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de la información aceptados en Colombia.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36833',
+    },
+    {
+      referencia:
+        'Contaduría General de la Nación. (2025, diciembre 10). Procedimiento para la evaluación del control interno contable.',
       link: '',
+    },
+    {
+      referencia:
+        'Contaduría General de la Nación. (2025, diciembre 4). Resolución 347 de 2025: por la cual se adopta el procedimiento para la evaluación del control interno contable.',
+      link:
+        'https://www.contaduria.gov.co/documents/d/guest/resolucion-347-de-2025',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (2022, octubre 24). PR-ADF-0041: cierre contable.',
+      link:
+        'https://www.dian.gov.co/atencionciudadano/LMDP/Administrativo-y-Financiero/Funcion-Recaudadora/Procedimientos/PR-ADF-0041.pdf',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s.f.). IN-ADF-0180: conciliación bancaria de caja menor.',
+      link:
+        'https://www.dian.gov.co/atencionciudadano/LMDP/Administrativo-y-Financiero/Funcion-Pagadora/Instructivos/IN-ADF-0180.pdf',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s.f.). Listado maestro de documentos públicos.',
+      link:
+        'https://www.dian.gov.co/atencionciudadano/Paginas/Listado-maestro-de-documentos-publicos.aspx',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s.f.). PR-ADF-0037: proceso administrativo y financiero.',
+      link:
+        'https://www.dian.gov.co/atencionciudadano/LMDP/Administrativo-y-Financiero/Funcion-Recaudadora/Procedimientos/PR-ADF-0037.pdf',
+    },
+    {
+      referencia:
+        'Dirección de Impuestos y Aduanas Nacionales. (s.f.). PR-ADF-0114: generación de conciliaciones bancarias y cruces de información.',
+      link:
+        'https://www.dian.gov.co/atencionciudadano/LMDP/Administrativo-y-Financiero/Funcion-Pagadora/Procedimientos/PR-ADF-0114.pdf',
+    },
+    {
+      referencia:
+        'Función Pública. (2015, diciembre 2). Normas internacionales de auditoría.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/admon/files/empresas/ZW1wcmVzYV83Ng%3D%3D/archivos/1463963391_fe7da6e6c9286a0f7d57c2882fa6ecf4.pdf',
+    },
+    {
+      referencia:
+        'Función Pública. (2020, julio). Guía para la gestión por procesos en el marco del modelo integrado de planeación y gestión (Mipg).',
+      link:
+        'https://www1.funcionpublica.gov.co/web/eva/biblioteca-virtual/-/document_library/bGsp2IjUBdeu/view_file/36963907',
+    },
+    {
+      referencia:
+        'Función Pública. (2025). Guía para la gestión integral de riesgos en entidades públicas.',
+      link: '',
+    },
+    {
+      referencia: 'Función Pública. (s.f.). Gestión documental.',
+      link: 'https://www1.funcionpublica.gov.co/gestion-documental',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (1993, diciembre 29). Decreto 2649 de 1993: por el cual se reglamenta la contabilidad en general y se expiden los principios o normas de contabilidad generalmente aceptados en Colombia.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9863',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (2015). Decreto 2420 de 2015, anexo 3: marco técnico normativo de información financiera para microempresas.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76055',
+    },
+    {
+      referencia:
+        'Presidencia de la República de Colombia. (2015). Decreto 2420 de 2015, anexo 4: normas de aseguramiento de la información.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=76026',
     },
   ],
   creditos: [
@@ -195,14 +354,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable del ecosistema',
-          centro: 'Dirección General',
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Líder del Ecosistema',
+          centro:
+            'Líder del Ecosistema Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Olga Constanza Bermúdez',
+          cargo: 'Responsable de Línea de Producción Huila',
+          centro: 'Dirección General',
         },
       ],
     },
@@ -210,9 +370,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Paola Andrea Tello Zambrano',
+          cargo: 'Experto temático',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Paola Alexandra Moya',
+          cargo: 'Evaluadora instruccional',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -220,19 +387,46 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de contenidos',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: '',
+          cargo: 'Diseñador de contenidos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador <i>full stack</i>',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: '',
+          cargo: 'Desarrollador fullstack',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Alejandro Delgado Acosta',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Cristhian Giovanni Gordillo Segura',
+          cargo: 'Intérprete lenguaje de señas',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Juan Pablo Rojas Polania',
+          cargo: 'Animador y productor multimedia',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'María Carolina Tamayo López',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'German Acosta Ramos',
+          cargo: 'Locución',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },
@@ -240,14 +434,28 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Javier Ricardo Ortiz Puentes',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Evaluador de contenidos inclusivos y accesibles',
-          centro: 'Centro XYZ - Regional XYZ',
+          nombre: 'Aixa Natalia Sendoya Fernández',
+          cargo: 'Validador de recursos educativos digitales',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Daniel Ricardo Mutis Gómez',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
+        },
+        {
+          nombre: 'Anyerson Wilfredo Pizo Ossa',
+          cargo: 'Evaluador para contenidos inclusivos y accesibles',
+          centro:
+            'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
       ],
     },

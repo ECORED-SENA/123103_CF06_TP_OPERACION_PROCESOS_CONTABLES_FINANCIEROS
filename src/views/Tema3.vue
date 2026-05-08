@@ -68,8 +68,8 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-3 Además, exige información comparativa respecto del período anterior para todos los montos presentados, así como para la información descriptiva y narrativa cuando sea relevante (Decreto 2420 Anexo 3, 2015). Desde la operación contable, esta consistencia se refleja en decisiones concretas:        
-        ul.lista-ul.mb-0.mt-3
-          li.d-flex
+        ul.lista-ul.mb-0
+          li.d-flex.mt-3
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
             p.mb-0 Si una entidad reconoce los gastos de servicios públicos como gastos operacionales en un período, no debería tratarlos en el siguiente como mayor valor de un activo sin una justificación técnica.
           li.d-flex
@@ -313,7 +313,7 @@
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
           .col-lg
             p(data-aos="fade-left") La corrección no debe confundirse con una sustitución silenciosa del dato. El Decreto 2649 exige que el error u omisión se salve con un nuevo asiento en la fecha en que se advierta, y también ordena efectuar ajustes antes de emitir estados financieros para corregir asientos incorrectos y registrar hechos realizados que no hayan sido reconocidos.        
-    p(data-aos="fade-left") Este criterio protege la trazabilidad del proceso y evita que la contabilidad pierda evidencia sobre el origen de la corrección (Decreto 2649, 1993).
+        p(data-aos="fade-left") Este criterio protege la trazabilidad del proceso y evita que la contabilidad pierda evidencia sobre el origen de la corrección (Decreto 2649, 1993).
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico

@@ -494,7 +494,7 @@
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center.mb-3 Diferencias temporales
+                        h4.card-title.text-center.mb-3 Contraste de fuentes
                         p.card-text.text-center
                         | Desfase entre el registro contable y el reconocimiento por parte del tercero.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -763,9 +763,9 @@
               p.mb-4  Informar al responsable del registro contable, elaborar el ajuste con soporte bancario y verificar en el siguiente corte que el ajuste fue contabilizado.        
           .row(titulo="Factura duplicada")
               p.mb-4 Comunicar al contador o revisor del cierre, depurar el doble registro, dejar trazabilidad y confirmar que el saldo quedó corregido.
-          .row(titulo="Soporte incompleto de un egresos")
+          .row(titulo="Soporte incompleto de un egreso")
               p.mb-4 Solicitar el documento faltante al área origen, suspender la aprobación hasta completar la evidencia y revisar que el soporte se anexe y el comprobante quede completo.
-          .row(titulo="Diferencia con saldo de proveedors")
+          .row(titulo="Diferencia con saldo de proveedor")
               p.mb-4 Remitir solicitud de confirmación o revisión, verificar estado de cuenta y soportes, y definir si procede ajuste o continuidad del seguimiento.
     //- Fin Accordion
     p(data-aos="fade-left") A continuación, se presenta la secuencia del reporte de hallazgos contables:
