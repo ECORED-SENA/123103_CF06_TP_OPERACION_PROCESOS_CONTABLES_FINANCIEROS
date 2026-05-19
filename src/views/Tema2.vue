@@ -17,7 +17,7 @@
     Separador
     .row.mt-5
       #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-        h2 2.1 tipología de errores e inconsistencias
+        h2 2.1 Tipología de errores e inconsistencias
     p(data-aos="fade-left") La identificación de errores e inconsistencias contables forma parte del control del registro, porque permite establecer si la información incorporada en libros es verificable, coherente con sus soportes y razonable frente a los hechos económicos que pretende representar.
     .bloque-texto-g.bloque-texto-g--inverso.bg-color-4.p-3.p-sm-4.p-md-5.mb-3
       .bloque-texto-g__img(
@@ -40,27 +40,27 @@
                         img(src='@/assets/curso/tema2/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Errores de contabilización
                         p.card-text.text-center
-                        | Fallas en cuantía, cuenta, fecha, descripción o correspondencia con el soporte
+                        | Fallas en cuantía, cuenta, fecha, descripción o correspondencia con el soporte.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta01_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Omisiones
                         p.card-text.text-center
-                        | Hechos económicos no registrados en la contabilidad
+                        | Hechos económicos no registrados en la contabilidad.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta01_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Duplicidades
                         p.card-text.text-center
-                        | Registro repetido de una misma operación
+                        | Registro repetido de una misma operación.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta01_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Clasificaciones incorrectas
                         p.card-text.text-center
-                        | Uso de cuentas que no corresponden a la naturaleza del hecho económico
+                        | Uso de cuentas que no corresponden a la naturaleza del hecho económico.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta01_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Inconsistencias en soportes
                         p.card-text.text-center
-                        | Falta de respaldo, errores en documentos o incumplimiento de requisitos formales
+                        | Falta de respaldo, errores en documentos o incumplimiento de requisitos formales.
           //- Fin Carrusel
     //- Título con imagen
     .bg-full-width.mt-5
@@ -88,7 +88,7 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Si una entidad compra papelería por $850.000 y el asiento contable queda registrado por $8.500.000, la operación existe y tiene soporte, pero el registro presenta un error de contabilización por cuantía equivocada.
+              p.mb-3 Si una entidad compra papelería por $ 850.000 y el asiento contable queda registrado por $ 8.500.000, la operación existe y tiene soporte, pero el registro presenta un error de contabilización por cuantía equivocada.
               p.mb-3 De manera similar, cuando una comisión bancaria se registra en una cuenta de propiedad, planta y equipo en lugar de una cuenta de gasto financiero, el hecho económico ocurrió, pero su reconocimiento contable no refleja adecuadamente su naturaleza. En ambos casos, la corrección debe quedar respaldada por soportes, comprobantes y un nuevo asiento que deje trazabilidad de la modificación (Decreto 2649, 1993). 
           .col-md-4.bg-color-16.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
@@ -111,7 +111,7 @@
       .col-lg-4(data-aos="fade-left")      
         .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
           img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
-          p.mb-0 Los duplicados, por su parte, suelen identificarse cuando una misma operación se registra dos veces, generando sobrestimaciones de saldos o resultados. Su detección se apoya en los principios de integridad, valuación y presentación, así como en la revisión de soportes, comprobantes y auxiliares (Decreto 2420, Anexo 3, 2015).
+          p.mb-0 Los duplicados, por su parte, suelen identificarse cuando una misma operación se registra dos veces, generando sobreestimaciones de saldos o resultados. Su detección se apoya en los principios de integridad, valuación y presentación, así como en la revisión de soportes, comprobantes y auxiliares (Decreto 2420, Anexo 3, 2015).
     p.mt-3(data-aos="fade-left") La DIAN, en su procedimiento de cierre contable, exige revisar libros borradores para analizar y evaluar la consistencia de las cifras. Si se determinan inconsistencias, deben realizarse ajustes, procesamiento o reproceso de la información. También dispone que, antes del cierre, se verifique si alguna subcuenta presenta saldos atípicos o fuera de rangos normales y que la aprobación de las cuentas solo proceda cuando los saldos sean razonables y consistentes.
     p(data-aos="fade-right") Esto implica que omisiones, duplicados y clasificaciones incorrectas no solo afectan la exactitud del dato, sino que pueden impedir un cierre contable confiable.
     .row.mt-5.justify-content-center(data-aos="fade-right")
@@ -174,7 +174,7 @@
                         img(src='@/assets/curso/tema2/tarjeta02_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Integridad
                         p.card-text.text-center
-                        | Si ocurrió pero no fue reconocida, se afecta la integridad.
+                        | Sí ocurrió, pero no fue reconocida; se afecta la integridad.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema2/tarjeta02_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Valuación
@@ -186,14 +186,14 @@
                         p.card-text.text-center
                         | Si se llevó a una cuenta incorrecta, se compromete la presentación y revelación.
           //- Fin Carrusel
-    p(data-aos="fade-left") Adicionalmente, la DIAN exige que los cierres se realicen sobre cifras consistentes y razonables, y que cuando se detecten inconsistencias se hagan los ajustes o reprocesos necesarios. Por ello, la identificación técnica del error exige cruzar registro, soporte, comprobante, auxiliares y comportamiento del saldo antes de decidir la corrección.
+    p(data-aos="fade-left") Adicionalmente, la DIAN exige que los cierres se realicen sobre cifras consistentes y razonables, y que cuando se detecten inconsistencias, se hagan los ajustes o reprocesos necesarios. Por ello, la identificación técnica del error exige cruzar registro, soporte, comprobante, auxiliares y comportamiento del saldo antes de decidir la corrección.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Durante la revisión mensual, el auxiliar refleja un pago a proveedor por $2.400.000, pero la factura soporte corresponde a $2.040.000. El comprobante existe, pero el valor del asiento no coincide con el soporte.
+              p.mb-3 Durante la revisión mensual, el auxiliar refleja un pago a proveedor por $ 2.400.000, pero la factura soporte corresponde a $ 2.040.000. El comprobante existe, pero el valor del asiento no coincide con el soporte.
               p.mb-3 En este caso, el criterio documental permite detectar una inconsistencia; el criterio de valuación confirma que la cuantía no es apropiada; y el cruce con auxiliares y cierre contable permite definir si se trata de un error de digitación, un duplicado parcial o una mala elaboración del comprobante. A continuación, se presenta una secuencia de revisión para la detección técnica de errores e inconsistencias:
           .col-md-4.bg-color-18.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
@@ -326,7 +326,7 @@
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") La confirmación con terceros es una técnica útil para verificar diferencias cuando el registro interno no basta por sí solo para explicar el saldo o el movimiento observado.
       .col-md-8.col-lg-8
-        p(data-aos="fade-left") En materiales oficiales alojados por Función Pública sobre NIA 505 se describe la confirmación externa como evidencia obtenida directamente de un tercero en forma escrita, electrónica u otro medio, y el Anexo 4 del Decreto 2420 de 2015 remite expresamente a la NIA 505 “Confirmaciones externas”. En términos prácticos, esto respalda el uso de solicitudes de confirmación para contrastar saldos con clientes, proveedores o bancos cuando se requiere corroborar información registrada o aclarar diferencias detectadas en el proceso contable.
+        p(data-aos="fade-left") En materiales oficiales alojados por Función Pública sobre NIA 505, se describe la confirmación externa como evidencia obtenida directamente de un tercero en forma escrita, electrónica u otro medio, y el Anexo 4 del Decreto 2420 de 2015 remite expresamente a la NIA 505 “Confirmaciones externas”. En términos prácticos, esto respalda el uso de solicitudes de confirmación para contrastar saldos con clientes, proveedores o bancos cuando se requiere corroborar información registrada o aclarar diferencias detectadas en el proceso contable.
         p(data-aos="fade-left") Aplicada al control del registro, la confirmación con clientes puede utilizarse para verificar cuentas por cobrar, anticipos o abonos pendientes; la confirmación con proveedores puede servir para revisar cuentas por pagar, notas crédito, pagos aplicados o diferencias entre factura y registro; y la confirmación con bancos permite corroborar saldos, cargos, abonos, cheques pendientes u otros movimientos reflejados en el extracto.
       .col-md-4.col-lg-4.d-flex.justify-content-center
         figure.mb-0p(data-aos="fade-right")
@@ -339,13 +339,13 @@
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_1.svg', style="width: 100px;")
             h4 Clientes
             p.mb-0 Verificar cuentas por cobrar, anticipos o abonos pendientes.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_2.svg', style="width: 100px;")
             h4 Proveedores
             p.mb-0 Revisar cuentas por pagar, notas crédito, pagos aplicados o diferencias entre factura y registro.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_3.svg', style="width: 100px;")
@@ -358,7 +358,7 @@
         figure.mb-0p(data-aos="fade-right")
           img(src='@/assets/curso/tema2/img13.png' style="width: 450px").img-fluid
       .col-md-8.col-lg-8
-        p(data-aos="fade-left") Cuando se utiliza esta técnica, conviene que la solicitud de confirmación identifique el tercero, el período, el valor o movimiento objeto de revisión, y el propósito de la consulta. También resulta importante conservar la respuesta recibida como soporte del análisis.
+        p(data-aos="fade-left") Cuando se utiliza esta técnica, conviene que la solicitud de confirmación identifique el tercero, el período, el valor o movimiento objeto de revisión y el propósito de la consulta. También resulta importante conservar la respuesta recibida como soporte del análisis.
         p(data-aos="fade-left") Si el tercero confirma la cifra, la diferencia puede atribuirse a un problema de registro interno, de corte o de clasificación; si la niega o informa otro valor, se abre una verificación adicional sobre soportes, fechas, notas, pagos o aplicaciones. Así, la confirmación no reemplaza la revisión documental, pero sí la fortalece y aporta una evidencia adicional para decidir si procede ajuste, reclasificación o seguimiento.
     .row.justify-content-center.mb-4(data-aos="fade-left")
       .col-lg-12
@@ -383,8 +383,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Al cierre del mes, la empresa registra una cuenta por pagar a un proveedor por $6.250.000, pero el proveedor remite un estado de cuenta por $6.600.000. Antes de ajustar, conviene solicitar confirmación del saldo y revisar si la diferencia obedece a una factura no registrada, a una nota débito aplicada por el proveedor o a un pago que aún no ha sido reconocido por una de las partes.
-              p.mb-3 Si el proveedor confirma que existe una factura adicional por $350.000 debidamente emitida antes del cierre, la diferencia deja de ser una variación genérica y se convierte en un hecho concreto que debe analizarse documentalmente para decidir su reconocimiento.
+              p.mb-3 Al cierre del mes, la empresa registra una cuenta por pagar a un proveedor por $ 6.250.000, pero el proveedor remite un estado de cuenta por $ 6.600.000. Antes de ajustar, conviene solicitar confirmación del saldo y revisar si la diferencia obedece a una factura no registrada, a una nota débito aplicada por el proveedor o a un pago que aún no ha sido reconocido por una de las partes.
+              p.mb-3 Si el proveedor confirma que existe una factura adicional por $ 350.000 debidamente emitida antes del cierre, la diferencia deja de ser una variación genérica y se convierte en un hecho concreto que debe analizarse documentalmente para decidir su reconocimiento.
           .col-md-4.bg-color-18.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
               img(src='@/assets/curso/tema2/img14.svg')
@@ -415,7 +415,7 @@
                       img(src="@/assets/curso/tema2/slide01_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Auxiliar contable
-                    p Permite revisar el detalle de movimientos por fecha, tercero, valor y cuenta, lo que facilita detectar errores de registro, omisiones o duplicados..                    
+                    p Permite revisar el detalle de movimientos por fecha, tercero, valor y cuenta, lo que facilita detectar errores de registro, omisiones o duplicados.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
@@ -458,7 +458,7 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Si una cuenta de gasto muestra $4.980.000 en el auxiliar, pero los soportes suman $4.890.000, el cruce de información obliga a revisar si existe un comprobante mal elaborado, una factura cargada dos veces o una diferencia de digitación.
+              p.mb-3 Si una cuenta de gasto muestra $ 4.980.000 en el auxiliar, pero los soportes suman $ 4.890.000, el cruce de información obliga a revisar si existe un comprobante mal elaborado, una factura cargada dos veces o una diferencia de digitación.
               p.mb-3 En este caso, el auxiliar señala el valor acumulado, el comprobante permite ubicar el asiento concreto y los soportes externos ayudan a determinar cuál cifra refleja realmente el hecho económico.
           .col-md-4.bg-color-16.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
@@ -532,13 +532,13 @@
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_1.svg', style="width: 100px;")
             h4 Diferencia temporal
             p.mb-0 Mantener como partida pendiente con seguimiento.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_2.svg', style="width: 100px;")
             h4 Omisión o clasificación errada
-            p.mb-0 Procede la corrección contable
-        .col-md-4
+            p.mb-0 Procede la corrección contable.
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/tarjeta04_3.svg', style="width: 100px;")
@@ -552,7 +552,7 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Al revisar una cuenta por cobrar, el auxiliar presenta un saldo de $12.300.000, mientras que el estado de cuenta del cliente refleja $11.900.000. Después de validar los soportes, se encuentra que existe una nota crédito por $400.000 emitida antes del cierre, pero aún no contabilizada. En este caso, la causa de la diferencia no es un problema del cliente ni una falla del sistema externo, sino una omisión interna en el reconocimiento de la nota crédito. El análisis causal permite sustentar el ajuste y evitar que la diferencia permanezca sin explicación en el siguiente período.
+              p.mb-3 Al revisar una cuenta por cobrar, el auxiliar presenta un saldo de $ 12.300.000, mientras que el estado de cuenta del cliente refleja $ 11.900.000. Después de validar los soportes, se encuentra que existe una nota crédito por $ 400.000 emitida antes del cierre, pero aún no contabilizada. En este caso, la causa de la diferencia no es un problema del cliente ni una falla del sistema externo, sino una omisión interna en el reconocimiento de la nota crédito. El análisis causal permite sustentar el ajuste y evitar que la diferencia permanezca sin explicación en el siguiente período.
           .col-md-4.bg-color-16.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
               img(src='@/assets/curso/tema2/img17.svg')
@@ -711,7 +711,7 @@
                   img(src='@/assets/curso/tema2/tarjeta07_5.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Tipo de hallazgo
-                    p Error, omisión, duplicado, clasificación incorrecta o diferencia pendiente, facilitando su clasificación técnica..
+                    p Error, omisión, duplicado, clasificación incorrecta o diferencia pendiente, facilitando su clasificación técnica.
                 .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
                   img(src='@/assets/curso/tema2/tarjeta07_6.png').w-100
                   .p-4

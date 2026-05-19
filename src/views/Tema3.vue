@@ -16,7 +16,7 @@
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p(data-aos="fade-left") Por ello, el estudio de este capítulo no se limita a revisar reglas formales, sino que busca comprender cómo los criterios contables orientan la calidad, la consistencia y la comparabilidad del registro (Decreto 2420 Anexo 3, 2015).
+            p(data-aos="fade-left") Por ello, el estudio de este capítulo no se limita a revisar reglas formales, sino que busca comprender cómo los criterios contables orientan la calidad, la consistencia y la comparabilidad del registro (Decreto 2420, Anexo 3, 2015).
         p.mt-3(data-aos="fade-left") De igual manera, este capítulo se conecta con la necesidad de ajustar el registro contable cuando se detectan omisiones o inexactitudes. El Anexo 3 del Decreto 2420 señala que los errores de períodos anteriores surgen de no emplear, o emplear incorrectamente, información fiable disponible al momento de preparar los estados financieros, y dispone que su corrección se reconozca en el período en que el error es detectado, junto con la revelación de su naturaleza y monto.
     p(data-aos="fade-left") Así, la aplicación de políticas contables y el ajuste del registro contable se entienden como procesos complementarios: las políticas aportan el criterio y la uniformidad; el ajuste permite corregir el efecto de los errores e incorporar la información de manera razonable, verificable y útil para la toma de decisiones.
     .row.justify-content-center.mb-4(data-aos="fade-left")
@@ -67,7 +67,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img3.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-3 Además, exige información comparativa respecto del período anterior para todos los montos presentados, así como para la información descriptiva y narrativa cuando sea relevante (Decreto 2420 Anexo 3, 2015). Desde la operación contable, esta consistencia se refleja en decisiones concretas:        
+        p.mb-3 Además, exige información comparativa respecto del período anterior para todos los montos presentados, así como para la información descriptiva y narrativa cuando sea relevante (Decreto 2420, Anexo 3, 2015). Desde la operación contable, esta consistencia se refleja en decisiones concretas:        
         ul.lista-ul.mb-0
           li.d-flex.mt-3
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
@@ -98,7 +98,7 @@
     .row.mb-5.justify-content-center.align-items-center.mt-5
       p(data-aos="fade-left") La política contable no implica rigidez absoluta. El propio Anexo 3 admite que la presentación y clasificación pueden cambiar cuando una revisión demuestre que otra forma resulta más apropiada para mejorar la calidad de los estados financieros.
       .col-md-8.col-lg-8
-        p(data-aos="fade-left") Sin embargo, cuando ello ocurra, las causas del cambio deben informarse en una nota a los estados financieros. Este criterio muestra que el cambio no debe responder a improvisación, sino a una razón técnica sustentada que preserve la utilidad de la información (Decreto 2420 Anexo 3, 2015). La comparabilidad depende de esa disciplina. Si una entidad modifica la forma de presentar una cuenta, de clasificar un gasto o de reconocer determinado hecho económico sin dejar evidencia del motivo y sin explicar el efecto del cambio, el usuario de la información pierde la posibilidad de comparar un período con otro de manera confiable. Por eso, el Anexo 3 exige:
+        p(data-aos="fade-left") Sin embargo, cuando ello ocurra, las causas del cambio deben informarse en una nota a los estados financieros. Este criterio muestra que el cambio no debe responder a improvisación, sino a una razón técnica sustentada que preserve la utilidad de la información (Decreto 2420, Anexo 3, 2015). La comparabilidad depende de esa disciplina. Si una entidad modifica la forma de presentar una cuenta, de clasificar un gasto o de reconocer determinado hecho económico sin dejar evidencia del motivo y sin explicar el efecto del cambio, el usuario de la información pierde la posibilidad de comparar un período con otro de manera confiable. Por eso, el Anexo 3 exige:
         ul.lista-ul.mb-0.mt-3
           li.d-flex
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
@@ -320,8 +320,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Si al cierre de junio se detecta que una factura de mantenimiento por $1.250.000, recibida y aprobada en mayo, no fue registrada oportunamente, la situación corresponde a una omisión. En ese caso, el ajuste debe reconocer el gasto y la obligación con base en el soporte existente y dejar evidencia de la fecha en que la omisión fue advertida.
-              p.mb-3 En cambio, si la factura sí fue registrada pero por $12.500.000, el ajuste no consiste en borrar el asiento inicial, sino en elaborar el nuevo asiento que corrija la cuantía errada y conserve la trazabilidad del proceso (Decreto 2649, 1993).
+              p.mb-3 Si al cierre de junio se detecta que una factura de mantenimiento por $ 1.250.000, recibida y aprobada en mayo, no fue registrada oportunamente, la situación corresponde a una omisión. En ese caso, el ajuste debe reconocer el gasto y la obligación con base en el soporte existente y dejar evidencia de la fecha en que la omisión fue advertida.
+              p.mb-3 En cambio, si la factura sí fue registrada, pero por $ 12.500.000, el ajuste no consiste en borrar el asiento inicial, sino en elaborar el nuevo asiento que corrija la cuantía errada y conserve la trazabilidad del proceso (Decreto 2649, 1993).
           .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema3/img12.svg')
@@ -346,38 +346,38 @@
       .p-4.p-md-5
         .tarjeta.tarjeta--gris.p-4
           LineaTiempoC.color-acento-contenido(text-small)
-            .row(titulo="Soporte del ajuste")
+            .row.align-items-center(titulo="Soporte del ajuste")
               .col-md-6.mb-4.mb-md-0
-                h4 Soporte del ajuste
-                p Factura, extracto, nota, conciliación, comprobante o documento equivalente que sustente la procedencia de la corrección.
+                h4.ps-5 Soporte del ajuste
+                p.ps-5 Factura, extracto, nota, conciliación, comprobante o documento equivalente que sustente la procedencia de la corrección.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/slide02_1.png')
-            .row(titulo="Justificación del movimiento")
+            .row.align-items-center(titulo="Justificación del <br>movimiento")
               .col-md-6.mb-4.mb-md-0
-                h4 Justificación del movimiento
-                p Explicación breve y técnica de la causa del ajuste, que permita dar claridad y trazabilidad al registro.
+                h4.ps-5 Justificación del movimiento
+                p.ps-5 Explicación breve y técnica de la causa del ajuste, que permita dar claridad y trazabilidad al registro.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/slide02_2.png')              
-            .row(titulo="Asiento de ajuste")
+            .row.align-items-center(titulo="Asiento de ajuste")
               .col-md-6.mb-4.mb-md-0
-                h4 Asiento de ajuste
-                p Registro contable que corrige la omisión o el error identificado e incorpora la corrección en libros.
+                h4.ps-5 Asiento de ajuste
+                p.ps-5 Registro contable que corrige la omisión o el error identificado e incorpora la corrección en libros.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/slide02_3.png')              
-            .row(titulo="Revisión del saldo resultante")
+            .row.align-items-center(titulo="Revisión del saldo <br> resultante")
               .col-md-6.mb-4.mb-md-0
-                h4 Revisión del saldo resultante
-                p Verificación en auxiliar, libro mayor o borrador de cierre para confirmar razonabilidad y consistencia.
+                h4.ps-5 Revisión del saldo resultante
+                p.ps-5 Verificación en auxiliar, libro mayor o borrador de cierre para confirmar razonabilidad y consistencia.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/slide02_4.png')              
-            .row(titulo="Aprobación")
+            .row.align-items-center(titulo="Aprobación")
               .col-md-6.mb-4.mb-md-0
-                h4 Aprobación
-                p Validación del responsable del proceso o del cierre para autorizar la incorporación definitiva del ajuste.
+                h4.ps-5 Aprobación
+                p.ps-5 Validación del responsable del proceso o del cierre para autorizar la incorporación definitiva del ajuste.
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema3/slide02_5.png')
@@ -424,7 +424,7 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Si una cuenta por cobrar estaba sobrestimada porque no se había reconocido una nota crédito por $400.000, la efectividad del ajuste se verifica cuando el auxiliar, el saldo del libro mayor y el estado de cuenta del tercero quedan alineados con esa nueva realidad.
+              p.mb-3 Si una cuenta por cobrar estaba sobrestimada porque no se había reconocido una nota crédito por $ 400.000, la efectividad del ajuste se verifica cuando el auxiliar, el saldo del libro mayor y el estado de cuenta del tercero quedan alineados con esa nueva realidad.
               p.mb-3 Si después del ajuste el auxiliar continúa mostrando diferencias, o si la nota crédito fue registrada en una cuenta distinta, la corrección no ha sido efectiva y debe revisarse nuevamente. Este control posterior evita que el ajuste sea solo formal y garantiza que cumpla su propósito sobre la calidad del registro (Decreto 2649, 1993).
           .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
@@ -463,7 +463,7 @@
         figure.mb-0p(data-aos="fade-right")
           img(src='@/assets/curso/tema3/img17.png' style="width: 450px").img-fluid
     p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico
-    p(data-aos="fade-right") Si una factura por servicios de mantenimiento fue registrada por $4.800.000, pero el soporte correcto demuestra que el valor real era de $4.080.000, el comprobante de ajuste debe:
+    p(data-aos="fade-right") Si una factura por servicios de mantenimiento fue registrada por $ 4.800.000, pero el soporte correcto demuestra que el valor real era de $ 4.080.000, el comprobante de ajuste debe:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
         .p-5
@@ -477,7 +477,7 @@
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Identificar la diferencia de $720.000. 
+                        | Identificar la diferencia de $ 720.000. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
@@ -571,17 +571,17 @@
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 La nota crédito. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 El comprobante de ajuste. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 El auxiliar donde se reflejó la modificación. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  

@@ -148,7 +148,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Recepción del soporte")
-            .row
+            .row.align-items-center
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema4/pestana01_1.png')
@@ -156,7 +156,7 @@
                 h4 Recepción del soporte
                 p Cómo ingresa la información al proceso contable; revisar facturas, extractos, notas, correos o radicados para identificar riesgos de pérdida o ingreso tardío.
           .py-3.py-md-4(titulo="Validación documental")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema4/pestana01_2.png')
@@ -164,7 +164,7 @@
                 h4 Validación documental
                 p Verificar si se revisan integridad, fecha, valor y autorización; revisar soportes, listas de chequeo o vistos buenos para evitar registros incompletos o improcedentes.
           .py-3.py-md-4(titulo="Registro contable")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema4/pestana01_3.png')
@@ -172,7 +172,7 @@
                 h4 Registro contable
                 p Revisar quién registra, con qué justificación y cómo queda el asiento; verificar comprobantes, notas contables y auxiliares para detectar errores de cuenta, valor o período.
           .py-3.py-md-4(titulo="Revisión y ajuste")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema4/pestana01_4.png')
@@ -180,7 +180,7 @@
                 h4 Revisión y ajuste
                 p Verificar si se revisan diferencias y saldos atípicos; revisar libro borrador, conciliaciones y reportes previos para evitar permanencia de inconsistencias.
           .py-3.py-md-4(titulo="Cierre y archivo")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema4/pestana01_5.png')
@@ -312,17 +312,17 @@
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Actividades duplicadas. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Validaciones repetidas. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Traslados innecesarios de documentos. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
@@ -379,12 +379,12 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
             p.mb-0 Reduce tareas manuales repetitivas. 
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
             p.mb-0 Mejora la oportunidad de la revisión.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
@@ -403,12 +403,12 @@
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Marque automáticamente partidas no coincidentes. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Genere alertas sobre comisiones no registradas. 
-              .col-md-3
+              .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
                     img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
@@ -527,23 +527,23 @@
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Si disminuyeron errores de registro. 
+                        | Sí disminuyeron errores de registro. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Si se redujeron reprocesos. 
+                        | Sí se redujeron reprocesos. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Si mejoró la oportunidad de la contabilización. 
+                        | Sí mejoró la oportunidad de la contabilización. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Si las diferencias se explican con mayor rapidez. 
+                        | Sí las diferencias se explican con mayor rapidez. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
-                        | Si los saldos muestran mayor consistencia al cierre. 
+                        | Sí los saldos muestran mayor consistencia al cierre. 
           //- Fin Carrusel
     p(data-aos="fade-left") El procedimiento PR-ADF-0041 de la DIAN exige revisar la consistencia de la información, identificar saldos atípicos o fuera de rangos normales y efectuar ajustes o reprocesos cuando sea necesario antes del cierre definitivo.
     p(data-aos="fade-left") Por ello, evaluar resultados no consiste en verificar si el nuevo formato existe o si la instrucción fue comunicada, sino en comprobar si la mejora introducida efectivamente elevó la calidad del registro contable y redujo las debilidades detectadas en el diagnóstico (DIAN, 2022). La sostenibilidad del procedimiento mejorado se relaciona con su permanencia en el tiempo.
@@ -578,7 +578,7 @@
           .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img20.svg')
-    p.mt-5(data-aos="fade-left") La alineación normativa se verifica al comprobar que el nuevo procedimiento fortalece la trazabilidad y el control documental; la evaluación de resultados se observa si en los siguientes cierres disminuyen los registros tardíos y los reprocesos; y la sostenibilidad se confirma cuando el control se mantiene durante varios períodos, se conserva la evidencia de su aplicación y el procedimiento continúa funcionando aun cuando cambien los responsables del proceso. Para revisar de forma integrada estos componentes, se presenta la siguiente síntesis:
+    p.mt-5(data-aos="fade-left") La alineación normativa se verifica al comprobar que el nuevo procedimiento fortalece la trazabilidad y el control documental; en la evaluación de resultados se observa si en los siguientes cierres disminuyen los registros tardíos y los reprocesos; y la sostenibilidad se confirma cuando el control se mantiene durante varios períodos, se conserva la evidencia de su aplicación y el procedimiento continúa funcionando aun cuando cambien los responsables del proceso. Para revisar de forma integrada estos componentes, se presenta la siguiente síntesis:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
       .p-4.p-md-5

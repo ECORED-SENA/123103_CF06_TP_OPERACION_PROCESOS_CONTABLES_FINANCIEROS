@@ -29,7 +29,7 @@
       .col-lg-4(data-aos="fade-left")      
         .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
           img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
-          p.mb-0 Su aprendizaje fortalece criterios de verificación, control y mejoramiento indispensables para una gestión contable responsable. Además, contribuye a reducir riesgos de error, mejorar la respuesta ante requerimientos internos y fiscales, y respaldar decisiones organizacionales con información confiable.
+          p.mb-0 Su aprendizaje fortalece criterios de verificación, control y mejoramiento indispensables para una gestión contable responsable. Además, contribuye a reducir riesgos de error, mejorar la respuesta ante requerimientos internos y fiscales y respaldar decisiones organizacionales con información confiable.
 </template>
 
 <script>

@@ -157,7 +157,7 @@ export default {
         {
           id: 5,
           texto:
-            'Si una empresa compra papelería por $850.000 y el asiento queda registrado por $8.500.000, ¿a qué tipo de situación corresponde?',
+            'Si una empresa compra papelería por $ 850.000 y el asiento queda registrado por $ 8.500.000, ¿a qué tipo de situación corresponde?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [

@@ -89,9 +89,9 @@ export default {
             hash: 't_3_1',
           },
           {
-            numero: '3.1',
+            numero: '3.2',
             titulo: 'Ajuste del registro contable',
-            hash: 't_3_1',
+            hash: 't_3_2',
           },
           {
             numero: '3.3',

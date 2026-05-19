@@ -57,9 +57,9 @@
                         | Elaboración del formato de conciliación con sus soportes.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta01_4.svg', style="max-width: 90px").mx-auto.mb-3
-                        h4.card-title.text-center.mb-3 Documentación que respalda el proceso realizado.
+                        h4.card-title.text-center.mb-3 Evidencia
                         p.card-text.text-center
-                        | Evidencia                  
+                        | Documentación que respalda el proceso realizado.
                   .col-lg-3.order-lg-1.d-none.d-lg-block
                       figure
                         img(src='@/assets/curso/tema1/img3.png', style="max-width: 250px", data-aos="zoom-in").m-auto          
@@ -95,7 +95,7 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-0 Si en el mayor la cuenta Bancos presenta un saldo de $18.250.000 al cierre del mes, ese valor debe provenir de la suma organizada de los movimientos registrados en el auxiliar de bancos. Si durante la conciliación se observa que el extracto bancario reporta $17.950.000, la diferencia de $300.000 no se investiga en el mayor, porque allí solo aparece el saldo resumido; la revisión debe hacerse en el auxiliar para verificar, por ejemplo, si existe un cheque girado no cobrado, una comisión bancaria no registrada o una consignación contabilizada y aún no reflejada por el banco. El mayor orienta sobre el saldo global, pero el auxiliar permite explicar técnicamente la diferencia. A continuación, se sintetiza la función de cada registro dentro del proceso de conciliación:
+              p.mb-0 Si en el mayor la cuenta Bancos presenta un saldo de $ 18.250.000 al cierre del mes, ese valor debe provenir de la suma organizada de los movimientos registrados en el auxiliar de bancos. Si durante la conciliación se observa que el extracto bancario reporta $ 17.950.000, la diferencia de $ 300.000 no se investiga en el mayor, porque allí solo aparece el saldo resumido; la revisión debe hacerse en el auxiliar para verificar, por ejemplo, si existe un cheque girado no cobrado, una comisión bancaria no registrada o una consignación contabilizada y aún no reflejada por el banco. El mayor orienta sobre el saldo global, pero el auxiliar permite explicar técnicamente la diferencia. A continuación, se sintetiza la función de cada registro dentro del proceso de conciliación:
           .col-md-4.bg-color-9.d-flex.align-items-center.justify-content-center(style="background-color: #FDB338;")
             figure.mb-0.p-4
               img(src='@/assets/curso/tema1/img6.svg')
@@ -142,8 +142,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Una empresa inicia el mes con un saldo en libros de $12.000.000 en la cuenta de bancos. Durante el período registra consignaciones por $5.000.000 y pagos por $3.200.000, por lo que su saldo contable al cierre es de $13.800.000.
-              p.mb-3 Sin embargo, al revisar el extracto, aparece un saldo de $13.650.000. La diferencia de $150.000 obliga a revisar los movimientos del mes. Al examinar el auxiliar se encuentra una nota débito bancaria por cuota de manejo de $50.000 no registrada y una consignación realizada el último día del mes por $200.000 que aún no fue abonada por el banco.
+              p.mb-3 Una empresa inicia el mes con un saldo en libros de $ 12.000.000 en la cuenta de bancos. Durante el período, registra consignaciones por $ 5.000.000 y pagos por $ 3.200.000, por lo que su saldo contable al cierre es de $ 13.800.000.
+              p.mb-3 Sin embargo, al revisar el extracto, aparece un saldo de $ 13.650.000. La diferencia de $ 150.000 obliga a revisar los movimientos del mes. Al examinar el auxiliar, se encuentra una nota débito bancaria por cuota de manejo de $ 50.000 no registrada y una consignación realizada el último día del mes por $ 200.000 que aún no fue abonada por el banco.
               p.mb-3 Así, el análisis de los movimientos permite explicar la diferencia sin perder la continuidad entre el saldo inicial, los registros del período y el saldo final conciliado. A continuación, se presenta la lógica mínima de revisión al confrontar la información contable con el extracto bancario:
           .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0.p-4
@@ -343,8 +343,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Al cierre del mes, el auxiliar contable de la cuenta bancaria presenta un saldo de $9.850.000. El extracto bancario, sin embargo, reporta un saldo de $9.600.000. La diferencia de $250.000 no debe asumirse de inmediato como error.
-              p.mb-3 Primero se debe revisar si existen operaciones pendientes de reflejo entre una fuente y otra. Si se encuentra un cheque girado por $300.000 que aún no ha sido cobrado y una comisión bancaria de $50.000 no registrada en libros, se concluye que la diferencia obedece a una combinación de partida conciliatoria temporal y ajuste contable necesario. A continuación, se sintetiza la naturaleza de cada saldo dentro del proceso de conciliación:
+              p.mb-3 Al cierre del mes, el auxiliar contable de la cuenta bancaria presenta un saldo de $ 9.850.000. El extracto bancario, sin embargo, reporta un saldo de $ 9.600.000. La diferencia de $ 250.000 no debe asumirse de inmediato como error.
+              p.mb-3 Primero se debe revisar si existen operaciones pendientes de reflejo entre una fuente y otra. Si se encuentra un cheque girado por $ 300.000 que aún no ha sido cobrado y una comisión bancaria de $ 50.000 no registrada en libros, se concluye que la diferencia obedece a una combinación de partida conciliatoria temporal y ajuste contable necesario. A continuación, se sintetiza la naturaleza de cada saldo dentro del proceso de conciliación:
           .col-md-4.bg-color-13.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-4
               img(src='@/assets/curso/tema1/img13.svg')
@@ -386,7 +386,7 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="fade-right")
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Fecha del movimiento")
-            .row
+            .row.align-items-center
               .col-md-6
                 figure
                   img(src='@/assets/curso/tema1/pestana01_1.png')
@@ -394,7 +394,7 @@
                 h4 Fecha del movimiento
                 p Permite identificar el momento del registro contable frente al procesamiento bancario.
           .py-3.py-md-4(titulo="Comprobante")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_2.png')
@@ -402,7 +402,7 @@
                 h4 Comprobante
                 p Corresponde al soporte de egreso o consignación que respalda la operación.
           .py-3.py-md-4(titulo="Soporte bancario")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_3.png')
@@ -410,7 +410,7 @@
                 h4 Soporte bancario
                 p Evidencia emitida por la entidad financiera.
           .py-3.py-md-4(titulo="Conciliación anterior")
-            .row
+            .row.align-items-center
               .col-md-6.mb-4.mb-md-0
                 figure
                   img(src='@/assets/curso/tema1/pestana01_4.png')
@@ -447,8 +447,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Una empresa registra el 30 de abril una consignación por $1.200.000 y conserva el soporte bancario. Al revisar el extracto con corte al mismo día, el valor aún no aparece abonado, por lo que el depósito se clasifica como depósito en tránsito.
-              p.mb-3 Si, además, el 28 de abril se expidió un cheque por $480.000 a un proveedor y el extracto todavía no refleja el débito, dicho valor se clasifica como cheque pendiente. Ninguna de estas situaciones implica por sí sola un error contable, pero ambas deben quedar identificadas en la conciliación y revisarse en el período siguiente.
+              p.mb-3 Una empresa registra el 30 de abril una consignación por $ 1.200.000 y conserva el soporte bancario. Al revisar el extracto con corte al mismo día, el valor aún no aparece abonado, por lo que el depósito se clasifica como depósito en tránsito.
+              p.mb-3 Sí, además, el 28 de abril se expidió un cheque por $ 480.000 a un proveedor y el extracto todavía no refleja el débito; dicho valor se clasifica como cheque pendiente. Ninguna de estas situaciones implica por sí sola un error contable, pero ambas deben quedar identificadas en la conciliación y revisarse en el período siguiente.
           .col-md-4.bg-color-14.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-4
               img(src='@/assets/curso/tema1/img16.svg')
@@ -475,13 +475,13 @@
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
             h4 Soporte de la diferencia
             p.mb-0 Determina si la partida cuenta con evidencia suficiente.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
             h4 Naturaleza temporal
             p.mb-0 Permite establecer si corresponde a un desfase entre contabilidad y banco.
-        .col-md-4
+        .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
@@ -517,12 +517,12 @@
                         img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Cheque girado y no debitado por el banco
                         p.card-text.text-center
-                        | Mantener como partida conciliatoria y hacer seguimiento
+                        | Mantener como partida conciliatoria y hacer seguimiento.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Comisión bancaria registrada en extracto y no en libros.
                         p.card-text.text-center
-                        | Elaborar ajuste contable con soporte
+                        | Elaborar ajuste contable con soporte.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Transferencia abonada por el banco y no registrada en libros
@@ -573,7 +573,7 @@
       .col-md-4.col-lg-4.d-flex.justify-content-center
         figure.mb-0p(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img21.png' style="width: 450px").img-fluid
-    p(data-aos="fade-left") En términos prácticos, una matriz de conciliación bien elaborada permite ubicar con rapidez qué partidas son temporales, cuáles exigen ajuste y cuáles deben mantenerse en seguimiento. Por ejemplo, si el saldo en libros es de $15.400.000 y el saldo en bancos es de $15.050.000, la matriz puede mostrar que existen un depósito en tránsito por $500.000 y una comisión bancaria no registrada por $150.000. Con esa información, el informe final no se limita a indicar la existencia de una diferencia, sino que explica su origen, identifica el tratamiento dado a cada partida y establece el saldo conciliado. A continuación, se presentan los elementos mínimos que componen una matriz o informe de conciliación:
+    p(data-aos="fade-left") En términos prácticos, una matriz de conciliación bien elaborada permite ubicar con rapidez qué partidas son temporales, cuáles exigen ajuste y cuáles deben mantenerse en seguimiento. Por ejemplo, si el saldo en libros es de $ 15.400.000 y el saldo en bancos es de $ 15.050.000, la matriz puede mostrar que existen un depósito en tránsito por $ 500.000 y una comisión bancaria no registrada por $ 150.000. Con esa información, el informe final no se limita a indicar la existencia de una diferencia, sino que explica su origen, identifica el tratamiento dado a cada partida y establece el saldo conciliado. A continuación, se presentan los elementos mínimos que componen una matriz o informe de conciliación:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
             .p-4.p-md-5
@@ -584,7 +584,7 @@
                       img(src="@/assets/curso/tema1/slide02_1.png")
                   .col-lg-7.order-1.mb-3.mb-lg-0
                     h4 Identificación del período
-                    p Mes o fecha de corte de la conciliación que delimita el alcance temporal del análisis..                    
+                    p Mes o fecha de corte de la conciliación que delimita el alcance temporal del análisis.
                 .row.align-items-center.p-4.p-md-5
                   .col-lg-5.order-2
                     figure
