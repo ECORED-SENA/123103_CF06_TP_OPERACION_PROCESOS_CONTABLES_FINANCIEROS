@@ -509,27 +509,27 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta1_2_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Consignación registrada en libros y no abonada por el banco
                         p.card-text.text-center
                         | Mantener como partida conciliatoria y verificar en el período siguiente.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta1_2_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Cheque girado y no debitado por el banco
                         p.card-text.text-center
                         | Mantener como partida conciliatoria y hacer seguimiento.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta1_2_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Comisión bancaria registrada en extracto y no en libros.
                         p.card-text.text-center
                         | Elaborar ajuste contable con soporte.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta1_2_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Transferencia abonada por el banco y no registrada en libros
                         p.card-text.text-center
                         | Registrar el ajuste una vez verificado el soporte.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema1/tarjeta07_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema1/tarjeta1_2_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Diferencia sin soporte claro
                         p.card-text.text-center
                         | Investigar antes de ajustar.

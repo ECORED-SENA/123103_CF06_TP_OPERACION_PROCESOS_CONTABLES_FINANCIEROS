@@ -178,23 +178,23 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta1_1_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Soporte del contrato o documento que origine el interés. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta1_1_2.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Registro periódico en el auxiliar.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta1_1_3.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Asiento contable correspondiente.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta1_1_4.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Reflejo en los estados financieros.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta1_1_5.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Nota que describa la práctica contable aplicada cuando resulte relevante.
           //- Fin Carrusel
@@ -475,19 +475,19 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta2_1_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Identificar la diferencia de $ 720.000. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta2_1_2.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Explicar que se trata de una corrección por cuantía errada. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta2_1_3.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Señalar las cuentas afectadas. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema3/tarjeta2_1_4.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Relacionar el soporte que respalda la modificación.
           //- Fin Carrusel
@@ -569,22 +569,22 @@
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema3/tarjeta3_1_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 La nota crédito. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema3/tarjeta3_1_2.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 El comprobante de ajuste. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema3/tarjeta3_1_3.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 El auxiliar donde se reflejó la modificación. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema3/tarjeta3_1_4.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 El saldo final corregido de la cuenta afectada. 
           //- Fin Tarjetas
     p(data-aos="fade-left") Si alguno de esos eslabones falta, la entidad puede haber modificado el dato, pero no podrá demostrar con suficiencia el origen ni la validez de la corrección (Decreto 2649, 1993).          

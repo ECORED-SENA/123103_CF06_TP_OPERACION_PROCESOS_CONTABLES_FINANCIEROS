@@ -262,27 +262,27 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_1_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Contraste de fuentes
                         p.card-text.text-center
                         | Comparación entre contabilidad, soportes, auxiliares y reportes de terceros.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_1_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Confirmación de saldos o movimientos
                         p.card-text.text-center
                         | Validación directa de valores cuando existen dudas o diferencias.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_1_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Revisión de soportes
                         p.card-text.text-center
                         | Análisis de documentos que respaldan los registros contables.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_1_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Naturaleza de la diferencia
                         p.card-text.text-center
                         | Determinación de si obedece a situación temporal, omisión, clasificación o inconsistencia.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_1_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Decisión técnica
                         p.card-text.text-center
                         | Definición de si procede ajuste, reclasificación, seguimiento o cierre.                        
@@ -493,32 +493,32 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Contraste de fuentes
                         p.card-text.text-center
                         | Desfase entre el registro contable y el reconocimiento por parte del tercero.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Omisiones de registro
                         p.card-text.text-center
                         | Hechos económicos no reconocidos en la contabilidad.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Errores de registro
                         p.card-text.text-center
                         | Fallas en cuantía, fecha o cuenta utilizada.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Problemas de soporte
                         p.card-text.text-center
                         | Falta de evidencia o inconsistencias en los documentos.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Aplicaciones parciales
                         p.card-text.text-center
                         | Pagos o notas aplicados de forma incompleta.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema2/tarjeta03_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema2/tarjeta03_2_6.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Diferencias justificadas
                         p.card-text.text-center
                         | Valores distintos que corresponden a la naturaleza de la operación.

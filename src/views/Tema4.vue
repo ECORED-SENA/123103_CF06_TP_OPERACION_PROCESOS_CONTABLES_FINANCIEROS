@@ -310,22 +310,22 @@
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_1_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Actividades duplicadas. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_1_2.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Validaciones repetidas. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_1_3.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Traslados innecesarios de documentos. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_1_4.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Revisiones que no agregan control real. 
           //- Fin Tarjetas
     p(data-aos="fade-left") Rediseñar supone ordenar las actividades de forma más lógica, precisar entradas y salidas del proceso, identificar proveedores de información y verificar si las salidas son consistentes con el objetivo del procedimiento. Función Pública indica precisamente que, al describir el proceso, deben identificarse las entradas, los proveedores y las salidas, y analizar si estas responden a las necesidades esperadas.
@@ -350,23 +350,23 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_2_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Controles de validación de datos. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_2_2.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Alertas sobre documentos pendientes. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_2_3.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Conciliaciones con apoyo de sistemas. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_2_4.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Bloqueos frente a registros incompletos. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_2_5.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Reportes automáticos para revisar saldos atípicos.
           //- Fin Carrusel
@@ -377,17 +377,17 @@
         .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
+              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_1.svg', style="width: 100px;")            
             p.mb-0 Reduce tareas manuales repetitivas. 
         .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
+              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_2.svg', style="width: 100px;")            
             p.mb-0 Mejora la oportunidad de la revisión.
         .col-md-4.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
             figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")            
+              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_3.svg', style="width: 100px;")            
             p.mb-0 Hace más confiable la evidencia del proceso. 
     //- Fin Tarjetas     
     p(data-aos="fade-left") Sin embargo, automatizar no reemplaza el juicio contable. Un sistema puede advertir una variación atípica o impedir un registro sin campos completos, pero la evaluación técnica sobre la naturaleza de la diferencia, la procedencia del ajuste o la razonabilidad del saldo sigue siendo responsabilidad del proceso contable y de sus controles. La CGN también recuerda que el control interno contable exige verificación permanente de la existencia y efectividad de controles y evaluación periódica del proceso para formular acciones de mejora y verificar su cumplimiento.
@@ -401,17 +401,17 @@
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_4_1.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Marque automáticamente partidas no coincidentes. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_4_2.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Genere alertas sobre comisiones no registradas. 
               .col-md-3.mb-4.mb-md-0
                 .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   figure.mb-4
-                    img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                    img(src='@/assets/curso/tema4/tarjeta4_4_3.svg', style="max-width: 90px").mx-auto.mb-3                  
                   p.mb-0 Conserve un historial de diferencias pendientes. 
           //- Fin Tarjetas
     p(data-aos="fade-left") El control interno se fortalece no por el simple uso del archivo digital, sino porque la herramienta apoya la detección oportuna, la trazabilidad y el seguimiento de las diferencias (Función Pública, 2025).
@@ -525,23 +525,23 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_5_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Sí disminuyeron errores de registro. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_5_2.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Sí se redujeron reprocesos. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_5_3.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Sí mejoró la oportunidad de la contabilización. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_5_4.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Sí las diferencias se explican con mayor rapidez. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta4_5_5.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Sí los saldos muestran mayor consistencia al cierre. 
           //- Fin Carrusel
