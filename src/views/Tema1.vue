@@ -23,18 +23,18 @@
     .row.mt-5
         #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.1 Estructura del proceso de conciliación
-    .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") La estructura del proceso de conciliación contable y bancaria parte de una lógica de contraste entre la información registrada por la organización y la información reportada por la entidad financiera.
-        p(data-aos="fade-left") En Colombia, la regulación contable define que los libros deben permitir asentar las operaciones, establecer mensualmente el resumen por cuenta con sus movimientos débito y crédito, y apoyarse en auxiliares que hagan posible conocer las transacciones individuales y su verificación. En esa misma línea, los procedimientos institucionales de conciliación bancaria señalan que el proceso inicia con la solicitud del extracto y de los auxiliares, y culmina con el formato de conciliación y sus soportes, lo que permite entender que la conciliación no es un acto aislado, sino un procedimiento con inicio, desarrollo, cierre y evidencia documental (Decreto 2649, 1993). A partir de lo anterior, se identifican los elementos del proceso de conciliación descritos:
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img2.png' style="width: 450px").img-fluid
+    .row.mb-5.justify-content-center.align-items-center      
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img.img-fluid(src='@/assets/curso/tema1/img2.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p La estructura del proceso de conciliación contable y bancaria parte de una lógica de contraste entre la información registrada por la organización y la información reportada por la entidad financiera.
+        p.mb-0 En Colombia, la regulación contable define que los libros deben permitir asentar las operaciones, establecer mensualmente el resumen por cuenta con sus movimientos débito y crédito, y apoyarse en auxiliares que hagan posible conocer las transacciones individuales y su verificación. En esa misma línea, los procedimientos institucionales de conciliación bancaria señalan que el proceso inicia con la solicitud del extracto y de los auxiliares, y culmina con el formato de conciliación y sus soportes, lo que permite entender que la conciliación no es un acto aislado, sino un procedimiento con inicio, desarrollo, cierre y evidencia documental (Decreto 2649, 1993). A partir de lo anterior, se identifican los elementos del proceso de conciliación descritos:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
                 .row.justify-content-center.mb-5.align-items-center
@@ -65,7 +65,7 @@
                         img(src='@/assets/curso/tema1/img3.png', style="max-width: 250px", data-aos="zoom-in").m-auto          
             p(data-aos="fade-right") Detectar diferencias con fundamento documental evita que el análisis se reduzca a una simple comparación de cifras. Para ello, resulta necesario partir de la relación entre el libro mayor y los auxiliares, verificar la consistencia de los saldos iniciales y de los movimientos del período, y definir con claridad hasta dónde llega el proceso de conciliación, qué información examina y qué productos debe dejar como evidencia de control.
     //- Título con imagen
-    .bg-full-width.mt-5
+    .bg-full-width
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
@@ -78,16 +78,17 @@
           img.h-100.w-100(src='@/assets/curso/tema1/img4.png', alt='', style="object-fit: cover;")
       .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
         p.mb-0 La relación entre el mayor y el auxiliar es fundamental para comprender cómo se organiza la información contable antes de ser conciliada. El Decreto 2649 de 1993 establece que los libros deben permitir, por una parte, asentar las operaciones y, por otra, establecer mensualmente el resumen de cada cuenta con sus movimientos débito y crédito; además, precisa que deben llevarse los auxiliares necesarios para conocer las transacciones individuales, identificar códigos y permitir el entendimiento completo de la información resumida. De esta manera, el libro mayor cumple una función de síntesis por cuentas, mientras que el auxiliar detalla el origen, la fecha, el tercero, el comprobante y la cuantía específica de cada movimiento (Decreto 2649, 1993).
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 En una conciliación bancaria, esta relación se vuelve especialmente importante porque el saldo reflejado en el mayor debe corresponder al acumulado que proviene de los movimientos registrados en el auxiliar de bancos. El auxiliar permite rastrear cada consignación, cheque, transferencia, nota débito o nota crédito; el mayor resume el comportamiento total de la cuenta.
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema1/img5.png", alt="", style="height:100%; object-fit:cover;").w-100      
-      .col-lg-4(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
+      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema1/img5.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Cuando existe una diferencia entre el saldo en libros y el saldo del extracto, la revisión no se realiza únicamente sobre el total de la cuenta. Se requiere descender al auxiliar para ubicar el movimiento específico que origina la diferencia y validar su soporte. Los procedimientos institucionales de conciliación bancaria refuerzan esta lógica al indicar que la confrontación se realiza entre los movimientos registrados en los auxiliares y los valores contenidos en el extracto bancario.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10        
@@ -101,18 +102,18 @@
               img(src='@/assets/curso/tema1/img6.svg')
     //- Inicio Tarjetas
     .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', style="width: 100px;")
-            h4 Libro mayor
-            p.mb-0 Resume mensualmente el movimiento de cada cuenta y permite identificar el saldo contable total que se confronta con el extracto.
-        .col-md-4
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', style="width: 100px;")
-            h4 Libro auxiliar
-            p.mb-0 Detalla cada transacción y permite ubicar el origen de la diferencia, revisar soportes y justificar partidas conciliatorias.
+      .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='Icono Libro mayor', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Libro mayor
+          p.mb-0 Resume mensualmente el movimiento de cada cuenta y permite identificar el saldo contable total que se confronta con el extracto.      
+      .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='Icono Libro auxiliar', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Libro auxiliar
+          p.mb-0 Detalla cada transacción y permite ubicar el origen de la diferencia, revisar soportes y justificar partidas conciliatorias.
     //- Fin Tarjetas
     //- Título con imagen
     .bg-full-width.mt-5
@@ -130,12 +131,12 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El Decreto 2649 de 1993 dispone que las cuentas, tanto en los libros de resumen como en los auxiliares, deben totalizarse por lo menos al final de cada mes, determinando su saldo, lo que evidencia que la conciliación requiere continuidad entre un período y otro y no puede construirse sobre cifras aisladas o sin arrastre contable (Decreto 2649, 1993).
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") En el caso específico de la conciliación bancaria, los procedimientos institucionales indican que la revisión parte de los saldos existentes en el auxiliar contable y en el extracto bancario, y que luego se confrontan los movimientos registrados durante el mes. Esto significa que el análisis no se limita a comparar dos saldos finales, sino que exige examinar cómo se llegó a ellos.
-        p(data-aos="fade-left") Un saldo inicial correcto puede verse alterado por consignaciones pendientes, transferencias, cheques girados no cobrados, notas débito, notas crédito o registros omitidos. Por esa razón, la revisión de los movimientos del período es indispensable para determinar si la diferencia corresponde a una partida conciliatoria temporal o a un error que exige ajuste contable. 
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img8.png' style="width: 450px").img-fluid
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img.img-fluid(src='@/assets/curso/tema1/img8.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p En el caso específico de la conciliación bancaria, los procedimientos institucionales indican que la revisión parte de los saldos existentes en el auxiliar contable y en el extracto bancario, y que luego se confrontan los movimientos registrados durante el mes. Esto significa que el análisis no se limita a comparar dos saldos finales, sino que exige examinar cómo se llegó a ellos.
+        p.mb-0 Un saldo inicial correcto puede verse alterado por consignaciones pendientes, transferencias, cheques girados no cobrados, notas débito, notas crédito o registros omitidos. Por esa razón, la revisión de los movimientos del período es indispensable para determinar si la diferencia corresponde a una partida conciliatoria temporal o a un error que exige ajuste contable. 
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
@@ -152,46 +153,46 @@
     .row.justify-content-center.mt-5(data-aos="fade-left")
       .col-lg-10
         PasosA.color-acento-contenido(tipo="n")
-          .row
+          .row.align-items-center
             .col-lg
               h3 Saldo inicial del período
               p Corresponde al saldo con el que se inicia el período contable, proveniente del cierre del período anterior.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea1.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea2.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.mt-3
               h3 Registro de débitos y créditos en el auxiliar
               p Se registran cronológicamente todas las transacciones del período (consignaciones, pagos, transferencias, notas débito/crédito, cheques, etc.).
-          .row
+          .row.align-items-center
             .col-lg
               h3 Determinación del saldo final en libros
               p Se totalizan los débitos y créditos del período en el auxiliar para obtener el saldo contable en libros.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea3.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea4.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.mt-3
               h3 Comparación con el saldo del extracto bancario
               p Se confronta el saldo en libros con el saldo reportado por la entidad financiera en el extracto bancario del mismo período.
-          .row
+          .row.align-items-center
             .col-lg
               h3 Revisión de movimientos no coincidentes
               p Se analizan los movimientos que no coinciden entre libros y extracto para identificar su causa.
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea5.png').img125
-          .row
+          .row.align-items-center
             .col-auto
               figure(data-aos="zoom-in")
                 img(src='@/assets/curso/tema1/linea6.png').img125
-            .col-lg.text-start
+            .col-lg.text-start.mt-3
               h3 Identificación de partidas conciliatorias o ajustes
               p Se clasifican y justifican las diferencias como partidas conciliatorias (temporales) o como ajustes contables.
     //- Fin Infografia
@@ -204,16 +205,17 @@
           h3.titulo-con-imagen__texto Alcance del proceso de conciliación
     //- Título con imagen
     p(data-aos="fade-left") El alcance del proceso de conciliación contable y bancaria define qué información se revisa, hasta dónde llega la verificación y cuál es el resultado técnico que debe obtenerse. En el procedimiento PR-ADF-0114, la DIAN establece que la conciliación tiene por objeto determinar si existen diferencias entre los saldos y los movimientos reportados en los extractos bancarios y los libros auxiliares contables, así como realizar los trámites correspondientes para su depuración.
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 El proceso inicia con la solicitud y recepción de los extractos bancarios y finaliza con la presentación, identificación, organización y archivo de las conciliaciones junto con sus soportes. Esto implica que no se limita a comparar cifras, sino que incluye la explicación, documentación y cierre formal de las diferencias encontradas. 
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema1/img10.png",  style="height:100%; object-fit:cover;").w-100      
-      .col-lg-4(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", style="max-width:90px")
+      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema1/img10.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Desde la perspectiva normativa, el Decreto 2649 de 1993 establece que las cuentas deben totalizarse al menos mensualmente, tanto en libros de resumen como en auxiliares, y que los comprobantes deben corresponder con los asientos contables, además de conservarse de forma ordenada. Por su parte, la Ley 87 de 1993 señala que el control interno comprende métodos, procedimientos y mecanismos de verificación orientados a asegurar la confiabilidad de la información.
     p.mt-5(data-aos="fade-left") En consecuencia, el alcance de la conciliación no se limita a la revisión de saldos, sino que incluye la validación de movimientos, soportes, partidas pendientes y evidencias documentales que respalden la razonabilidad del registro contable. Este alcance puede integrarse en los siguientes componentes del proceso:
     //- Slideshow
@@ -291,14 +293,14 @@
           //- Inicio Tarjetas
           .row.justify-content-center
             .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
                 figure.mb-0
                   img(src='@/assets/curso/tema1/tarjeta03_1.png').w-100
                 .p-4
                   h4.card-title.text-center.mb-4 Partidas conciliatorias          
                   p.text-center Diferencias originadas en desfases temporales entre los registros contables y el reconocimiento bancario.
             .col-12.col-md-6.col-xl-4.mb-4.d-flex.flex-column
-              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+              .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
                 figure.mb-0
                   img(src='@/assets/curso/tema1/tarjeta03_2.png').w-100                
                 .p-4
@@ -350,27 +352,30 @@
               img(src='@/assets/curso/tema1/img13.svg')
     //- Inicio Tarjetas
     .row.justify-content-center.mt-5
-      .col-lg-12.col-md-4.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_1.png').w-100
-          .p-4
-            h4.card-title.text-center.mb-4 Saldo en libros
-            p.text-center Valor contable acumulado de la cuenta, determinado a partir de los registros del período (libro mayor y auxiliar contable).
-      .col-lg-12.col-md-4.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+            img(src='@/assets/curso/tema1/tarjeta04_1.png', alt='Saldo en libros').w-100
+          .p-4.d-flex.flex-column.justify-content-between.h-100
+            div
+              h4.card-title.text-center.mb-4 Saldo en libros
+              p.text-center.mb-0 Valor contable acumulado de la cuenta, determinado a partir de los registros del período (libro mayor y auxiliar contable).
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_2.png').w-100                
-          .p-4
-            h4.card-title.text-center.mb-4 Saldo en bancos
-            p.text-center Valor reportado por la entidad financiera para la misma fecha de corte (extracto bancario).
-      .col-lg-12.col-md-4.col-xl-4.mb-4.d-flex.flex-column
-        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden
+            img(src='@/assets/curso/tema1/tarjeta04_2.png', alt='Saldo en bancos').w-100
+          .p-4.d-flex.flex-column.justify-content-between.h-100
+            div
+              h4.card-title.text-center.mb-4 Saldo en bancos
+              p.text-center.mb-0 Valor reportado por la entidad financiera para la misma fecha de corte (extracto bancario).              
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
+        .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_3.png').w-100                
-          .p-4
-            h4.card-title.text-center.mb-4 Diferencia inicial            
-            p.text-center Distancia entre ambos saldos que da origen al análisis de partidas conciliatorias, ajustes o seguimientos.
+            img(src='@/assets/curso/tema1/tarjeta04_3.png', alt='Diferencia inicial').w-100
+          .p-4.d-flex.flex-column.justify-content-between.h-100
+            div
+              h4.card-title.text-center.mb-4 Diferencia inicial
+              p.text-center.mb-0 Distancia entre ambos saldos que da origen al análisis de partidas conciliatorias, ajustes o seguimientos.
     //- Fin Tarjetas
     //- Título con imagen
     .bg-full-width.mt-5
@@ -419,26 +424,26 @@
                 p Permite verificar si la partida ya venía en seguimiento.          
     //- Cierres Pestanas horizontales
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") Este análisis exige revisar la fecha del movimiento, el comprobante de egreso o de consignación, el soporte bancario y la conciliación del período anterior. Si un depósito aparece en libros al cierre del mes, pero solo se refleja en el extracto del mes siguiente, debe mantenerse como partida conciliatoria hasta que se perfeccione el abono bancario.
-        p(data-aos="fade-left") De forma similar, si un cheque ya fue girado y registrado, pero aún no ha sido cobrado por el beneficiario, su efecto permanece en la diferencia conciliatoria hasta el momento del débito efectivo. Este seguimiento evita eliminar indebidamente partidas aún vigentes y sostiene la trazabilidad del proceso. Desde una perspectiva operativa, estas partidas evidencian que el manejo del efectivo requiere disciplina documental.
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img15.png' style="width: 450px").img-fluid
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img.img-fluid(src='@/assets/curso/tema1/img15.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p Este análisis exige revisar la fecha del movimiento, el comprobante de egreso o de consignación, el soporte bancario y la conciliación del período anterior. Si un depósito aparece en libros al cierre del mes, pero solo se refleja en el extracto del mes siguiente, debe mantenerse como partida conciliatoria hasta que se perfeccione el abono bancario.
+        p.mb-0 De forma similar, si un cheque ya fue girado y registrado, pero aún no ha sido cobrado por el beneficiario, su efecto permanece en la diferencia conciliatoria hasta el momento del débito efectivo. Este seguimiento evita eliminar indebidamente partidas aún vigentes y sostiene la trazabilidad del proceso. Desde una perspectiva operativa, estas partidas evidencian que el manejo del efectivo requiere disciplina documental.
     //- Inicio Tarjetas
     .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta05_1.svg', style="width: 100px;")
-            h4 Depósito en tránsito
-            p.mb-0 Comprobante de consignación y registro contable correspondiente.
-        .col-md-4
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta05_2.svg', style="width: 100px;")
-            h4 Cheque pendiente
-            p.mb-0 Comprobante de egreso, auxiliar y relación de pagos emitidos.
+      .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_1.svg', alt='Icono Libro mayor', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Depósito en tránsito
+          p.mb-0 Comprobante de consignación y registro contable correspondiente.
+      .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_2.svg', alt='Icono Libro auxiliar', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Cheque pendiente
+          p.mb-0 Comprobante de egreso, auxiliar y relación de pagos emitidos.
     //- Fin Tarjetas
     p(data-aos="fade-right") Cuando esta trazabilidad no existe, la diferencia deja de ser una simple partida conciliatoria y se convierte en un hecho que requiere revisión más profunda. Por ello, la identificación de depósitos en tránsito y cheques pendientes facilita la conciliación y fortalece el control interno del registro contable.
     .row.mt-5.justify-content-center(data-aos="fade-right")
@@ -459,34 +464,34 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Diferencias, análisis preliminar y ajustes
-    //- Título con imagen
+    //- Título con imagen   
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") Una vez identificadas las diferencias entre el saldo en libros y el saldo en bancos, el análisis preliminar debe orientarse a clasificar cada partida según su naturaleza. El procedimiento PR-ADF-0114 de la DIAN indica que la conciliación busca determinar diferencias entre saldos y movimientos y realizar los trámites correspondientes.
-        p(data-aos="fade-left") A su vez, otros procedimientos financieros de la entidad muestran que, una vez recibido el formato de conciliación, debe verificarse si existen o no partidas conciliatorias y proceder a su identificación, organización y archivo. Esto confirma que el análisis preliminar no es una revisión superficial, sino una etapa de clasificación técnica que antecede a la decisión sobre ajustes o seguimientos. En esta fase, el análisis se orienta a partir de los siguientes criterios:
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
-          img(src='@/assets/curso/tema1/img17.png' style="width: 450px").img-fluid
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img.img-fluid(src='@/assets/curso/tema1/img17.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p Una vez identificadas las diferencias entre el saldo en libros y el saldo en bancos, el análisis preliminar debe orientarse a clasificar cada partida según su naturaleza. El procedimiento PR-ADF-0114 de la DIAN indica que la conciliación busca determinar diferencias entre saldos y movimientos y realizar los trámites correspondientes.
+        p.mb-0 A su vez, otros procedimientos financieros de la entidad muestran que, una vez recibido el formato de conciliación, debe verificarse si existen o no partidas conciliatorias y proceder a su identificación, organización y archivo. Esto confirma que el análisis preliminar no es una revisión superficial, sino una etapa de clasificación técnica que antecede a la decisión sobre ajustes o seguimientos. En esta fase, el análisis se orienta a partir de los siguientes criterios:    
     //- Inicio Tarjetas
-    .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
-            h4 Soporte de la diferencia
-            p.mb-0 Determina si la partida cuenta con evidencia suficiente.
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
-            h4 Naturaleza temporal
-            p.mb-0 Permite establecer si corresponde a un desfase entre contabilidad y banco.
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1.svg', style="width: 100px;")
-            h4 Necesidad de corrección
-            p.mb-0 Define si se requiere ajuste en el registro contable.
+    .row.justify-content-center.mt-5(data-aos="fade-left")      
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_1.svg', alt='Soporte de la diferencia', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Soporte de la diferencia
+          p.mb-0 Determina si la partida cuenta con evidencia suficiente.
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_2.svg', alt='Naturaleza temporal', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Naturaleza temporal
+          p.mb-0 Permite establecer si corresponde a un desfase entre contabilidad y banco.
+      .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_3.svg', alt='Necesidad de corrección', style="width: 100px; height: 100px; object-fit: contain;")
+          h4 Necesidad de corrección
+          p.mb-0 Define si se requiere ajuste en el registro contable.
     //- Fin Tarjetas
     P(data-aos="fade-left") Cuando la partida está soportada y obedece a un desfase entre la contabilidad y el banco, se conserva como conciliatoria. Cuando se identifica un cargo bancario no registrado, un abono no incorporado o una omisión en libros, procede el ajuste contable correspondiente.
     .row.mb-5.justify-content-center.align-items-center
@@ -502,33 +507,33 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta1_2_1.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Consignación registrada en libros y no abonada por el banco
                         p.card-text.text-center
                         | Mantener como partida conciliatoria y verificar en el período siguiente.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta1_2_2.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Cheque girado y no debitado por el banco
                         p.card-text.text-center
                         | Mantener como partida conciliatoria y hacer seguimiento.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta1_2_3.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Comisión bancaria registrada en extracto y no en libros.
                         p.card-text.text-center
                         | Elaborar ajuste contable con soporte.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta1_2_4.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Transferencia abonada por el banco y no registrada en libros
                         p.card-text.text-center
                         | Registrar el ajuste una vez verificado el soporte.
-                      .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                      .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes
                         img(src='@/assets/curso/tema1/tarjeta1_2_5.svg', style="max-width: 90px").mx-auto.mb-3
                         h4.card-title.text-center.mb-3 Diferencia sin soporte claro
                         p.card-text.text-center
@@ -546,16 +551,17 @@
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 El reporte de la conciliación es la evidencia formal del análisis efectuado sobre los saldos y movimientos comparados entre la contabilidad y el extracto bancario. En el procedimiento PR-ADF-0114, la DIAN señala que el proceso de conciliación finaliza con la presentación, identificación, organización y archivo de las conciliaciones y sus correspondientes soportes.
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 Esto implica que el resultado del ejercicio no se limita a una revisión verbal o a anotaciones dispersas, sino que se consolida en un documento estructurado, verificable y útil para el control posterior. Además, la entidad dispone que las conciliaciones bancarias se elaboren con periodicidad mensual dentro de los diez primeros días hábiles del mes siguiente al mes conciliado, lo que refuerza la necesidad de reportes oportunos, completos y comparables entre períodos.
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema1/img20.png", , style="height:100%; object-fit:cover;").w-100      
-      .col-lg-4(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", style="max-width:90px")
+      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema1/img20.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Desde la perspectiva contable, el reporte cumple una función técnica y una función de control. La función técnica consiste en mostrar cómo se explica la diferencia entre el saldo en libros y el saldo en bancos; la función de control consiste en dejar trazabilidad sobre lo revisado, lo pendiente y lo que debe ajustarse o seguirse en el período siguiente.
     p.mt-5(data-aos="fade-right") Esta lógica es coherente con el Decreto 2649 de 1993, que exige que los soportes se conserven de manera que sea posible su verificación, y que los comprobantes de contabilidad guarden correspondencia con los asientos en los libros auxiliares y en los registros cronológicos de las operaciones (Decreto 2649, 1993).          
     //- Título con imagen

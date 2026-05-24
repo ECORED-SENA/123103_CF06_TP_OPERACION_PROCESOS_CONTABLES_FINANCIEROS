@@ -99,26 +99,40 @@ figcaption
 /* Fin Código para los subtítulos que tienen imagenes */
 
 /* Código para los carruseles */
-.carousel-bg .fas
-  &.fa-chevron-left, &.fa-chevron-right
-    display: inline-flex
-    align-items: center
-    justify-content: center
-    width: 40px
-    height: 40px
-    background-color: #FFEB00
-    border-radius: 50%
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
-    color: #000
-    font-size: 16px
-  @media screen and (max-width: $bp-max-md)
-    background-color: transparent !important
-    box-shadow: none !important
-    font-size: 20px !important
+.carousel-bg
+  .fas
+    &.fa-chevron-left, &.fa-chevron-right
+      display: inline-flex !important
+      align-items: center !important
+      justify-content: center !important
+      width: 45px !important
+      height: 45px !important
+      min-width: 45px !important
+      min-height: 45px !important
+      padding: 0 !important
+      margin: 0 !important
+      border-radius: 50% !important
+      background-color: #FFEB00 !important
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1)
+      font-size: 16px      
+      color: #000 !important
+      &::before
+        color: #000 !important      
+      @media screen and (max-width: $bp-max-md)
+        background-color: transparent !important
+        box-shadow: none !important
+        font-size: 20px !important
+        color: #FFEB00 !important 
+        &::before
+          color: #FFEB00 !important
 
 .bordes
   border: 1px solid #CBD5E0 !important
-/*Fin Código para los carruseles */
+/* Fin Código para los carruseles */
+
+
+
+
 
 /*Slideshows*/
 .bg-fondo

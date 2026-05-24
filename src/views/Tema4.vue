@@ -70,27 +70,27 @@
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_1.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Qué documentos ingresan al proceso.
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_2.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Quién los recibe. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_3.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Qué validaciones se realizan. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_4.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Qué sistema se utiliza para registrar. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_5.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Quién revisa los saldos. 
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                        img(src='@/assets/curso/tema3/tarjeta01_1.svg', style="max-width: 90px").mx-auto.mb-3
+                        img(src='@/assets/curso/tema4/tarjeta04_1_6.svg', style="max-width: 90px").mx-auto.mb-3
                         p.card-text.text-center
                         | Qué evidencias quedan de cada etapa. 
           //- Fin Carrusel
