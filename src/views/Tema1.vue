@@ -25,8 +25,8 @@
           h2 1.1 Estructura del proceso de conciliación
     .row.mb-5.justify-content-center.align-items-center      
       .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
-        figure.mb-0.text-center
-          img.img-fluid(src='@/assets/curso/tema1/img2.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+        figure.mb-0.text-center          
+          img(src='@/assets/curso/tema1/img2.png' style="width: 450px").img-fluid
       .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p La estructura del proceso de conciliación contable y bancaria parte de una lógica de contraste entre la información registrada por la organización y la información reportada por la entidad financiera.
         p.mb-0 En Colombia, la regulación contable define que los libros deben permitir asentar las operaciones, establecer mensualmente el resumen por cuenta con sus movimientos débito y crédito, y apoyarse en auxiliares que hagan posible conocer las transacciones individuales y su verificación. En esa misma línea, los procedimientos institucionales de conciliación bancaria señalan que el proceso inicia con la solicitud del extracto y de los auxiliares, y culmina con el formato de conciliación y sus soportes, lo que permite entender que la conciliación no es un acto aislado, sino un procedimiento con inicio, desarrollo, cierre y evidencia documental (Decreto 2649, 1993). A partir de lo anterior, se identifican los elementos del proceso de conciliación descritos:
@@ -132,8 +132,8 @@
         p.mb-0 El Decreto 2649 de 1993 dispone que las cuentas, tanto en los libros de resumen como en los auxiliares, deben totalizarse por lo menos al final de cada mes, determinando su saldo, lo que evidencia que la conciliación requiere continuidad entre un período y otro y no puede construirse sobre cifras aisladas o sin arrastre contable (Decreto 2649, 1993).
     .row.mb-5.justify-content-center.align-items-center
       .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
-        figure.mb-0.text-center
-          img.img-fluid(src='@/assets/curso/tema1/img8.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+        figure.mb-0.text-center          
+          img(src='@/assets/curso/tema1/img8.png' style="width: 450px").img-fluid
       .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p En el caso específico de la conciliación bancaria, los procedimientos institucionales indican que la revisión parte de los saldos existentes en el auxiliar contable y en el extracto bancario, y que luego se confrontan los movimientos registrados durante el mes. Esto significa que el análisis no se limita a comparar dos saldos finales, sino que exige examinar cómo se llegó a ellos.
         p.mb-0 Un saldo inicial correcto puede verse alterado por consignaciones pendientes, transferencias, cheques girados no cobrados, notas débito, notas crédito o registros omitidos. Por esa razón, la revisión de los movimientos del período es indispensable para determinar si la diferencia corresponde a una partida conciliatoria temporal o a un error que exige ajuste contable. 
@@ -278,8 +278,8 @@
     p(data-aos="fade-left") En el proceso de conciliación contable y bancaria, las diferencias constituyen el punto de partida del análisis técnico. La DIAN establece en su procedimiento PR-ADF-0114 que la conciliación bancaria tiene como propósito determinar si existen diferencias entre los saldos y los movimientos reportados en los extractos bancarios y los registros contables, así como adelantar los trámites requeridos para su depuración.
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/img11.png", data-aos="zoom-in" style="max-width: 458px")
+        figure          
+          img(src='@/assets/curso/tema1/img11.png' style="width: 450px").img-fluid
       .col-lg-7                  
         .row.align-items-start.mb-10(data-aos="fade-left")  
           .col-lg-auto
@@ -425,8 +425,8 @@
     //- Cierres Pestanas horizontales
     .row.mb-5.justify-content-center.align-items-center
       .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
-        figure.mb-0.text-center
-          img.img-fluid(src='@/assets/curso/tema1/img15.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+        figure.mb-0.text-center          
+          img(src='@/assets/curso/tema1/img15.png' style="width: 450px").img-fluid
       .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Este análisis exige revisar la fecha del movimiento, el comprobante de egreso o de consignación, el soporte bancario y la conciliación del período anterior. Si un depósito aparece en libros al cierre del mes, pero solo se refleja en el extracto del mes siguiente, debe mantenerse como partida conciliatoria hasta que se perfeccione el abono bancario.
         p.mb-0 De forma similar, si un cheque ya fue girado y registrado, pero aún no ha sido cobrado por el beneficiario, su efecto permanece en la diferencia conciliatoria hasta el momento del débito efectivo. Este seguimiento evita eliminar indebidamente partidas aún vigentes y sostiene la trazabilidad del proceso. Desde una perspectiva operativa, estas partidas evidencian que el manejo del efectivo requiere disciplina documental.
@@ -467,8 +467,8 @@
     //- Título con imagen   
     .row.mb-5.justify-content-center.align-items-center
       .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
-        figure.mb-0.text-center
-          img.img-fluid(src='@/assets/curso/tema1/img17.png', alt='Elementos de conciliación', style="max-width: 100%; width: 380px; height: auto;")
+        figure.mb-0.text-center          
+          img(src='@/assets/curso/tema1/img17.png' style="width: 450px").img-fluid
       .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p Una vez identificadas las diferencias entre el saldo en libros y el saldo en bancos, el análisis preliminar debe orientarse a clasificar cada partida según su naturaleza. El procedimiento PR-ADF-0114 de la DIAN indica que la conciliación busca determinar diferencias entre saldos y movimientos y realizar los trámites correspondientes.
         p.mb-0 A su vez, otros procedimientos financieros de la entidad muestran que, una vez recibido el formato de conciliación, debe verificarse si existen o no partidas conciliatorias y proceder a su identificación, organización y archivo. Esto confirma que el análisis preliminar no es una revisión superficial, sino una etapa de clasificación técnica que antecede a la decisión sobre ajustes o seguimientos. En esta fase, el análisis se orienta a partir de los siguientes criterios:    
@@ -495,13 +495,13 @@
     //- Fin Tarjetas
     P(data-aos="fade-left") Cuando la partida está soportada y obedece a un desfase entre la contabilidad y el banco, se conserva como conciliatoria. Cuando se identifica un cargo bancario no registrado, un abono no incorporado o una omisión en libros, procede el ajuste contable correspondiente.
     .row.mb-5.justify-content-center.align-items-center
-      .col-md-5.col-lg-5.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center          
           img(src='@/assets/curso/tema1/img18.png' style="width: 450px").img-fluid
-      .col-md-7.col-lg-7
-        p(data-aos="fade-left") Cuando la diferencia carece de respaldo o presenta inconsistencias en valores, fechas o terceros, debe adelantarse una verificación adicional antes de cualquier registro definitivo. Este enfoque evita decisiones apresuradas y favorece el tratamiento responsable de la información.
-        p(data-aos="fade-right") El ajuste no constituye una reacción automática frente a cualquier diferencia, sino el resultado de un análisis previo soportado. Solo después de verificar la causa de la diferencia, examinar su evidencia y determinar su efecto sobre el saldo, resulta procedente incorporar el ajuste al registro contable.
-        p(data-aos="fade-left") Esta práctica es coherente con la obligación de registrar los hechos económicos con fundamento en comprobantes debidamente soportados y con la necesidad de conservar una conciliación clara, trazable y revisable (Decreto 2649, 1993).
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p Cuando la diferencia carece de respaldo o presenta inconsistencias en valores, fechas o terceros, debe adelantarse una verificación adicional antes de cualquier registro definitivo. Este enfoque evita decisiones apresuradas y favorece el tratamiento responsable de la información.
+        p El ajuste no constituye una reacción automática frente a cualquier diferencia, sino el resultado de un análisis previo soportado. Solo después de verificar la causa de la diferencia, examinar su evidencia y determinar su efecto sobre el saldo, resulta procedente incorporar el ajuste al registro contable.
+        p.mb-0 Esta práctica es coherente con la obligación de registrar los hechos económicos con fundamento en comprobantes debidamente soportados y con la necesidad de conservar una conciliación clara, trazable y revisable (Decreto 2649, 1993).
     p(data-aos="fade-right") A continuación, se presenta una guía para clasificar diferencias frecuentes y orientar su tratamiento inicial:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
@@ -572,13 +572,13 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Matriz e informe de conciliación
     //- Título con imagen
-    .row.mb-0.justify-content-center.align-items-center
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") La matriz de conciliación es el instrumento de trabajo en el que se ordenan los datos fundamentales del ejercicio: saldo en libros, saldo en bancos, movimientos identificados, partidas conciliatorias, diferencias explicadas y acciones a seguir. El informe, por su parte, es el documento que sintetiza el resultado del análisis y deja constancia del estado final de la conciliación.
-        p(data-aos="fade-right") En el instructivo IN-ADF-0180, la DIAN precisa que los resultados del ejercicio deben consignarse en el formato “FT-ADF-1512 Conciliación Bancaria” y que, para preparar la conciliación, se requiere reunir extracto bancario, reporte de movimientos, conciliación del mes anterior, comprobantes de egreso, copias de consignaciones y chequera. Esto evidencia que la matriz y el informe no son formatos aislados, sino herramientas que organizan información previamente verificada y soportada. 
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center          
           img(src='@/assets/curso/tema1/img21.png' style="width: 450px").img-fluid
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p La matriz de conciliación es el instrumento de trabajo en el que se ordenan los datos fundamentales del ejercicio: saldo en libros, saldo en bancos, movimientos identificados, partidas conciliatorias, diferencias explicadas y acciones a seguir. El informe, por su parte, es el documento que sintetiza el resultado del análisis y deja constancia del estado final de la conciliación.
+        p.mb-0 En el instructivo IN-ADF-0180, la DIAN precisa que los resultados del ejercicio deben consignarse en el formato “FT-ADF-1512 Conciliación Bancaria” y que, para preparar la conciliación, se requiere reunir extracto bancario, reporte de movimientos, conciliación del mes anterior, comprobantes de egreso, copias de consignaciones y chequera. Esto evidencia que la matriz y el informe no son formatos aislados, sino herramientas que organizan información previamente verificada y soportada.
     p(data-aos="fade-left") En términos prácticos, una matriz de conciliación bien elaborada permite ubicar con rapidez qué partidas son temporales, cuáles exigen ajuste y cuáles deben mantenerse en seguimiento. Por ejemplo, si el saldo en libros es de $ 15.400.000 y el saldo en bancos es de $ 15.050.000, la matriz puede mostrar que existen un depósito en tránsito por $ 500.000 y una comisión bancaria no registrada por $ 150.000. Con esa información, el informe final no se limita a indicar la existencia de una diferencia, sino que explica su origen, identifica el tratamiento dado a cada partida y establece el saldo conciliado. A continuación, se presentan los elementos mínimos que componen una matriz o informe de conciliación:
     //- Slideshow
     .bg-full-width.bg-fondo-slider.mb-3
@@ -658,15 +658,15 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Soportes documentales
-    //- Título con imagen    
+    //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") Los soportes documentales son el fundamento probatorio del reporte de conciliación. El Decreto 2649 de 1993 dispone que los soportes deben adherirse a los comprobantes de contabilidad o conservarse archivados en orden cronológico y de forma que sea posible su verificación; además, señala que los comprobantes deben prepararse con fundamento en esos soportes, numerarse consecutivamente e indicar fecha, origen, descripción, cuantía y cuentas afectadas.
-      .col-md-8.col-lg-8
-        p(data-aos="fade-right") A ello se suma el Código de Comercio, que exige la debida correspondencia entre los asientos de los libros y los comprobantes y ordena conservar los libros y papeles contables por al menos diez años. En consecuencia, una conciliación carece de solidez técnica si sus diferencias no pueden rastrearse hasta el soporte que las explica.
-        p.p-4.bg-color-15.rounded-4(data-aos="fade-left") En la práctica, los soportes documentales de una conciliación incluyen, como mínimo, el extracto bancario, el reporte de movimientos del auxiliar, la conciliación del mes anterior y los documentos específicos que explican cada partida, como consignaciones, comprobantes de egreso, notas bancarias o relaciones de cheques. El instructivo IN-ADF-0180 enumera este tipo de documentos para la preparación del ejercicio, lo que evidencia que el soporte es una condición para que el reporte sea verificable y tenga valor como evidencia contable y administrativa. A continuación, se presenta la secuencia documental mínima que respalda el reporte de conciliación:
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center          
           img(src='@/assets/curso/tema1/img22.png' style="width: 450px").img-fluid
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p A ello se suma el Código de Comercio, que exige la debida correspondencia entre los asientos de los libros y los comprobantes y ordena conservar los libros y papeles contables por al menos diez años. En consecuencia, una conciliación carece de solidez técnica si sus diferencias no pueden rastrearse hasta el soporte que las explica.
+        p.p-4.bg-color-15.rounded-4.mb-0 En la práctica, los soportes documentales de una conciliación incluyen, como mínimo, el extracto bancario, el reporte de movimientos del auxiliar, la conciliación del mes anterior y los documentos específicos que explican cada partida, como consignaciones, comprobantes de egreso, notas bancarias o relaciones de cheques. El instructivo IN-ADF-0180 enumera este tipo de documentos para la preparación del ejercicio, lo que evidencia que el soporte es una condición para que el reporte sea verificable y tenga valor como evidencia contable y administrativa. A continuación, se presenta la secuencia documental mínima que respalda el reporte de conciliación:
     //- Carrusel
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3             
@@ -716,23 +716,24 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") El reporte de conciliación no debe cerrarse únicamente con la descripción de las diferencias; también debe incorporar recomendaciones y acciones de seguimiento. El procedimiento PR-ADF-0114 indica que, como política contable, las áreas responsables deben adelantar de forma permanente las acciones necesarias para la depuración de las partidas conciliatorias en el menor tiempo posible.
-      .col-md-8.col-lg-8
+      .col-11.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
         p(data-aos="fade-right") Además, establece que las conciliaciones deben realizarse mensualmente dentro de los diez primeros días hábiles del mes siguiente, lo que evidencia que el seguimiento forma parte del alcance del proceso y que la conciliación constituye una herramienta para orientar decisiones correctivas y preventivas. 
         p(data-aos="fade-left") Las recomendaciones pueden dirigirse a distintos niveles: al registro contable, al control documental y al mejoramiento del procedimiento. Algunas se orientan a registrar oportunamente comisiones, abonos o notas bancarias no incorporadas; otras a fortalecer el archivo de consignaciones, comprobantes y relaciones de pagos; y otras a reducir el tiempo entre la ocurrencia del movimiento y su registro o establecer revisiones previas antes del cierre mensual.
-      .col-md-4.col-lg-4.d-flex.justify-content-center
+      .col-11.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0p(data-aos="fade-right")
           img(src='@/assets/curso/tema1/img23.png' style="width: 450px").img-fluid
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 La Ley 87 de 1993 respalda esta lógica al señalar que el control interno debe proteger los recursos, prevenir riesgos, detectar y corregir desviaciones y disponer de mecanismos de verificación y evaluación (Ley 87, 1993).
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema1/img24.png", , style="height:100%; object-fit:cover;").w-100      
-      .col-lg-4(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", style="max-width:90px")
-          p.mb-0 El seguimiento consiste en verificar si las partidas pendientes del período anterior fueron resueltas, si los ajustes propuestos se registraron efectivamente y si persisten diferencias que ameriten una revisión más profunda.
+      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema1/img24.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+          p.mb-3 El seguimiento consiste en verificar si las partidas pendientes del período anterior fueron resueltas, si los ajustes propuestos se registraron efectivamente y si persisten diferencias que ameriten una revisión más profunda.
     p.mt-3(data-aos="fade-left") Un ejemplo corresponde a un cheque pendiente que permanece sin cobro por varios meses: en este caso, el informe debe recomendar su revisión específica y dejar constancia en el seguimiento del período siguiente. Esta práctica mejora la trazabilidad, evita la acumulación de partidas sin depuración y fortalece la mejora de los procedimientos de registro contable y tributario. . A continuación, se presentan ejemplos de recomendaciones y seguimiento dentro del reporte de conciliación:
     //- Inicio Accordion    
     .row.justify-content-center.mt-5(data-aos="fade-right")
