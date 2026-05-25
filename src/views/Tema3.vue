@@ -10,7 +10,7 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/img1.png", data-aos="zoom-in" style="max-width: 458px")
+          img(src="@/assets/curso/tema3/img1.png", data-aos="zoom-in" style="width: 500px")
       .col-lg-7                  
         .row.align-items-start.mb-10(data-aos="fade-left")  
           .col-lg-auto
@@ -131,7 +131,7 @@
     p(data-aos="fade-left") El Anexo 3 advierte que la ausencia de reconocimiento de una partida que cumple los criterios no se rectifica revelando políticas contables ni mediante notas u otro material explicativo. Primero debe efectuarse el reconocimiento o la corrección correspondiente; luego, si procede, se revela el cambio o el error. Para distinguir cuándo corresponde mantener un criterio, efectuar un cambio justificado o corregir un error, se presentan las siguientes situaciones frecuentes:
     //- Inicio Accordion    
     .row.justify-content-center.mt-5(data-aos="fade-right")
-      .col-lg-9
+      .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Un mismo hecho económico se presenta igual en varios períodos")
               p.mb-4  Mantener el mismo criterio contable. Esto favorece la comparación entre períodos.
@@ -156,14 +156,14 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/img7.png", data-aos="zoom-in" style="max-width: 458px")
+          img(src="@/assets/curso/tema3/img7.png", data-aos="zoom-in" style="width: 500px")
       .col-lg-7                  
         .row.align-items-start.mb-10(data-aos="fade-left")  
           .col-lg-auto
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
           .col-lg
             p(data-aos="fade-left") También exige revelar, cuando sea el caso, la naturaleza y cuantía de asuntos relevantes, y señalar expresamente los cambios contables ocurridos de un período a otro. Esto convierte la revelación en un elemento importante para que el usuario entienda cómo se construyó la información y bajo qué criterios fue preparada (Decreto 2420 Anexo 3, 2015).
-        p.mt-3(data-aos="fade-left") La trazabilidad, por su parte, consiste en que cada decisión contable pueda seguirse desde el hecho económico hasta su registro, su presentación y su revelación. En la práctica, esto significa que una política contable debe poder relacionarse con soportes, comprobantes, auxiliares, asientos, estados financieros y notas.
+        p(data-aos="fade-left") La trazabilidad, por su parte, consiste en que cada decisión contable pueda seguirse desde el hecho económico hasta su registro, su presentación y su revelación. En la práctica, esto significa que una política contable debe poder relacionarse con soportes, comprobantes, auxiliares, asientos, estados financieros y notas.
     p(data-aos="fade-left") Cuando esa cadena no existe, la entidad puede tener una política escrita, pero no necesariamente una política aplicada. Por eso, la trazabilidad fortalece el control del registro, facilita la revisión posterior y da respaldo a las decisiones adoptadas frente a errores, reclasificaciones o cambios de criterio. Este enfoque es coherente con la finalidad de la Ley 1314 de producir información transparente, comparable y confiable (Ley 1314, 2009).
     p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico
     p(data-aos="fade-left") Una entidad decide reconocer los intereses de una cuenta por cobrar conforme se causan y no solo cuando se reciben. Para que esta política sea trazable, debe existir:
@@ -307,7 +307,7 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/img11.png", data-aos="zoom-in" style="max-width: 458px")
+          img(src="@/assets/curso/tema3/img11.png", data-aos="zoom-in" style="width: 500px")
       .col-lg-7                  
         .row.align-items-start.mb-10(data-aos="fade-left")  
           .col-lg-auto
@@ -336,10 +336,10 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") El registro del ajuste requiere soporte completo, justificación y adecuada incorporación al sistema contable. En el procedimiento PR-ADF-0037 de la DIAN se indica que, con la información completa que soporta el registro contable, debe capturarse la información en el formato de nota contable y que el registro debe incluir una justificación que describa o detalle el movimiento capturado. El mismo procedimiento señala que, si se encuentran inconsistencias en la información o en los soportes recibidos, debe solicitarse su corrección o complemento antes de realizar el asiento contable. 
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
-          img(src='@/assets/curso/tema3/img13.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+          img(src='@/assets/curso/tema3/img13.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p Una vez registrado el ajuste, su aprobación depende de que el saldo resultante sea razonable y consistente. El procedimiento PR-ADF-0041 de la DIAN establece que durante el cierre se generan libros borradores para revisar, analizar y evaluar la consistencia de las cifras. Si se determinan inconsistencias, se deben realizar ajustes y reprocesos de información.
         p.mb-0 También señala que las cuentas solo continúan hacia la aprobación del cierre cuando presentan saldos razonables y consistentes, y que en caso contrario debe adelantarse la gestión correspondiente y regresar al procesamiento de la información del período (DIAN, 2022). Para registrar y aprobar un ajuste contable, conviene verificar los siguientes elementos:
     //- Inicio Slideshow    
@@ -348,38 +348,38 @@
         .tarjeta.tarjeta--gris.p-4
           LineaTiempoC.color-acento-contenido(text-small)
             .row.align-items-center(titulo="Soporte del ajuste")
-              .col-md-6.mb-4.mb-md-0
+              .col-md-7.mb-4.mb-md-0
                 h4.ps-5 Soporte del ajuste
                 p.ps-5 Factura, extracto, nota, conciliación, comprobante o documento equivalente que sustente la procedencia de la corrección.
-              .col-md-6
+              .col-md-5
                 figure
                   img(src='@/assets/curso/tema3/slide02_1.png')
             .row.align-items-center(titulo="Justificación del <br>movimiento")
               .col-md-6.mb-4.mb-md-0
                 h4.ps-5 Justificación del movimiento
                 p.ps-5 Explicación breve y técnica de la causa del ajuste, que permita dar claridad y trazabilidad al registro.
-              .col-md-6
+              .col-md-5
                 figure
                   img(src='@/assets/curso/tema3/slide02_2.png')              
             .row.align-items-center(titulo="Asiento de ajuste")
               .col-md-6.mb-4.mb-md-0
                 h4.ps-5 Asiento de ajuste
                 p.ps-5 Registro contable que corrige la omisión o el error identificado e incorpora la corrección en libros.
-              .col-md-6
+              .col-md-5
                 figure
                   img(src='@/assets/curso/tema3/slide02_3.png')              
             .row.align-items-center(titulo="Revisión del saldo <br> resultante")
               .col-md-6.mb-4.mb-md-0
                 h4.ps-5 Revisión del saldo resultante
                 p.ps-5 Verificación en auxiliar, libro mayor o borrador de cierre para confirmar razonabilidad y consistencia.
-              .col-md-6
+              .col-md-5
                 figure
                   img(src='@/assets/curso/tema3/slide02_4.png')              
             .row.align-items-center(titulo="Aprobación")
               .col-md-6.mb-4.mb-md-0
                 h4.ps-5 Aprobación
                 p.ps-5 Validación del responsable del proceso o del cierre para autorizar la incorporación definitiva del ajuste.
-              .col-md-6
+              .col-md-5
                 figure
                   img(src='@/assets/curso/tema3/slide02_5.png')
         //- Fin Slideshow
@@ -438,13 +438,13 @@
           h2 3.3 Instrumentos para la corrección contable
     .row.justify-content-center.align-items-stretch.mt-5
       p(data-aos="fade-right") La corrección contable requiere instrumentos que permitan sustentar, registrar, revisar y seguir cada ajuste de manera ordenada. En el marco colombiano, el Decreto 2649 de 1993 dispone que los hechos económicos deben documentarse mediante soportes debidamente fechados y autorizados, que las partidas asentadas en los libros deben estar respaldadas en comprobantes de contabilidad preparados previamente y que cualquier error u omisión debe salvarse con un nuevo asiento en la fecha en que se advierta.    
-      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 Estas exigencias muestran que la corrección contable no se apoya en decisiones informales, sino en documentos y registros que hagan posible la verificación posterior. (Decreto 2649, 1993)
-      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
           img.rounded-3(src="@/assets/curso/tema3/img16.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
-      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
@@ -459,10 +459,10 @@
           h3.titulo-con-imagen__texto Comprobante de ajuste
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
-          img(src='@/assets/curso/tema3/img17.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+          img(src='@/assets/curso/tema3/img17.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p El comprobante de ajuste es el documento mediante el cual se formaliza la corrección de un error, una omisión, una reclasificación o cualquier otra situación que exija modificar el registro contable. El Decreto 2649 de 1993 establece que las partidas asentadas en los libros deben estar respaldadas por comprobantes de contabilidad elaborados previamente, que dichos comprobantes deben numerarse consecutivamente, indicar fecha, origen, descripción y cuantía de las operaciones, así como las cuentas afectadas con el asiento. Por ello, el comprobante de ajuste no solo respalda la corrección, sino que explica qué se corrige, por qué se corrige y cómo impacta la contabilidad (Decreto 2649, 1993).
         p.mb-0 Este instrumento adquiere mayor relevancia cuando se trata de errores detectados después del registro inicial. El mismo Decreto 2649 dispone que cualquier error u omisión debe salvarse con un nuevo asiento en la fecha en que se advirtiere, lo cual significa que la corrección debe quedar reflejada en un comprobante específico y trazable, sin eliminar la evidencia del registro original. En consecuencia, el comprobante de ajuste se convierte en la pieza documental que articula soporte, decisión técnica y nuevo asiento contable.
     p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico
@@ -506,7 +506,7 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema3/img18.png", data-aos="zoom-in" style="max-width: 458px")
+          img(src="@/assets/curso/tema3/img18.png", data-aos="zoom-in" style="width: 500px")
       .col-lg-7                  
         .row.align-items-start.mb-10(data-aos="fade-left")  
           p Bajo esa lógica, el uso de formatos internos favorece el cumplimiento de los requisitos mínimos de claridad, consistencia y verificabilidad. Esta es una inferencia práctica basada en las exigencias documentales del Decreto 2649 de 1993.
@@ -515,13 +515,13 @@
           
           .col-lg
             p(data-aos="fade-left") En el ámbito institucional, el listado maestro de documentos públicos de la DIAN evidencia que la entidad opera con procedimientos, manuales e instrumentos documentales para distintos tipos de registros contables y cierres, lo que muestra la importancia de contar con soportes estandarizados para cada proceso.
-        p.mt-3(data-aos="fade-left") De forma coherente, el procedimiento de cierre contable de la DIAN exige revisar reportes previos y verificar la razonabilidad de la información antes de aprobar el cierre, lo que refuerza la utilidad de formatos que reúnan datos homogéneos y faciliten la revisión técnica. 
+        p(data-aos="fade-left") De forma coherente, el procedimiento de cierre contable de la DIAN exige revisar reportes previos y verificar la razonabilidad de la información antes de aprobar el cierre, lo que refuerza la utilidad de formatos que reúnan datos homogéneos y faciliten la revisión técnica. 
     p(data-aos="fade-left") Para apoyar la organización de la información y la revisión posterior del ajuste, pueden utilizarse los siguientes instrumentos documentales:
     //- Carrusel
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3             
         .carousel-bg
-          .row.justify-content-center.mb-5.align-items-center
+          .row.justify-content-center.align-items-center
             .col-lg-12.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-xl-4 col-lg-4")
                 .bg-white.tarjeta.h-100.shadow-app.bordes.overflow-hidden
@@ -554,13 +554,13 @@
           h3.titulo-con-imagen__texto Control y trazabilidad documental
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
-          img(src='@/assets/curso/tema3/img19.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+          img(src='@/assets/curso/tema3/img19.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p El control y la trazabilidad documental permiten seguir el recorrido completo de una corrección contable, desde la detección de la diferencia hasta su registro definitivo y su efecto en los saldos. El Decreto 2649 de 1993 dispone que los soportes deben adherirse a los comprobantes o conservarse archivados en orden cronológico y de tal manera que sea posible su verificación, y también exige que exista debida correspondencia entre los comprobantes y los asientos en libros auxiliares y cronológicos.
         p.p-4.bg-color-10.rounded-4.mb-0 Esto significa que la corrección contable no termina con el asiento de ajuste; debe quedar conectada con la evidencia que la originó y con el registro que la materializa.
-      p(data-aos="fade-left") Desde la perspectiva del cierre, la trazabilidad también se relaciona con la razonabilidad y la consistencia de la información final. El procedimiento PR-ADF-0041 de la DIAN señala que la Coordinación de Contabilidad realiza seguimiento a las actividades del cierre para asegurar la disponibilidad, confiabilidad e integridad de los datos procesados, y que antes del cierre deben verificarse saldos atípicos y la consistencia de la información a incorporar. Por ello, el control documental de los ajustes no solo protege la evidencia histórica, sino que permite demostrar que la corrección fue revisada, aprobada y efectivamente incorporada al proceso contable (DIAN, 2022).
+    p.mb-5(data-aos="fade-left") Desde la perspectiva del cierre, la trazabilidad también se relaciona con la razonabilidad y la consistencia de la información final. El procedimiento PR-ADF-0041 de la DIAN señala que la Coordinación de Contabilidad realiza seguimiento a las actividades del cierre para asegurar la disponibilidad, confiabilidad e integridad de los datos procesados, y que antes del cierre deben verificarse saldos atípicos y la consistencia de la información a incorporar. Por ello, el control documental de los ajustes no solo protege la evidencia histórica, sino que permite demostrar que la corrección fue revisada, aprobada y efectivamente incorporada al proceso contable (DIAN, 2022).
     p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico
     p(data-aos="fade-right") Si una nota crédito por devolución en compras fue omitida y luego se registra mediante ajuste, la trazabilidad documental exige poder ubicar:
     .row.bg-color-1(data-aos="fade-left")

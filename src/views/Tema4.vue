@@ -8,7 +8,7 @@
       h1 Mejoramiento de procedimientos contables
     p(data-aos="fade-left") A continuación, se presenta un video sobre el mejoramiento de procedimientos contables, orientado a comprender la importancia de fortalecer los procesos de registro, control y cierre financiero para garantizar información confiable, oportuna y sustentada.
     //- Inicio Video
-    figure.mb-5(data-aos="fade-down")
+    figure(data-aos="fade-down")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/M_NLypFAQGg?si=9FTR6FQU-oIt5nv8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     //- Fin Video
@@ -17,13 +17,13 @@
     .row.mt-5
         #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.1 Diagnóstico del procedimiento contable
-    .row.mb-10      
-      .col-lg-7
-        p.mt-3(data-aos="fade-left") El diagnóstico del procedimiento contable es el punto de partida para comprender cómo se produce, valida y consolida la información dentro de una organización. Su finalidad no es solamente describir actividades, sino establecer si el proceso permite obtener información oportuna, razonable, trazable y útil para la toma de decisiones.
-        p.mt-3(data-aos="fade-left") En el contexto colombiano, esta revisión se relaciona con la Ley 87 de 1993, que señala que el ejercicio del control interno debe ser intrínseco al desarrollo de las funciones de todos los cargos, y con el procedimiento de la Contaduría General de la Nación incorporado por la Resolución 347 de 2025, que define el control interno contable como el proceso que promueve la existencia y efectividad de procedimientos de control y verificación sobre las actividades relacionadas con el proceso contable (Ley 87, 1993). 
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/img1.png", data-aos="zoom-in" style="max-width: 458px")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img1.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p El diagnóstico del procedimiento contable es el punto de partida para comprender cómo se produce, valida y consolida la información dentro de una organización. Su finalidad no es solamente describir actividades, sino establecer si el proceso permite obtener información oportuna, razonable, trazable y útil para la toma de decisiones.
+        p.mb-0 En el contexto colombiano, esta revisión se relaciona con la Ley 87 de 1993, que señala que el ejercicio del control interno debe ser intrínseco al desarrollo de las funciones de todos los cargos, y con el procedimiento de la Contaduría General de la Nación incorporado por la Resolución 347 de 2025, que define el control interno contable como el proceso que promueve la existencia y efectividad de procedimientos de control y verificación sobre las actividades relacionadas con el proceso contable (Ley 87, 1993). 
     .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3.mt-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img2.png')})`}"
@@ -63,10 +63,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -95,17 +95,18 @@
                         | Qué evidencias quedan de cada etapa. 
           //- Fin Carrusel
     p(data-aos="fade-left") Esta forma de análisis es consistente con el control interno contable definido por la CGN, según el cual deben existir procedimientos de control y verificación que garanticen razonablemente que la información financiera cumpla con las características cualitativas del marco normativo aplicable (Contaduría General de la Nación, 2025).
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
-          p.mb-0 Analizar el procedimiento actual también supone revisar si las actividades se encuentran claramente delimitadas y si existe correspondencia entre soportes, comprobantes, auxiliares y libros. El Decreto 2649 de 1993 exige que las partidas asentadas en los libros estén respaldadas por comprobantes de contabilidad y que los soportes puedan verificarse, mientras que la DIAN indica que durante el cierre se generan libros borradores para revisar, analizar y evaluar la consistencia de las cifras.
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema4/img3.png", alt="", style="height:100%; object-fit:cover;").w-100      
-      .col-lg-4(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
-          p.mb-0 En consecuencia, un buen diagnóstico debe examinar no solo la ruta teórica del procedimiento, sino también la forma en que efectivamente se cumplen estas exigencias en la práctica. 
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
+          p.mb-0 Analizar el procedimiento actual también supone revisar si las actividades se encuentran claramente delimitadas y si existe correspondencia entre soportes, comprobantes, auxiliares y libros. El Decreto 2649 de 1993 exige que las partidas asentadas en los libros estén respaldadas por comprobantes de contabilidad y que los soportes puedan verificarse, mientras que la DIAN indica que durante el cierre se generan libros borradores para revisar, analizar y evaluar la consistencia de las cifras.      
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema4/img3.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-end.ps-lg-4 
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+          p.mb-0 En consecuencia, un buen diagnóstico debe examinar no solo la ruta teórica del procedimiento, sino también la forma en que efectivamente se cumplen estas exigencias en la práctica.
     .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3.mt-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img4.png')})`}"
@@ -138,9 +139,8 @@
         .row.g-0.rounded-4.overflow-hidden(style="background-color: #E9F8F6;")
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
-              p.mb-3 Supóngase que una entidad recibe facturas de proveedores por correo electrónico, las imprime, las remite físicamente para aprobación, luego las entrega al área contable para digitación y finalmente revisa el auxiliar al cierre del mes.
-              
-          .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
+              p.mb-3 Supóngase que una entidad recibe facturas de proveedores por correo electrónico, las imprime, las remite físicamente para aprobación, luego las entrega al área contable para digitación y finalmente revisa el auxiliar al cierre del mes.              
+          .col-md-4.bg-color-20.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img5.svg')
     p.mb-3.mt-5 Si en ese recorrido no existe un control de recepción, ni una lista de documentos pendientes, ni una validación previa de fechas y valores, el procedimiento ya presenta una debilidad desde su diseño. En ese caso, el diagnóstico no solo diría que hay omisiones en el registro, sino que mostraría que el procedimiento actual no garantiza trazabilidad suficiente desde la entrada del soporte hasta su contabilización. Para revisar el procedimiento vigente de forma ordenada, puede emplearse una matriz de análisis como la siguiente:
@@ -189,20 +189,20 @@
                 p Revisar si se aprueba, comunica y conserva la evidencia; verificar aprobaciones, informes y archivo documental para asegurar trazabilidad y control posterior.          
     //- Cierres Pestanas horizontales
     //- Título con imagen
-    .bg-full-width.mt-5
+    .bg-full-width
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Cuellos de botella, procesos manuales y errores recurrentes
     //- Título con imagen
-    .row.mb-10
-      .col-lg-7
-        p.mt-3(data-aos="fade-left") Una parte importante del diagnóstico consiste en reconocer cuellos de botella, actividades excesivamente manuales y errores que se repiten en el tiempo. Los cuellos de botella aparecen cuando una etapa concentra demoras, aprobaciones acumuladas, reprocesos o dependencia excesiva de una sola persona o de un solo documento.
-        p.mt-3(data-aos="fade-left") Los procesos manuales, por su parte, incrementan el riesgo de pérdida de información, doble digitación, registros tardíos y fallas de transcripción. La DIAN advierte que el procesamiento oportuno de la información y la disponibilidad, confiabilidad e integridad de los datos son necesarios para realizar los cierres mensuales y de vigencia, lo que evidencia la importancia de detectar estas debilidades operativas (DIAN, 2022).  
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/img6.png", data-aos="zoom-in" style="max-width: 458px")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img6.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p Una parte importante del diagnóstico consiste en reconocer cuellos de botella, actividades excesivamente manuales y errores que se repiten en el tiempo. Los cuellos de botella aparecen cuando una etapa concentra demoras, aprobaciones acumuladas, reprocesos o dependencia excesiva de una sola persona o de un solo documento.
+        p.mb-0 Los procesos manuales, por su parte, incrementan el riesgo de pérdida de información, doble digitación, registros tardíos y fallas de transcripción. La DIAN advierte que el procesamiento oportuno de la información y la disponibilidad, confiabilidad e integridad de los datos son necesarios para realizar los cierres mensuales y de vigencia, lo que evidencia la importancia de detectar estas debilidades operativas (DIAN, 2022).
     .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3.mt-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img7.png')})`}"
@@ -235,7 +235,7 @@
             div
               p.mb-3 En una empresa pequeña, todas las facturas se reciben en físico, se registran manualmente en una hoja electrónica y, al final de la semana, se vuelven a digitar en el software contable. Si el mismo documento pasa por dos digitaciones, el procedimiento incrementa el riesgo de error y retrasa el cierre.
               p.mb-3 Si además se observa que cada mes aparecen diferencias por valores mal transcritos o por facturas contabilizadas fuera del período, el diagnóstico debe concluir que existe un cuello de botella en la captura inicial y una dependencia excesiva de tareas manuales que deben revisarse (DIAN, 2022).
-          .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
+          .col-md-4.bg-color-21.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img8.svg')
     //- Título con imagen
@@ -247,12 +247,11 @@
           h3.titulo-con-imagen__texto Priorización y factibilidad de mejora
     //- Título con imagen
     p(data-aos="fade-left") Una vez identificadas las debilidades del procedimiento, el siguiente paso es priorizar cuáles deben atenderse primero y valorar si su mejora es factible técnica, operativa y documentalmente. No todas las deficiencias tienen el mismo impacto. Algunas afectan directamente la confiabilidad del registro, otras retrasan el cierre y otras generan reprocesos menores. La priorización debe considerar, por lo menos:
-    .bloque-texto-g.bloque-texto-g--inverso.bg-color-4.p-3.p-sm-4.p-md-5.mb-3.mt-5
+    .bloque-texto-g.bloque-texto-g--inverso.bg-color-4.p-3.p-sm-4.p-md-5.mb-3.mt-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img9.png')})`}"
       )
-      .bloque-texto-g__texto.p-4
-        p.mb-5 Desde un enfoque analítico, conviene observar:
+      .bloque-texto-g__texto.p-4        
         ul.lista-ul
           li.d-flex.mt-3
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
@@ -267,23 +266,24 @@
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
             p.mb-0 La posibilidad real de corregirla con los recursos y condiciones disponibles. 
     p(data-aos="fade-left") Esta lógica es consistente con la estructura de control mencionada por la CGN, que incluye evaluación del riesgo, actividades de control, información y comunicación, y actividades de monitoreo (Contaduría General de la Nación, 2025).
-    .row.mb-10
-      .col-lg-7
-        p.mt-3(data-aos="fade-left") La factibilidad de mejora implica analizar si la solución puede aplicarse con los medios existentes o si requiere rediseño más amplio, nuevos formatos, ajustes de responsabilidades, capacitación o apoyo tecnológico.
-        p.mt-3(data-aos="fade-left") La CGN indica que los jefes de control interno y quienes ejecutan actividades del proceso contable deben evaluar permanentemente la implementación y efectividad del control interno contable para optimizar la calidad de la información financiera, y agrega que pueden utilizar instrumentos complementarios. Esto permite afirmar que una mejora es factible cuando puede implementarse, evaluarse y seguirse con evidencia, y no solo cuando parece deseable en teoría.
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/img10.png", data-aos="zoom-in" style="max-width: 458px")
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.h-100.d-flex.align-items-center.rounded-4
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img10.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p La factibilidad de mejora implica analizar si la solución puede aplicarse con los medios existentes o si requiere rediseño más amplio, nuevos formatos, ajustes de responsabilidades, capacitación o apoyo tecnológico.
+        p.mb-0 La CGN indica que los jefes de control interno y quienes ejecutan actividades del proceso contable deben evaluar permanentemente la implementación y efectividad del control interno contable para optimizar la calidad de la información financiera, y agrega que pueden utilizar instrumentos complementarios. Esto permite afirmar que una mejora es factible cuando puede implementarse, evaluarse y seguirse con evidencia, y no solo cuando parece deseable en teoría.
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 En la práctica, priorizar y valorar la factibilidad evita que el mejoramiento se convierta en un listado excesivo de recomendaciones sin ejecución. Si una organización detecta diez debilidades, pero tres de ellas explican la mayoría de las diferencias y reprocesos, conviene intervenir primero esas tres.
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema4/img11.png", alt="", style="height:100%; object-fit:cover;").w-100      
-      .col-lg-5(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema4/img11.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")      
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-end.ps-lg-4           
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Del mismo modo, si una mejora requiere inversión tecnológica que no es posible en el corto plazo, puede plantearse una solución transitoria, como fortalecer formatos, revisar responsables o establecer controles manuales de verificación mientras se implementa una alternativa más robusta. Esta manera de proceder es coherente con el propósito de formular acciones de mejora pertinentes y verificar su cumplimiento (Contaduría General de la Nación, 2025).
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
@@ -293,7 +293,7 @@
             div
               p.mb-3 Si el diagnóstico muestra que los principales problemas del área contable son: registros tardíos de facturas, comisiones bancarias no contabilizadas y archivos de soporte desorganizados, la priorización podría iniciar por los registros tardíos, porque afectan el período, el cierre y la razonabilidad de varias cuentas a la vez.
               p.mb-3 La segunda prioridad podría ser la organización documental, porque mejora la verificación y el seguimiento. La automatización total del archivo podría considerarse una mejora deseable, pero de menor factibilidad inmediata si la entidad aún no cuenta con herramientas suficientes para implementarla.
-          .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
+          .col-md-4.bg-color-22.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img12.svg')
     Separador
@@ -306,27 +306,27 @@
       .col-12
         .p-5
           //- Inicio Tarjetas
-          .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_1_1.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Actividades duplicadas. 
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_1_2.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Validaciones repetidas. 
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_1_3.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Traslados innecesarios de documentos. 
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_1_4.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Revisiones que no agregan control real. 
+          .row.justify-content-center(data-aos="fade-left")           
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_1_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Actividades duplicadas. 
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_1_2.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Validaciones repetidas. 
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-md-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_1_3.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Traslados innecesarios de documentos. 
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_1_4.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Revisiones que no agregan control real. 
           //- Fin Tarjetas
     p(data-aos="fade-left") Rediseñar supone ordenar las actividades de forma más lógica, precisar entradas y salidas del proceso, identificar proveedores de información y verificar si las salidas son consistentes con el objetivo del procedimiento. Función Pública indica precisamente que, al describir el proceso, deben identificarse las entradas, los proveedores y las salidas, y analizar si estas responden a las necesidades esperadas.
     //- Título con imagen
@@ -343,10 +343,10 @@
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -373,46 +373,46 @@
     p(data-aos="fade-left") La DIAN, en su procedimiento de cierre contable, establece que deben verificarse saldos atípicos o fuera de rangos normales, que se generen libros borradores para revisar la consistencia de las cifras y que, si se determinan inconsistencias, se realicen ajustes, procesamiento o reproceso de información.
     p(data-aos="fade-left") Además, el mismo procedimiento destaca la necesidad de asegurar la disponibilidad, confiabilidad e integridad de los datos procesados y aplicar mecanismos de control que mitiguen riesgos de acceso, procesamiento y almacenamiento de la información digital (DIAN, 2022).  Esto permite afirmar que la automatización es útil cuando:
     //- Inicio Tarjetas
-    .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_1.svg', style="width: 100px;")            
-            p.mb-0 Reduce tareas manuales repetitivas. 
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_2.svg', style="width: 100px;")            
-            p.mb-0 Mejora la oportunidad de la revisión.
-        .col-md-4.mb-4.mb-md-0
-          .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10
-            figure.mb-4
-              img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_3.svg', style="width: 100px;")            
-            p.mb-0 Hace más confiable la evidencia del proceso. 
-    //- Fin Tarjetas     
-    p(data-aos="fade-left") Sin embargo, automatizar no reemplaza el juicio contable. Un sistema puede advertir una variación atípica o impedir un registro sin campos completos, pero la evaluación técnica sobre la naturaleza de la diferencia, la procedencia del ajuste o la razonabilidad del saldo sigue siendo responsabilidad del proceso contable y de sus controles. La CGN también recuerda que el control interno contable exige verificación permanente de la existencia y efectividad de controles y evaluación periódica del proceso para formular acciones de mejora y verificar su cumplimiento.
+    .row.justify-content-center.mt-5(data-aos="fade-left")      
+      .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_1.svg', style="width: 100px;")          
+          p.mb-0 Reduce tareas manuales repetitivas. 
+      .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_2.svg', style="width: 100px;")          
+          p.mb-0 Mejora la oportunidad de la revisión.
+      .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
+        .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
+          figure.mb-4
+            img.mx-auto(src='@/assets/curso/tema4/tarjeta4_3_3.svg', style="width: 100px;")          
+          p.mb-0 Hace más confiable la evidencia del proceso. 
+    //- Fin Tarjetas
+    p.mb-5(data-aos="fade-left") Sin embargo, automatizar no reemplaza el juicio contable. Un sistema puede advertir una variación atípica o impedir un registro sin campos completos, pero la evaluación técnica sobre la naturaleza de la diferencia, la procedencia del ajuste o la razonabilidad del saldo sigue siendo responsabilidad del proceso contable y de sus controles. La CGN también recuerda que el control interno contable exige verificación permanente de la existencia y efectividad de controles y evaluación periódica del proceso para formular acciones de mejora y verificar su cumplimiento.
     p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico
     p(data-aos="fade-left") Si la entidad recibe extractos bancarios y los compara manualmente con los auxiliares, el procedimiento depende de una revisión intensiva en tiempo y susceptible a omisiones. Un fortalecimiento razonable podría consistir en usar una plantilla o un sistema que:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
         .p-5
           //- Inicio Tarjetas
-          .row.justify-content-center.mb-5.mt-5(data-aos="fade-left")
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_4_1.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Marque automáticamente partidas no coincidentes. 
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_4_2.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Genere alertas sobre comisiones no registradas. 
-              .col-md-3.mb-4.mb-md-0
-                .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  figure.mb-4
-                    img(src='@/assets/curso/tema4/tarjeta4_4_3.svg', style="max-width: 90px").mx-auto.mb-3                  
-                  p.mb-0 Conserve un historial de diferencias pendientes. 
+          .row.justify-content-center(data-aos="fade-left")           
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_4_1.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Marque automáticamente partidas no coincidentes. 
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-lg-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_4_2.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Genere alertas sobre comisiones no registradas. 
+            .col-11.col-sm-9.col-md-6.col-lg-3.mb-4.mb-md-0
+              .bg-white.tarjeta.p-4.h-100.shadow.text-center.bordes.d-flex.flex-column.align-items-center
+                figure.mb-4
+                  img(src='@/assets/curso/tema4/tarjeta4_4_3.svg', style="max-width: 90px").mx-auto.mb-3                  
+                p.mb-0 Conserve un historial de diferencias pendientes. 
           //- Fin Tarjetas
     p(data-aos="fade-left") El control interno se fortalece no por el simple uso del archivo digital, sino porque la herramienta apoya la detección oportuna, la trazabilidad y el seguimiento de las diferencias (Función Pública, 2025).
     //- Título con imagen
@@ -423,13 +423,13 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Implementación de cambios
     //- Título con imagen
-    .row.mb-10
-      .col-lg-7
-        p.mt-3(data-aos="fade-left") La implementación de cambios es la fase en la que el rediseño deja de ser una propuesta y se convierte en práctica institucional. La CGN establece que uno de los objetivos específicos del control interno contable es evaluar periódicamente la ejecución del proceso contable para formular acciones de mejora pertinentes y verificar su cumplimiento.
-        p.mt-3(data-aos="fade-left") Además, señala que los jefes de control interno evaluarán permanentemente el grado de implementación y efectividad del control interno contable, y que pueden diseñarse y utilizarse instrumentos complementarios de implementación, evaluación y seguimiento (Contaduría General de la Nación, 2025).
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema4/img13.png", data-aos="zoom-in" style="max-width: 458px")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img13.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p La implementación de cambios es la fase en la que el rediseño deja de ser una propuesta y se convierte en práctica institucional. La CGN establece que uno de los objetivos específicos del control interno contable es evaluar periódicamente la ejecución del proceso contable para formular acciones de mejora pertinentes y verificar su cumplimiento.
+        p.mb-0 Además, señala que los jefes de control interno evaluarán permanentemente el grado de implementación y efectividad del control interno contable, y que pueden diseñarse y utilizarse instrumentos complementarios de implementación, evaluación y seguimiento (Contaduría General de la Nación, 2025).
     .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3.mt-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema4/img14.png')})`}"
@@ -452,16 +452,17 @@
           li.d-flex
             i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
             p.mb-0 Verificar si produjo el efecto esperado.
-    .row.justify-content-center.align-items-stretch.mt-5      
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
-        .bg-color-8.p-4.h-100.d-flex.align-items-center.rounded-4
-          p.mb-0 En la gestión por procesos de Función Pública, la descripción del proceso debe relacionarse con las expectativas del usuario y con el objetivo del proceso. Por ello, los cambios no deben introducirse de forma aislada, sino articulados con el propósito del procedimiento y con las salidas que se esperan de él.
-      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
-        figure.mb-0.h-100
-          img(src="@/assets/curso/tema4/img15.png", alt="", style="height:100%; object-fit:cover;").w-100      
-      .col-lg-5(data-aos="fade-left")      
-        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
-          img.mb-3(src="@/assets/curso/fondos/icono.svg", alt="Icono comunicación" style="max-width:90px")
+    .row.justify-content-center.align-items-stretch.mt-5
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
+          p.mb-0 En la gestión por procesos de Función Pública, la descripción del proceso debe relacionarse con las expectativas del usuario y con el objetivo del proceso. Por ello, los cambios no deben introducirse de forma aislada, sino articulados con el propósito del procedimiento y con las salidas que se esperan de él.      
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        .h-100.d-flex
+          img.rounded-3(src="@/assets/curso/tema4/img15.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")         
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-end.ps-lg-4 
+          .mb-3.d-flex.justify-content-start
+            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En términos contables, la implementación también debe ser gradual y verificable. Si el diagnóstico encontró retrasos en el registro, el cambio puede consistir en redefinir tiempos y puntos de validación; si halló errores repetitivos de clasificación, puede requerir una plantilla de apoyo o una revisión previa; y si el problema está en la trazabilidad, puede ser necesario un nuevo formato de seguimiento.
     p.mt-5(data-aos="fade-left") La DIAN muestra, a través de su procedimiento de cierre, que la revisión de cifras, la generación de libros borradores, la realización de ajustes y el reproceso de información forman parte de una secuencia institucional de mejora sobre la información antes del cierre definitivo (DIAN, 2022).
     .row.mt-5.justify-content-center(data-aos="fade-right")
@@ -482,7 +483,7 @@
                   i.fas.fa-check-circle.color-acento-contenido.me-3(style="color:#fd9826")
                   p.mb-0 Generar un reporte semanal de pendientes. 
               p.mb-3 Para que la mejora sea real, no basta con anunciarla: debe asignarse un responsable, usarse el formato definido y revisarse al cabo de uno o dos cierres si disminuyeron los registros tardíos. Esa lógica responde al enfoque de retroalimentación y mejoramiento continuos señalado por la CGN.
-          .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
+          .col-md-4.bg-color-23.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img16.svg')
     Separador
@@ -490,14 +491,14 @@
     .row.mt-5
         #t_4_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 4.3 Evaluación, seguimiento y sostenibilidad de la mejora del procedimiento    
-    .row.mb-5.justify-content-center.align-items-center.mt-5
-      p(data-aos="fade-left") La mejora del procedimiento contable no termina cuando se rediseña una actividad o se implementa un cambio puntual. Su verdadera utilidad aparece cuando puede evaluarse, seguirse y mantenerse en el tiempo, de manera que el procedimiento no vuelva a caer en las mismas fallas que dieron origen al diagnóstico inicial.
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") En este sentido, este tema permite comprender que mejorar un procedimiento no es solo proponer ajustes, sino verificar si esos ajustes realmente fortalecen la oportunidad, la consistencia, la trazabilidad y la confiabilidad de la información contable. Esa visión se articula con la gestión por procesos promovida por Función Pública, que vincula la planeación, ejecución, seguimiento, evaluación y control de las actividades institucionales, y con el control interno contable, cuyo objetivo general es promover información financiera con características cualitativas adecuadas.
-        p(data-aos="fade-left") Este tema resulta útil porque enseña a revisar si las mejoras adoptadas tienen correspondencia con la normativa, si producen resultados verificables y si pueden sostenerse más allá de una intervención inicial. En otras palabras, ayuda a pasar de la corrección inmediata al fortalecimiento permanente del procedimiento.
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
-          img(src='@/assets/curso/tema4/img17.png' style="width: 450px").img-fluid
+    .row.mb-2.justify-content-center.align-items-center
+      p(data-aos="fade-left") La mejora del procedimiento contable no termina cuando se rediseña una actividad o se implementa un cambio puntual. Su verdadera utilidad aparece cuando puede evaluarse,   seguirse y mantenerse en el tiempo, de manera que el procedimiento no vuelva a caer en las mismas fallas que dieron origen al diagnóstico inicial.
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
+          img(src='@/assets/curso/tema4/img17.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
+        p En este sentido, este tema permite comprender que mejorar un procedimiento no es solo proponer ajustes, sino verificar si esos ajustes realmente fortalecen la oportunidad, la consistencia, la trazabilidad y la confiabilidad de la información contable. Esa visión se articula con la gestión por procesos promovida por Función Pública, que vincula la planeación, ejecución, seguimiento, evaluación y control de las actividades institucionales, y con el control interno contable, cuyo objetivo general es promover información financiera con características cualitativas adecuadas.
+        p.mb-0 Este tema resulta útil porque enseña a revisar si las mejoras adoptadas tienen correspondencia con la normativa, si producen resultados verificables y si pueden sostenerse más allá de una intervención inicial. En otras palabras, ayuda a pasar de la corrección inmediata al fortalecimiento permanente del procedimiento.
     p(data-aos="fade-left") Esto es especialmente importante en contabilidad, porque un cambio que no se evalúa puede convertirse en una práctica sin control, y una mejora que no se sigue puede perderse con facilidad frente a nuevas cargas de trabajo, rotación de personal o ausencia de evidencia documental. Por ello, este tema aporta elementos para verificar la efectividad de las acciones implementadas, valorar su permanencia y consolidar procesos contables más estables, controlados y útiles para la toma de decisiones (Ley 87, 1993).
     //- Título con imagen
     .bg-full-width.mt-5
@@ -507,21 +508,21 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Alineación normativa, evaluación de resultados y sostenibilidad del procedimiento mejorado
     //- Título con imagen
-    .row.mb-5.justify-content-center.align-items-center.mt-5      
-      .col-md-8.col-lg-8
-        p(data-aos="fade-left") La alineación normativa del procedimiento mejorado implica revisar si los cambios introducidos conservan coherencia con las exigencias sobre control, documentación, verificación, soportes, razonabilidad de saldos y cierre contable. La Ley 87 de 1993 dispone que el control interno debe integrarse al desarrollo de las funciones y orientarse a proteger los recursos, garantizar la eficacia de las operaciones y asegurar la confiabilidad de la información.
-        p(data-aos="fade-left") A su vez, el procedimiento para la evaluación del control interno contable incorporado por la Resolución 347 de 2025 señala, entre sus objetivos, verificar la efectividad de las políticas para el desarrollo del proceso contable, comprobar la existencia de indicadores para evaluar permanentemente la gestión y los resultados, y formular acciones de mejora verificando su cumplimiento. Esto permite entender que una mejora solo tiene sentido si fortalece el procedimiento sin apartarlo de sus obligaciones técnicas y normativas (Ley 87, 1993). La evaluación de resultados permite establecer si el cambio produjo efectos reales sobre el procedimiento. En materia contable, esto significa revisar:
-      .col-md-4.col-lg-4.d-flex.justify-content-center
-        figure.mb-0p(data-aos="fade-right")
+    .row.mb-5.justify-content-center.align-items-center
+      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+        figure.mb-0.text-center
           img(src='@/assets/curso/tema4/img18.png' style="width: 450px").img-fluid
+      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+        p La alineación normativa del procedimiento mejorado implica revisar si los cambios introducidos conservan coherencia con las exigencias sobre control, documentación, verificación, soportes, razonabilidad de saldos y cierre contable. La Ley 87 de 1993 dispone que el control interno debe integrarse al desarrollo de las funciones y orientarse a proteger los recursos, garantizar la eficacia de las operaciones y asegurar la confiabilidad de la información.
+        p.mb-0 A su vez, el procedimiento para la evaluación del control interno contable incorporado por la Resolución 347 de 2025 señala, entre sus objetivos, verificar la efectividad de las políticas para el desarrollo del proceso contable, comprobar la existencia de indicadores para evaluar permanentemente la gestión y los resultados, y formular acciones de mejora verificando su cumplimiento. Esto permite entender que una mejora solo tiene sentido si fortalece el procedimiento sin apartarlo de sus obligaciones técnicas y normativas (Ley 87, 1993). La evaluación de resultados permite establecer si el cambio produjo efectos reales sobre el procedimiento. En materia contable, esto significa revisar:
     .row.bg-color-1(data-aos="fade-left")
       .col-12
         .p-5
           //- Carrusel
-          .bg-full-width.mt-5
+          .bg-full-width
             .px-4.px-md-5.pb-md-3             
               .carousel-bg
-                .row.justify-content-center.mb-5.align-items-center
+                .row.justify-content-center.align-items-center
                   .col-lg-12.mb-3.mb-lg-0.order-lg-2
                     SlyderF(columnas="col-xl-4 col-lg-4")
                       .bg-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
@@ -575,7 +576,7 @@
           .col-md-8.p-4.p-lg-5.d-flex.align-items-center
             div
               p.mb-3 Una entidad detecta que una de sus principales debilidades es la llegada tardía de soportes al área contable, situación que genera registros extemporáneos y ajustes al cierre. Como mejora, establece una fecha límite de entrega, una lista de chequeo de recepción y un reporte semanal de pendientes.
-          .col-md-4.bg-color-11.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
+          .col-md-4.bg-color-24.d-flex.align-items-center.justify-content-center(style="background-color: #5CABB0;")
             figure.mb-0
               img(src='@/assets/curso/tema4/img20.svg')
     p.mt-5(data-aos="fade-left") La alineación normativa se verifica al comprobar que el nuevo procedimiento fortalece la trazabilidad y el control documental; en la evaluación de resultados se observa si en los siguientes cierres disminuyen los registros tardíos y los reprocesos; y la sostenibilidad se confirma cuando el control se mantiene durante varios períodos, se conserva la evidencia de su aplicación y el procedimiento continúa funcionando aun cuando cambien los responsables del proceso. Para revisar de forma integrada estos componentes, se presenta la siguiente síntesis:

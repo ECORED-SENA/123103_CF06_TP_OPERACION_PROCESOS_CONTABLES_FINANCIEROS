@@ -246,10 +246,10 @@
         h2 2.2 Verificación y análisis de diferencias
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") La verificación y el análisis de diferencias constituyen una etapa necesaria para determinar si la información registrada en la contabilidad es consistente con los   soportes, los auxiliares, los reportes de terceros y los documentos de cierre.
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img9.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p En la DIAN, el procedimiento de cierre contable exige analizar que el saldo reflejado en cada cuenta corresponda a su naturaleza y que, para aprobar una cuenta, los saldos sean razonables y consistentes. De forma semejante, varios procedimientos contables de la entidad indican que, cuando las diferencias se encuentran justificadas, puede continuarse con la aprobación y el cierre.
         p.mb-0 Esto implica que la diferencia no se estudia únicamente para detectar un error, sino para verificar su razonabilidad, su explicación y su efecto sobre la cuenta (DIAN, 2022).  Desde la perspectiva del control del registro, la verificación de diferencias implica los siguientes aspectos:
     .row.bg-color-1(data-aos="fade-left")
@@ -299,10 +299,10 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") La verificación y el análisis de diferencias constituyen una etapa necesaria para determinar si la información registrada en la contabilidad es consistente con los soportes, los auxiliares, los reportes de terceros y los documentos de cierre.
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img10.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p En la DIAN, el procedimiento de cierre contable exige analizar que el saldo reflejado en cada cuenta corresponda a su naturaleza y que, para aprobar una cuenta, los saldos sean razonables y consistentes; de forma semejante, varios procedimientos contables de la entidad indican que, cuando las diferencias se encuentran justificadas, puede continuarse con la aprobación y el cierre.
         p.mb-0 Esto muestra que la diferencia no se estudia solo para detectar un error, sino para verificar su razonabilidad, su explicación y su efecto sobre la cuenta (DIAN, 2022).
     .row.justify-content-center.align-items-stretch.mt-5
@@ -327,14 +327,14 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") La confirmación con terceros es una técnica útil para verificar diferencias cuando el registro interno no basta por sí solo para explicar el saldo o el movimiento observado.
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img12.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p En materiales oficiales alojados por Función Pública sobre NIA 505, se describe la confirmación externa como evidencia obtenida directamente de un tercero en forma escrita, electrónica u otro medio, y el Anexo 4 del Decreto 2420 de 2015 remite expresamente a la NIA 505 “Confirmaciones externas”. En términos prácticos, esto respalda el uso de solicitudes de confirmación para contrastar saldos con clientes, proveedores o bancos cuando se requiere corroborar información registrada o aclarar diferencias detectadas en el proceso contable.
         p.mb-0 Aplicada al control del registro, la confirmación con clientes puede utilizarse para verificar cuentas por cobrar, anticipos o abonos pendientes; la confirmación con proveedores puede servir para revisar cuentas por pagar, notas crédito, pagos aplicados o diferencias entre factura y registro; y la confirmación con bancos permite corroborar saldos, cargos, abonos, cheques pendientes u otros movimientos reflejados en el extracto.
     //- Inicio Tarjetas
-    .row.justify-content-center.mt-5.mb-5(data-aos="fade-left")      
+    .row.justify-content-center.mt-5.mb-2(data-aos="fade-left")      
       .col-12.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
             figure.mb-4
@@ -355,10 +355,11 @@
             p.mb-0 Corroborar saldos, cargos, abonos, cheques pendientes u otros movimientos reflejados en el extracto.
     //- Fin Tarjetas         
     .row.mb-5.justify-content-center.align-items-center
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
+      p Aunque la confirmación externa es una técnica muy asociada al aseguramiento y a la auditoría, su uso en el trabajo contable ordinario es una aplicación razonable del principio de verificabilidad de la información y del deber de sustentar las cifras con evidencia suficiente. Esa conexión es coherente con el control interno y con la exigencia de soportes y comprobantes verificables.
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
-          img(src='@/assets/curso/tema2/img13.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-2(data-aos="fade-right")
+          img(src='@/assets/curso/tema2/img13.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-2(data-aos="fade-right")
         p Cuando se utiliza esta técnica, conviene que la solicitud de confirmación identifique el tercero, el período, el valor o movimiento objeto de revisión y el propósito de la consulta. También resulta importante conservar la respuesta recibida como soporte del análisis.
         p.mb-0 Si el tercero confirma la cifra, la diferencia puede atribuirse a un problema de registro interno, de corte o de clasificación; si la niega o informa otro valor, se abre una verificación adicional sobre soportes, fechas, notas, pagos o aplicaciones. Así, la confirmación no reemplaza la revisión documental, pero sí la fortalece y aporta una evidencia adicional para decidir si procede ajuste, reclasificación o seguimiento.
     .row.justify-content-center.mb-4(data-aos="fade-left")
@@ -386,7 +387,7 @@
             div
               p.mb-3 Al cierre del mes, la empresa registra una cuenta por pagar a un proveedor por $ 6.250.000, pero el proveedor remite un estado de cuenta por $ 6.600.000. Antes de ajustar, conviene solicitar confirmación del saldo y revisar si la diferencia obedece a una factura no registrada, a una nota débito aplicada por el proveedor o a un pago que aún no ha sido reconocido por una de las partes.
               p.mb-3 Si el proveedor confirma que existe una factura adicional por $ 350.000 debidamente emitida antes del cierre, la diferencia deja de ser una variación genérica y se convierte en un hecho concreto que debe analizarse documentalmente para decidir su reconocimiento.
-          .col-md-4.bg-color-18.d-flex.align-items-center.justify-content-center
+          .col-md-4.bg-color-25.d-flex.align-items-center.justify-content-center
             figure.mb-0.p-0
               img(src='@/assets/curso/tema2/img14.svg')
     //- Título con imagen
@@ -399,10 +400,10 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") La validación documental es el núcleo de la verificación contable, porque ningún análisis de diferencias es sólido si no puede relacionarse con soportes, comprobantes y libros auxiliares. El Decreto 2649 de 1993 señala que los soportes deben conservarse de tal manera que sea posible su verificación; además, dispone que las partidas asentadas en los libros deben estar respaldadas por comprobantes de contabilidad elaborados previamente, con fecha, origen, descripción, cuantía y cuentas afectadas.
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img15.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p(data-aos="fade-left") Asimismo, estos comprobantes deben guardar la debida correspondencia con los asientos en los libros auxiliares y cronológicos, exigencia que también se encuentra en el Código de Comercio (Decreto 2649, 1993).
         p(data-aos="fade-left") Por ello, el cruce de información no puede limitarse a comparar saldos finales. Debe involucrar facturas, comprobantes de egreso o ingreso, extractos, auxiliares, conciliaciones anteriores, notas contables, reportes del sistema y, cuando corresponda, documentos tributarios.
         p.mb-0 En la DIAN, los procedimientos de registro y cierre contable indican que la totalidad de los documentos deben quedar registrados oportunamente y en orden cronológico, y que si se detectan inconsistencias en la información se deben solicitar correcciones o complementos antes de continuar con el registro o el cierre. Esto refuerza la idea de que validar y cruzar información no es una condición opcional, sino necesaria para construir saldos razonables. A continuación, se presentan las fuentes documentales utilizadas en la validación y cruce de información:
@@ -560,13 +561,12 @@
     .row.mt-5
       #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
         h2 2.3 Reporte de hallazgos contables
-    p(data-aos="fade-left") El reporte de hallazgos contables es el medio mediante el cual se documentan, organizan y comunican las diferencias, errores, omisiones o inconsistencias detectadas durante la revisión del registro. Su importancia radica en que convierte la observación técnica en evidencia verificable y útil para la corrección, el seguimiento y el mejoramiento de los procedimientos. En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones; además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993).
     .row.mb-5.justify-content-center.align-items-center
       p(data-aos="fade-left") El reporte de hallazgos contables es el medio mediante el cual se documentan, organizan y comunican las diferencias, errores, omisiones o inconsistencias detectadas durante la revisión del registro. Su importancia radica en que convierte la observación técnica en evidencia verificable y útil para la corrección, el seguimiento y el mejoramiento de los procedimientos. En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones; además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993).
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-1.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
-          img(src='@/assets/curso/tema2/img18.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")        
+          img(src='@/assets/curso/tema2/img18.png' style="width: 500px").img-fluid
+      .col-12.col-lg-7.order-2.order-lg-2(data-aos="fade-right")        
         p.mb-0 En esa perspectiva, el hallazgo contable no debe entenderse solo como una falla detectada, sino como una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior. La DIAN, en su procedimiento de cierre contable, dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias; por su parte, el procedimiento de registro con incidencia en el cierre señala que, si la información recibida presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Estas reglas muestran que reportar hallazgos no es una formalidad adicional, sino una práctica necesaria para sustentar decisiones y evitar que los errores se mantengan sin tratamiento (DIAN, 2022).   
     //- Título con imagen
     .bg-full-width.mt-5
@@ -578,10 +578,10 @@
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
       p La matriz de inconsistencias es un instrumento de organización que permite registrar de manera ordenada cada diferencia detectada, su descripción, la fuente que la origina, el posible efecto sobre la información y la acción que debe emprenderse. Aunque la norma no impone un único formato, sí exige que los soportes, comprobantes y registros puedan verificarse y que la información sea suficientemente trazable. Por ello, la matriz resulta útil para reunir en un solo documento la evidencia mínima del análisis y facilitar la revisión por parte del contador, del responsable del proceso o del control interno (Decreto 2649, 1993).
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img19.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")        
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")        
         p.mb-0 Desde una perspectiva técnica, la matriz no debe limitarse a describir la anomalía. También conviene que identifique la cuenta afectada, el período, el tercero relacionado, el soporte revisado, la clasificación preliminar del hallazgo y la acción propuesta, por ejemplo: ajuste, reclasificación, solicitud de soporte adicional o seguimiento. Esta forma de documentar es coherente con el procedimiento de cierre contable de la DIAN, que exige analizar la consistencia de las cifras y aprobar las cuentas solo cuando los saldos sean razonables; asimismo, el procedimiento de la CGN para evaluación del control interno contable señala que el objetivo del control interno contable es promover información financiera con características cualitativas adecuadas y gestionar los riesgos del proceso contable, lo cual supone identificar y tratar oportunamente las situaciones que comprometen esa calidad.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
@@ -651,17 +651,17 @@
     //- Título con imagen
     p(data-aos="fade-left") El reporte de hallazgos contables es el medio mediante el cual se documentan, organizan y comunican las diferencias, errores, omisiones o inconsistencias detectadas durante la revisión del registro. Su importancia radica en que convierte la observación técnica en evidencia verificable y útil para la corrección, el seguimiento y el mejoramiento de los procedimientos.
     .row.justify-content-center.align-items-stretch.mt-5
-      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-12.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones. Además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993). 
-      .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
           img.rounded-3(src="@/assets/curso/tema2/img21.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
-      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
-        .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
+      .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
+        .h-100.d-flex.flex-column.justify-content-end.ps-lg-4           
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
-          p.mb-0 En esta perspectiva, el hallazgo contable no se limita a una falla detectada, sino que corresponde a una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior.          
+          p.mb-0 En esta perspectiva, el hallazgo contable no se limita a una falla detectada, sino que corresponde a una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior.
     p.mt-5(data-aos="fade-left") La DIAN dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).    
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
@@ -741,27 +741,27 @@
           h3.titulo-con-imagen__texto Comunicación y seguimiento de hallazgos
     //- Título con imagen
     .row.mb-5.justify-content-center.align-items-center
-      .col-12.col-sm-9.col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
+      .col-12.col-sm-9.col-lg-5.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="fade-left")
         figure.mb-0.text-center
           img(src='@/assets/curso/tema2/img23.png' style="width: 450px").img-fluid
-      .col-12.col-lg-8.order-2.order-lg-1(data-aos="fade-right")
+      .col-12.col-lg-7.order-2.order-lg-1(data-aos="fade-right")
         p La comunicación de hallazgos contables es necesaria para que la información detectada no se quede en el ámbito individual del revisor, sino que llegue al responsable del registro, al área que aporta el soporte o al nivel de control que deba conocerla. La Ley 87 de 1993 vincula el control interno con la protección de los recursos, la confiabilidad de la información y la adopción de medidas preventivas y correctivas; en esa medida, comunicar hallazgos forma parte del control porque hace posible que la entidad reaccione a tiempo frente a errores, omisiones o deficiencias de procedimiento (Ley 87, 1993).
         p.mb-0 El seguimiento consiste en verificar si la acción propuesta fue ejecutada, si el ajuste se registró correctamente, si el soporte faltante fue aportado o si la diferencia pendiente ya fue aclarada. El procedimiento de la CGN incorporado por la Resolución 347 de 2025 enfatiza la retroalimentación y el mejoramiento continuo dentro del control interno contable, y plantea que el sistema debe gestionar riesgos y promover información financiera con las características cualitativas definidas por el marco normativo aplicable.
     .row.justify-content-center.align-items-stretch.mt-5
-      .col-11.col-md-6.col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
         .bg-color-8.p-4.rounded-4.h-100.d-flex.align-items-center
           p.mb-0 De manera complementaria, la DIAN exige que, cuando se detectan inconsistencias, estas se atiendan mediante ajustes, reprocesos o correcciones antes de consolidar el cierre. Por ello, el seguimiento no es una etapa opcional, sino una prolongación del reporte del hallazgo (Contaduría General de la Nación, 2025).
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
           img.rounded-3(src="@/assets/curso/tema2/img24.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
-      .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
+      .col-11.col-md-12.col-lg-5(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En términos prácticos, comunicar y hacer seguimiento a los hallazgos permite identificar patrones. Si una misma inconsistencia aparece de forma reiterada, como registros tardíos de comisiones bancarias, doble contabilización de facturas o soportes incompletos de egresos, se evidencia una debilidad del procedimiento. En este caso, el hallazgo deja de ser una corrección puntual y se convierte en insumo para la mejora continua del proceso contable.    
     //- Inicio Accordion    
     .row.justify-content-center.mt-5(data-aos="fade-right")
-      .col-lg-9
+      .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
           .row(titulo="Comisión bancaria no registrada")
               p.mb-4  Informar al responsable del registro contable, elaborar el ajuste con soporte bancario y verificar en el siguiente corte que el ajuste fue contabilizado.        

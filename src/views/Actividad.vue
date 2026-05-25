@@ -17,7 +17,7 @@ export default {
       tema: 'Conciliación, control y mejora continua del registro contable',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión del proceso de conciliación contable y bancaria, la identificación de errores e inconsistencias, el ajuste del registro contable y el mejoramiento de procedimientos, mediante un cuestionario de selección múltiple aplicado a situaciones del entorno organizacional.',
+        '<b> Objetivo:</b> evaluar la comprensión del proceso de conciliación contable y bancaria, la identificación de errores e inconsistencias, el ajuste del registro contable y el mejoramiento de procedimientos, mediante un cuestionario de selección múltiple aplicado a situaciones del entorno organizacional.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
