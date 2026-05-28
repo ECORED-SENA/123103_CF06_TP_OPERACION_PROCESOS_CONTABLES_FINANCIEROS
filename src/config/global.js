@@ -3,7 +3,7 @@ export default {
     Name: 'Conciliación, control y mejora continua del registro contable',
     Description:
       'El componente formativo explica la conciliación, control y mejora continua del registro contable. Desarrolla el proceso de conciliación bancaria, identificación de diferencias, errores, omisiones e inconsistencias, aplicación de políticas contables y ajustes. También aborda reportes de hallazgos, soportes documentales, seguimiento y mejora de procedimientos, fortaleciendo la confiabilidad, trazabilidad y calidad de la información financiera.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -151,7 +151,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/123103_CF6_DU.zip',
       },
       {
         icono: 'fas fa-download',

@@ -616,7 +616,7 @@
             p.mb-0 Se invita a leer el documento Documentación, socialización y calidad en los procesos contables, donde se aborda la importancia de documentar, socializar y evaluar la calidad dentro de los procedimientos contables, especialmente en el contexto institucional colombiano.
           .mt-3.mt-lg-0.ps-lg-4            
             a.btn.w-buttons.d-flex.align-items-center.justify-content-center.p-3(
-              :href="obtenerLink('/downloads/documentacion.docx')"  
+              :href="obtenerLink('/downloads/Anexos/Documentación, socialización y calidad en los procesos contables.pdf')"  
               target="_blank"
               style="background-color: #FFEB00; border-color: #FFEB00; color: #000;"
             )

@@ -328,7 +328,7 @@
               .col-md-7.ps-md-4
                 h2.mb-3.fw-bold(style="color:#fff") Pódcast
                 .tarjeta.bg-white.p-3.shadow-sm.border-lemon
-                  h5.mb-3.fw-bold Saldo en libros saldo en bancos
+                  h5.mb-3.fw-bold Saldo en libros y saldo en bancos
                   TarjetaAudio.color-primario(
                     texto="" 
                     :audio="require('@/assets/componentes/audios/podcast.mp3')"
