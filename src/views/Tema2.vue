@@ -81,7 +81,7 @@
             img.d-none.d-lg-flex(src="@/assets/curso/fondos/lineas.svg", style="max-width: 90px").mx-auto
           .col-lg
             p(data-aos="fade-left") El Decreto 2649 de 1993 dispone que los hechos económicos deben documentarse mediante soportes debidamente fechados y autorizados, que las partidas asentadas en los libros deben estar respaldadas en comprobantes de contabilidad elaborados previamente y que cualquier error u omisión debe salvarse con un nuevo asiento en la fecha en que se advierta. Esto indica que el error de contabilización no elimina la existencia del hecho económico, pero sí compromete la calidad técnica del registro (Decreto 2649, 1993).
-        p(data-aos="fade-left") Además, antes de emitir estados financieros, la administración debe cerciorarse de que se cumplen afirmaciones como existencia, integridad, valuación, presentación y revelación. Por ello, si un valor quedó mal registrado, si la cuenta no corresponde a la naturaleza del hecho o si la descripción no permite entender la transacción, se afecta la razonabilidad de la información y procede la revisión del asiento y su corrección. El mismo Decreto 2649 señala que antes de emitir estados financieros deben efectuarse los ajustes necesarios para registrar hechos no reconocidos y corregir asientos elaborados incorrectamente.
+        p(data-aos="fade-left") Además, antes de emitir estados financieros, la administración debe cerciorarse de que se cumplen afirmaciones como existencia, integridad, valuación, presentación y revelación. Por ello, si un valor quedó mal registrado, si la cuenta no corresponde a la naturaleza del hecho o si la descripción no permite entender la transacción, se afecta la razonabilidad de la información y procede la revisión del asiento y su corrección. El mismo Decreto 2649 señala que, antes de emitir estados financieros, deben efectuarse los ajustes necesarios para registrar hechos no reconocidos y corregir asientos elaborados incorrectamente.
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico        
@@ -107,11 +107,11 @@
           p.mb-0 Las omisiones se presentan cuando un hecho económico ocurrido no fue reconocido en la contabilidad pese a que existía información suficiente para hacerlo. Las clasificaciones incorrectas aparecen cuando la operación sí fue registrada, pero en una cuenta o rubro que no corresponde a su esencia económica.
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema2/img5.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema2/img5.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Los duplicados, por su parte, suelen identificarse cuando una misma operación se registra dos veces, generando sobreestimaciones de saldos o resultados. Su detección se apoya en los principios de integridad, valuación y presentación, así como en la revisión de soportes, comprobantes y auxiliares (Decreto 2420, Anexo 3, 2015).
     p.mt-5(data-aos="fade-left") La DIAN, en su procedimiento de cierre contable, exige revisar libros borradores para analizar y evaluar la consistencia de las cifras. Si se determinan inconsistencias, deben realizarse ajustes, procesamiento o reproceso de la información. También dispone que, antes del cierre, se verifique si alguna subcuenta presenta saldos atípicos o fuera de rangos normales y que la aprobación de las cuentas solo proceda cuando los saldos sean razonables y consistentes.
     p(data-aos="fade-right") Esto implica que omisiones, duplicados y clasificaciones incorrectas no solo afectan la exactitud del dato, sino que pueden impedir un cierre contable confiable.
@@ -311,11 +311,11 @@
           p.mb-0 Desde la perspectiva del control del registro, verificar diferencias implica contrastar fuentes, confirmar saldos o movimientos cuando sea necesario, revisar soportes y establecer si la variación obedece a una situación temporal, a una omisión, a una clasificación inadecuada o a una inconsistencia que impida continuar con el proceso contable.
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema2/img11.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema2/img11.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Esta lógica se articula con la Ley 87 de 1993, según la cual el control interno comprende mecanismos de verificación y evaluación sobre las operaciones, la administración de la información y los recursos, y con el Decreto 2649 de 1993, que exige soportes verificables, comprobantes previos y correspondencia entre libros y documentos (Ley 87, 1993).
     //- Título con imagen
     .bg-full-width.mt-5
@@ -656,13 +656,13 @@
           p.mb-0 En Colombia, esta lógica se relaciona con la Ley 87 de 1993, que concibe el control interno como un conjunto de métodos, procedimientos y mecanismos de verificación y evaluación para proteger los recursos, garantizar la confiabilidad de la información y facilitar la adopción de decisiones. Además, el Decreto 2649 de 1993 exige que los registros estén respaldados por comprobantes y soportes conservados de manera que puedan verificarse (Ley 87, 1993). 
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema2/img21.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema2/img21.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4           
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En esta perspectiva, el hallazgo contable no se limita a una falla detectada, sino que corresponde a una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior.
-    p.mt-5(data-aos="fade-left") La DIAN dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).    
+    p.mt-5(data-aos="fade-left") La DIAN de dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).    
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico 1
@@ -753,11 +753,11 @@
           p.mb-0 De manera complementaria, la DIAN exige que, cuando se detectan inconsistencias, estas se atiendan mediante ajustes, reprocesos o correcciones antes de consolidar el cierre. Por ello, el seguimiento no es una etapa opcional, sino una prolongación del reporte del hallazgo (Contaduría General de la Nación, 2025).
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema2/img24.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema2/img24.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-5(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En términos prácticos, comunicar y hacer seguimiento a los hallazgos permite identificar patrones. Si una misma inconsistencia aparece de forma reiterada, como registros tardíos de comisiones bancarias, doble contabilización de facturas o soportes incompletos de egresos, se evidencia una debilidad del procedimiento. En este caso, el hallazgo deja de ser una corrección puntual y se convierte en insumo para la mejora continua del proceso contable.    
     //- Inicio Accordion    
     .row.justify-content-center.mt-5(data-aos="fade-right")

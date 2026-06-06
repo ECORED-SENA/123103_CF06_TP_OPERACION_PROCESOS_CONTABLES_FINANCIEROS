@@ -105,13 +105,13 @@
       .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='Icono Libro mayor', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Libro mayor
           p.mb-0 Resume mensualmente el movimiento de cada cuenta y permite identificar el saldo contable total que se confronta con el extracto.      
       .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='Icono Libro auxiliar', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta02_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Libro auxiliar
           p.mb-0 Detalla cada transacción y permite ubicar el origen de la diferencia, revisar soportes y justificar partidas conciliatorias.
     //- Fin Tarjetas
@@ -211,7 +211,7 @@
           p.mb-0 El proceso inicia con la solicitud y recepción de los extractos bancarios y finaliza con la presentación, identificación, organización y archivo de las conciliaciones junto con sus soportes. Esto implica que no se limita a comparar cifras, sino que incluye la explicación, documentación y cierre formal de las diferencias encontradas. 
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema1/img10.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema1/img10.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
@@ -316,7 +316,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/fondos/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Saldo en libros y saldo en bancos
     //- Título con imagen
-    p(data-aos="fade-left") A continuación, se presenta pódcast sobre el saldo en libros y el saldo en bancos, destacando sus diferencias, su función dentro de la conciliación bancaria y su importancia para la razonabilidad de la información contable.        
+    p(data-aos="fade-left") A continuación, se presenta un pódcast sobre el saldo en libros y el saldo en bancos, destacando sus diferencias, su función dentro de la conciliación bancaria y su importancia para la razonabilidad de la información contable.        
     //- Inicio Podcast
     .container-fluid.tarjeta.tarjeta--blanca.px-0.mb-2(data-aos="fade-left")
       .row.align-items-stretch
@@ -355,7 +355,7 @@
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_1.png', alt='Saldo en libros').w-100
+            img(src='@/assets/curso/tema1/tarjeta04_1.png', alt='').w-100
           .p-4.d-flex.flex-column.justify-content-between.h-100
             div
               h4.card-title.text-center.mb-4 Saldo en libros
@@ -363,7 +363,7 @@
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_2.png', alt='Saldo en bancos').w-100
+            img(src='@/assets/curso/tema1/tarjeta04_2.png', alt='').w-100
           .p-4.d-flex.flex-column.justify-content-between.h-100
             div
               h4.card-title.text-center.mb-4 Saldo en bancos
@@ -371,7 +371,7 @@
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4.d-flex.flex-column
         .tarjeta.rounded-5.h-100.bg-white.border.overflow-hidden.shadow
           figure.mb-0
-            img(src='@/assets/curso/tema1/tarjeta04_3.png', alt='Diferencia inicial').w-100
+            img(src='@/assets/curso/tema1/tarjeta04_3.png', alt='').w-100
           .p-4.d-flex.flex-column.justify-content-between.h-100
             div
               h4.card-title.text-center.mb-4 Diferencia inicial
@@ -435,13 +435,13 @@
       .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_1.svg', alt='Icono Libro mayor', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Depósito en tránsito
           p.mb-0 Comprobante de consignación y registro contable correspondiente.
       .col-11.col-md-6.col-lg-4.mb-4.mb-lg-0
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_2.svg', alt='Icono Libro auxiliar', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta05_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Cheque pendiente
           p.mb-0 Comprobante de egreso, auxiliar y relación de pagos emitidos.
     //- Fin Tarjetas
@@ -477,19 +477,19 @@
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_1.svg', alt='Soporte de la diferencia', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_1.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Soporte de la diferencia
           p.mb-0 Determina si la partida cuenta con evidencia suficiente.
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_2.svg', alt='Naturaleza temporal', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_2.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Naturaleza temporal
           p.mb-0 Permite establecer si corresponde a un desfase entre contabilidad y banco.
       .col-11.col-sm-9.col-md-6.col-lg-4.mb-4
         .p-4.br-15.h-100.text-center.shadow-sm.rounded-4.bg-color-10.d-flex.flex-column.align-items-center
           figure.mb-4
-            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_3.svg', alt='Necesidad de corrección', style="width: 100px; height: 100px; object-fit: contain;")
+            img.mx-auto(src='@/assets/curso/tema1/tarjeta06_1_3.svg', alt='', style="width: 100px; height: 100px; object-fit: contain;")
           h4 Necesidad de corrección
           p.mb-0 Define si se requiere ajuste en el registro contable.
     //- Fin Tarjetas
@@ -557,11 +557,11 @@
           p.mb-0 Esto implica que el resultado del ejercicio no se limita a una revisión verbal o a anotaciones dispersas, sino que se consolida en un documento estructurado, verificable y útil para el control posterior. Además, la entidad dispone que las conciliaciones bancarias se elaboren con periodicidad mensual dentro de los diez primeros días hábiles del mes siguiente al mes conciliado, lo que refuerza la necesidad de reportes oportunos, completos y comparables entre períodos.
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema1/img20.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema1/img20.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Desde la perspectiva contable, el reporte cumple una función técnica y una función de control. La función técnica consiste en mostrar cómo se explica la diferencia entre el saldo en libros y el saldo en bancos; la función de control consiste en dejar trazabilidad sobre lo revisado, lo pendiente y lo que debe ajustarse o seguirse en el período siguiente.
     p.mt-5(data-aos="fade-right") Esta lógica es coherente con el Decreto 2649 de 1993, que exige que los soportes se conserven de manera que sea posible su verificación, y que los comprobantes de contabilidad guarden correspondencia con los asientos en los libros auxiliares y en los registros cronológicos de las operaciones (Decreto 2649, 1993).          
     //- Título con imagen
@@ -703,7 +703,7 @@
                   img(src='@/assets/curso/tema1/tarjeta06_6.png').w-100
                   .p-4
                     h4.card-title.text-center.mb-3 Informe final, revisión y archivo
-                    p Informe que consolida el resultado de la conciliación, se revisa, se firma y se archiva junto con todos los soportes.
+                    p Informe que consolida el resultado de la conciliación; se revisa, se firma y se archiva junto con todos los soportes.
     //- Fin Carrusel
     p(data-aos="fade-left") Esta secuencia permite asegurar que cada diferencia identificada en la conciliación pueda explicarse mediante una cadena documental clara, organizada y verificable, fortaleciendo el control y la confiabilidad de la información contable.
     //- Título con imagen
@@ -728,11 +728,11 @@
           p.mb-0 La Ley 87 de 1993 respalda esta lógica al señalar que el control interno debe proteger los recursos, prevenir riesgos, detectar y corregir desviaciones y disponer de mecanismos de verificación y evaluación (Ley 87, 1993).
       .col-11.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema1/img24.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema1/img24.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-11.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-start.ps-lg-4          
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-3 El seguimiento consiste en verificar si las partidas pendientes del período anterior fueron resueltas, si los ajustes propuestos se registraron efectivamente y si persisten diferencias que ameriten una revisión más profunda.
     p.mt-3(data-aos="fade-left") Un ejemplo corresponde a un cheque pendiente que permanece sin cobro por varios meses: en este caso, el informe debe recomendar su revisión específica y dejar constancia en el seguimiento del período siguiente. Esta práctica mejora la trazabilidad, evita la acumulación de partidas sin depuración y fortalece la mejora de los procedimientos de registro contable y tributario. . A continuación, se presentan ejemplos de recomendaciones y seguimiento dentro del reporte de conciliación:
     //- Inicio Accordion    

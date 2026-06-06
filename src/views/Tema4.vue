@@ -101,11 +101,11 @@
           p.mb-0 Analizar el procedimiento actual también supone revisar si las actividades se encuentran claramente delimitadas y si existe correspondencia entre soportes, comprobantes, auxiliares y libros. El Decreto 2649 de 1993 exige que las partidas asentadas en los libros estén respaldadas por comprobantes de contabilidad y que los soportes puedan verificarse, mientras que la DIAN indica que durante el cierre se generan libros borradores para revisar, analizar y evaluar la consistencia de las cifras.      
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema4/img3.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")
+          img.rounded-3(src="@/assets/curso/tema4/img3.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")
       .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4 
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En consecuencia, un buen diagnóstico debe examinar no solo la ruta teórica del procedimiento, sino también la forma en que efectivamente se cumplen estas exigencias en la práctica.
     .bloque-texto-g.bloque-texto-g.bg-color-3.p-3.p-sm-4.p-md-5.mb-3.mt-5
       .bloque-texto-g__img(
@@ -279,11 +279,11 @@
           p.mb-0 En la práctica, priorizar y valorar la factibilidad evita que el mejoramiento se convierta en un listado excesivo de recomendaciones sin ejecución. Si una organización detecta diez debilidades, pero tres de ellas explican la mayoría de las diferencias y reprocesos, conviene intervenir primero esas tres.
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema4/img11.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")      
+          img.rounded-3(src="@/assets/curso/tema4/img11.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")      
       .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4           
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 Del mismo modo, si una mejora requiere inversión tecnológica que no es posible en el corto plazo, puede plantearse una solución transitoria, como fortalecer formatos, revisar responsables o establecer controles manuales de verificación mientras se implementa una alternativa más robusta. Esta manera de proceder es coherente con el propósito de formular acciones de mejora pertinentes y verificar su cumplimiento (Contaduría General de la Nación, 2025).
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
@@ -458,11 +458,11 @@
           p.mb-0 En la gestión por procesos de Función Pública, la descripción del proceso debe relacionarse con las expectativas del usuario y con el objetivo del proceso. Por ello, los cambios no deben introducirse de forma aislada, sino articulados con el propósito del procedimiento y con las salidas que se esperan de él.      
       .col-12.col-md-6.col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
         .h-100.d-flex
-          img.rounded-3(src="@/assets/curso/tema4/img15.png", alt="Revisión de documentos", style="width: 100%; height: 100%; object-fit: cover;")         
+          img.rounded-3(src="@/assets/curso/tema4/img15.png", alt="", style="width: 100%; height: 100%; object-fit: cover;")         
       .col-12.col-md-12.col-lg-4(data-aos="fade-left")      
         .h-100.d-flex.flex-column.justify-content-end.ps-lg-4 
           .mb-3.d-flex.justify-content-start
-            img(src="@/assets/curso/fondos/icono.svg", alt="Icono contabilidad", style="width: 90px; height: 90px; object-fit: contain;")
+            img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En términos contables, la implementación también debe ser gradual y verificable. Si el diagnóstico encontró retrasos en el registro, el cambio puede consistir en redefinir tiempos y puntos de validación; si halló errores repetitivos de clasificación, puede requerir una plantilla de apoyo o una revisión previa; y si el problema está en la trazabilidad, puede ser necesario un nuevo formato de seguimiento.
     p.mt-5(data-aos="fade-left") La DIAN muestra, a través de su procedimiento de cierre, que la revisión de cifras, la generación de libros borradores, la realización de ajustes y el reproceso de información forman parte de una secuencia institucional de mejora sobre la información antes del cierre definitivo (DIAN, 2022).
     .row.mt-5.justify-content-center(data-aos="fade-right")
