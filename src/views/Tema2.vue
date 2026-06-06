@@ -662,7 +662,7 @@
           .mb-3.d-flex.justify-content-start
             img(src="@/assets/curso/fondos/icono.svg", alt="", style="width: 90px; height: 90px; object-fit: contain;")
           p.mb-0 En esta perspectiva, el hallazgo contable no se limita a una falla detectada, sino que corresponde a una situación analizada que requiere clasificación, sustento documental, definición de tratamiento y, en muchos casos, seguimiento posterior.
-    p.mt-5(data-aos="fade-left") La DIAN de dispone revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).    
+    p.mt-5(data-aos="fade-left") La DIAN dispone de revisar la consistencia de las cifras, analizar si los saldos corresponden a su naturaleza y efectuar ajustes, reprocesos o reclasificaciones cuando se determinen inconsistencias. Asimismo, establece que, si la información presenta inconsistencias en soportes o requisitos, debe solicitarse su corrección antes de continuar. Esto evidencia que el reporte de hallazgos constituye una práctica necesaria para sustentar decisiones y evitar que los errores permanezcan sin tratamiento (DIAN, 2022).    
     .row.mt-5.justify-content-center(data-aos="fade-right")
       .col-12.col-md-11.col-lg-10
         p.p-2.d-inline-block.rounded-1.fw-bold.bg-color-primario(style="background-color: #7FE5D3;") Ejemplo práctico 1
