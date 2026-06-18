@@ -151,7 +151,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/123103_CF6_DU.pdf',
+        download: 'downloads/123103_CF06_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -356,12 +356,12 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06.<br> Responsable Ecosistema Virtual de Recursos Educativos Digitales',
+            'Profesional 06. Responsable del Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Olga Constanza Bermúdez',
-          cargo: 'Responsable de Línea de Producción Huila',
+          nombre: 'Olga Constanza Bermúdez Jaimes',
+          cargo: 'Responsable de línea de producción Huila',
           centro: 'Dirección General',
         },
       ],
@@ -371,12 +371,12 @@ export default {
       autores: [
         {
           nombre: 'Paola Andrea Tello Zambrano',
-          cargo: 'Experto temático',
+          cargo: 'Experta temática',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
-          nombre: 'Paola Alexandra Moya',
+          nombre: 'Paola Alexandra Moya Peralta',
           cargo: 'Evaluadora instruccional',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -394,7 +394,7 @@ export default {
         },
         {
           nombre: 'Henry Alvarez Astudillo',
-          cargo: 'Desarrollador <i>fullstack</i>',
+          cargo: 'Desarrollador <i>full stack</i>',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
@@ -412,13 +412,13 @@ export default {
         },
         {
           nombre: 'Juan Pablo Rojas Polania',
-          cargo: 'Animador y productor multimedia',
+          cargo: 'Animador y productor audiovisual',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
         {
           nombre: 'Carlos Eduardo Garavito Parada',
-          cargo: 'Animador y productor multimedia',
+          cargo: 'Animador y productor audiovisual',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
         },
